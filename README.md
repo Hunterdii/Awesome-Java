@@ -11,8 +11,8 @@ Welcome to the **Java Ecosystem Library**, your comprehensive guide to the essen
 <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true" alt="Pull Requests">
 <img src="https://img.shields.io/badge/License-CCO_1.0-lightgrey.svg?longCache=true" alt="MIT License">
-<img src="https://img.shields.io/badge/platform-Linux%20%7C%20KaliLinux%20%7C%20ParrotOs-blue" alt="Platforms">
 <img src="https://img.shields.io/badge/Awesome-Java-red.svg" src="Hack">
+<!--<img src="https://img.shields.io/badge/platform-Linux%20%7C%20KaliLinux%20%7C%20ParrotOs-blue" alt="Platforms">-->
 
 
 ## 📔 &nbsp;Overview
@@ -159,7 +159,7 @@ Feel free to open an issue if you have questions, need help, or have requests!
   - [🐳 Docker Client](#-docker-client)
   - [🔧 DevOps](#-devops)
   - [☁️ Cloud Services](#-cloud-services)
-   
+  - [☁️ Spring Cloud Ecosystem](#-spring-cloud-ecosystem)
       
 ## 🔍 Performance and Monitoring
    - [📊 APM](#-apm)
@@ -175,7 +175,6 @@ Feel free to open an issue if you have questions, need help, or have requests!
 ## 🛠 Fault Tolerance and Resilience
    - [🛠 Fault-Tolerant Components](#-fault-tolerant-components)
    - [🛠 Chaos Engineering](#-chaos-engineering)
-   - [🎛 Traffic Playback](#-traffic-playback)
 
  ## 🔒 Security
   - [🔐 Security Libraries](#-security-libraries)
@@ -199,12 +198,11 @@ Feel free to open an issue if you have questions, need help, or have requests!
    - [🔗 WebSocket](#-websocket)
    - [🌐 Jakarta EE Products](#-jakarta-ee-products)
 
-## 🧑‍💻 Software Engineering and Development Tools
+## 🧑‍💻 Software Engineering Tools
   - [📚 Software Engineering](#-software-engineering)
   - [🔧 Design Patterns](#-design-patterns)
   - [🔧 Idempotent Processing](#-idempotent-processing)
-  - [🔍 Data Dictionary](#-data-dictionary)
-  - [🔧 Migration & Refactoring](#-migration-refactoring)
+  - [🔧 Migration & Refactoring](#-migration--refactoring)
 ## 🔧 Development Tools
    - [🔧 Build Tools](#-build-tools)
    - [📦 Package Manager](#-package-manager)
@@ -227,8 +225,8 @@ Feel free to open an issue if you have questions, need help, or have requests!
   - [🔧 Expert System](#-expert-system)
   - [🔧 Constraint Solving](#-constraint-solving)
   - [🔍 Entity Resolution](#-entity-resolution)
-## 📊 Data Science 
-   - [📊 Data Science](#-data-science-)
+## 📊 Data Science(DS) 
+   - [📊 Data Science](#-data-science)
    - [🔍 Anomaly Detection](#-anomaly-detection)
    - [📊 Business Intelligence](#-business-intelligence)
    - [🔍 Recommendation System](#-recommendation-system)
@@ -2393,6 +2391,1823 @@ Here’s the updated and formatted list for file systems, file uploads, file ope
 | [XGVela](https://github.com/XGVela/XGVela) | 5G cloud-native PaaS platform initiated by China Mobile. |
 </div>
 
+## ☁ Spring Cloud Ecosystem
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Spring Cloud Alibaba](https://github.com/alibaba/spring-cloud-alibaba) | A one-stop solution for distributed application development with Spring Cloud, provided by Alibaba. |
+| [Spring Cloud AWS](https://github.com/awspring/spring-cloud-aws) | Simplifies the use of AWS managed services in Spring and Spring Boot applications. |
+| [Spring Cloud Azure](https://github.com/microsoft/spring-cloud-azure) | Integrates Spring with Azure services, developed by Microsoft. |
+| [Spring Cloud GCP](https://github.com/GoogleCloudPlatform/spring-cloud-gcp) | Makes the Spring Framework a first-class citizen on the Google Cloud Platform. |
+| [Spring Cloud Huawei](https://github.com/huaweicloud/spring-cloud-huawei) | Facilitates efficient microservices development using Spring Cloud, provided by Huawei. |
+| [Spring Cloud Netflix](https://github.com/spring-cloud/spring-cloud-netflix) | Provides Netflix OSS integration for Spring Boot applications through auto-configuration and binding to the Spring Environment. |
+| [Spring Cloud OCI](https://github.com/oracle/spring-cloud-oci) | Simplifies integration with Oracle Cloud Infrastructure services using the internal OCI Java SDK. |
+| [Spring Cloud Services Starters](https://github.com/pivotal-cf/spring-cloud-services-starters) | A curated set of dependencies for use with Spring Cloud Services in a Pivotal Cloud Foundry environment. |
+| [Spring Cloud Tencent](https://github.com/Tencent/spring-cloud-tencent) | A one-stop microservice solution that integrates Spring Cloud with Tencent middleware. |
+</div>
+
+## 🔍 Performance and Monitoring
+
+**🔍 Performance and Monitoring**: Techniques and tools used to measure, analyze, and optimize software performance, including application monitoring, tracing, metrics collection, and various diagnostic methods.
+
+
+## 📊 APM
+
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Apache SkyWalking](https://github.com/apache/skywalking) | An open source APM system that provides monitoring, tracing, and diagnostic capabilities for distributed systems in cloud-native architectures. |
+| [Digma](https://github.com/digma-ai/digma) | A continuous feedback platform that integrates observability with development. |
+| [Elastic APM](https://github.com/elastic/apm-agent-java) | Java agent for Elastic APM, providing application performance monitoring capabilities. |
+| [Fiery](https://github.com/weiboad/fiery) | An APM tool for PHP, open sourced by Weibo. (Archive) |
+| [Hertzbeat](https://github.com/dromara/hertzbeat) | An open source real-time monitoring system with custom monitoring and Prometheus compatibility. |
+| [HoloInsight](https://github.com/traas-stack/holoinsight) | A cloud-native observability platform focusing on real-time log analysis and AI integration. |
+| [Hypertrace](https://github.com/hypertrace/hypertrace) | An observability platform based on cloud-native distributed tracing. |
+| [InspectIT](https://github.com/inspectIT/inspectIT) | An open source APM tool for monitoring and analyzing Java (EE) applications. |
+| [Kamon](https://github.com/kamon-io/Kamon) | Libraries for instrumenting JVM applications to provide observability. |
+| [Matrix](https://github.com/Tencent/matrix) | A performance monitoring APM used in Tencent WeChat to identify and analyze performance issues. |
+| [New Relic Java](https://github.com/newrelic/newrelic-java-agent) | Java agent for New Relic's APM services. |
+| [OzHera](https://github.com/XiaoMi/ozhera) | An application observability platform for the cloud-native era. |
+| [Scouter](https://github.com/scouter-project/scouter) | An open source APM similar to New Relic and AppDynamics. |
+| [Stagemonitor](https://github.com/stagemonitor/stagemonitor) | An open source solution for Java server application performance monitoring. (Archive) |
+| [Zipkin](https://github.com/openzipkin/zipkin) | A distributed tracing system that helps with monitoring and troubleshooting applications. |
+</div>
+
+## 🔍 Distributed Tracing
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Brave](https://github.com/openzipkin/brave) | A distributed tracing instrumentation library. |
+| [HoloInsight](https://github.com/traas-stack/holoinsight) | Focuses on distributed tracing and real-time log analysis. |
+| [OpenTelemetry](https://github.com/open-telemetry/opentelemetry-java) | Provides instrumentation for distributed tracing in Java applications. |
+| [Pinpoint](https://github.com/pinpoint-apm/pinpoint) | A distributed tracing tool for large distributed systems written in Java. |
+| [Spring Cloud Sleuth](https://github.com/spring-cloud/spring-cloud-sleuth) | Provides distributed tracing for Spring Boot applications. |
+| [Wingtips](https://github.com/Nike-Inc/wingtips) | Java distributed tracing solution based on Google's Dapper paper. |
+| [Micrometer Tracing](https://github.com/micrometer-metrics/tracing) | Provides tracing facade for Micrometer metrics. |
+| [Cicada](https://github.com/Yirendai/cicada) | Distributed tracing system based on Google Dapper paper. (Archive) |
+| [PerfMark](https://github.com/perfmark/perfmark) | A low-overhead, manually-instrumented Java tracing library. |
+</div>
+
+## 📊 Metrics Report
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Argus](https://github.com/salesforce/Argus) | Time series monitoring and alerting platform for metrics and events. (Archive) |
+| [Blueflood](https://github.com/rax-maas/blueflood) | A distributed metrics processing system that aggregates and serves metrics at scale. |
+| [Dropwizard Metrics](https://github.com/dropwizard/metrics) | Toolkit for measuring the behavior of key components in a production environment. |
+| [ElasticSearch Metrics](https://github.com/elastic/elasticsearch-metrics-reporter-java) | Metrics reporter that sends metrics to an ElasticSearch server. |
+| [InfluxDB Metrics](https://github.com/davidB/metrics-influxdb) | Metrics reporter for InfluxDB. |
+| [Keycloak Metrics](https://github.com/aerogear/keycloak-metrics-spi) | Adds metrics endpoint to Keycloak for Prometheus scraping. |
+| [Micrometer](https://github.com/micrometer-metrics/micrometer) | Provides a facade for popular observability systems to instrument JVM applications. |
+| [OpenMessaging Java](https://github.com/openmessaging/openmessaging-java) | Runtime interface for Java applications. |
+| [PerfMon](https://github.com/undera/perfmon-agent) | Agent for accessing system metrics on remote machines. |
+| [Prometheus Java](https://github.com/prometheus/client_java) | Prometheus instrumentation library for JVM applications. |
+| [Spectator](https://github.com/Netflix/spectator) | Library for recording metrics for dimensional time series. |
+| [SOFALookout](https://github.com/sofastack/sofa-lookout) | Project for measuring and monitoring systems using multi-dimensional metrics. |
+| [Tritium](https://github.com/palantir/tritium) | Library for instrumenting applications for better runtime observability. |
+| [Jmxtrans](https://github.com/jmxtrans/jmxtrans-agent) | JMX metrics exporter based on Java agent. |
+| [Servo](https://github.com/Netflix/servo) | Provides a simple interface for exposing and publishing Java application metrics. |
+| [Hawkular Metrics](https://github.com/hawkular/hawkular-metrics) | Metrics data storage engine as part of the Hawkular community. |
+| [Oculus](https://github.com/etsy/oculus) | Component of the Etsy Kale system for metrics. (Archive) |
+
+</div>
+
+## 📊 Registration Center
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Apache Zookeeper](https://github.com/apache/zookeeper) | A centralized service for maintaining configuration information, naming, distributed synchronization, and group services. |
+| [Eureka](https://github.com/Netflix/eureka) | A RESTful service for service discovery, load balancing, and failover, mainly used in the AWS cloud. |
+| [JHipster Registry](https://github.com/jhipster/jhipster-registry) | A registry service based on Spring Cloud Netflix Eureka and Spring Cloud Config for JHipster applications. |
+| [SnoopEE](https://github.com/ivargrimstad/snoop) | An experimental registration and discovery service for Java EE-based microservices. (Archive) |
+</div>
+
+## 🔍 Performance Analysis
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [BTrace](https://github.com/btraceio/btrace) | A secure, dynamic tracing tool for the Java platform. |
+| [Cryostat](https://github.com/cryostatio/cryostat-legacy) | A tool for generating, analyzing, and retrieving JDK Flight Recorder data. |
+| [Eclipse Trace Compass](https://git.eclipse.org/r/plugins/gitiles/tracecompass/org.eclipse.tracecompass) | An application for solving performance and reliability problems by analyzing system logs or traces. |
+| [HdrHistogram](https://github.com/HdrHistogram/HdrHistogram) | Supports recording and analyzing sampled data values in a configurable integer value range. |
+| [JMX Exporter](https://github.com/prometheus/jmx_exporter) | Exposes JMX beans over HTTP for Prometheus. |
+| [JOL](https://github.com/openjdk/jol) | A toolbox for analyzing object layout in the JVM. |
+| [Kamon](https://github.com/kamon-io/Kamon) | A set of libraries for instrumenting JVM applications. |
+| [Kieker](https://github.com/kieker-monitoring/kieker) | Provides dynamic analysis capabilities for monitoring and analyzing runtime behavior of software systems. |
+| [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils) | Tools for measuring and reporting latency. |
+| [MySQL Performance Analyzer](https://github.com/yahoo/mysql_perf_analyzer) | Performance monitoring and analysis for MySQL, open sourced by Yahoo. |
+| [PerfJ](https://github.com/coderplay/perfj) | A wrapper for Linux Perf for Java programs. |
+| [RemoraJ](https://github.com/Nastel/remoraj) | An extensible Java analysis agent that uses bytecode instrumentation for IPC call interception. |
+| [Spring Boot Startup Report](https://github.com/maciejwalkowiak/spring-boot-startup-report) | Generates interactive Spring Boot application startup reports to optimize startup time. |
+| [Spring Startup Analyzer](https://github.com/linyimin0812/spring-startup-analyzer) | Generates interactive Spring application startup reports for performance optimization. |
+| [Sysmon](https://github.com/palantir/Sysmon) | A lightweight platform monitoring tool for the JVM, open sourced by Palantir. (Archive) |
+| [Takin](https://github.com/shulieTech/Takin) | A performance testing system for microservices, especially in online measurement or test environments. |
+| [DJigger](https://github.com/exense/djigger) | A performance analysis and monitoring solution for Java applications with a 24/7 sampler. |
+| [Hawtio](https://github.com/hawtio/hawtio) | A lightweight, modular web console for managing Java applications, open sourced by IBM. |
+</div>
+
+## 🔍 GC Log Analysis
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Eclipse Jifa](https://github.com/eclipse/jifa) | An online analysis tool for analyzing Java heap dumps, GC logs, thread dumps, and JFR files, open sourced by Alibaba. |
+| [GCGC](https://github.com/apple/GCGC) | Analyzes GC log files using the Jupyter Notebook interface, open sourced by Apple. |
+| [GCPlot](https://github.com/GCPlot/gcplot) | A Java garbage collector (GC) log analyzer. |
+| [GCToolkit](https://github.com/microsoft/gctoolkit) | A set of libraries for analyzing HotSpot Java GC log files, open sourced by Microsoft. |
+| [GCViewer](https://github.com/chewiebug/GCViewer) | A tool to visualize GC output generated by various Java virtual machines. |
+| [Gchisto](https://github.com/jewes/gchisto) | A Hotspot JVM garbage collection log visualization tool. |
+| [GarbageCat](https://github.com/mgm3746/garbagecat) | A command-line tool for parsing and analyzing Java GC logging to support JVM tuning and troubleshooting. |
+| [Heapothesys](https://github.com/corretto/heapothesys) | A collection of JVM garbage collection workloads developed by Amazon Corretto. |
+| [JITWatch](https://github.com/AdoptOpenJDK/jitwatch) | A log analyzer/visualizer for the Java HotSpot JIT compiler. |
+| [JVM GC Logs Analyzer](https://github.com/krzysztofslusarski/jvm-gc-logs-analyzer) | A Java Virtual Machine and GC logs analyzer dedicated to JVM 11 and later. |
+</div>
+
+## 🧠 Heap Dump
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Heap Dump Tool](https://github.com/paypal/heap-dump-tool) | Captures and cleans sensitive data from Java heap dumps, open sourced by PayPal. |
+</div>
+
+## 🔄 Thread Dump
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [FastThread](https://fastthread.io/) | A tool for analyzing Java thread dumps. |
+| [Java Thread Dump Analyzer](https://github.com/spotify/threaddump-analyzer) | A thread dump analyzer written in JavaScript, open sourced by Spotify. (Archive) |
+| [MJProf](https://github.com/AdoptOpenJDK/mjprof) | A toolset for analyzing thread dumps using monadic blocks. |
+| [TDA](https://github.com/irockel/tda) | A Swing GUI for analyzing thread dumps and heap information generated by the Java VM. |
+</div>
+
+## 🧩 Object Measurement
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Jamm](https://github.com/jbellis/jamm) | Provides MemoryMeter, a Java agent for measuring object memory usage, including JVM overhead. |
+| [Sizeof](https://github.com/ehcache/sizeof) | A library to get the size of a Java object instance in bytes. |
+| [Sizeofag](https://github.com/fracpete/sizeofag) | A Java agent for determining the size of Java objects within the JVM at runtime. |
+</div>
+
+## 🔥 Flame Graph
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Flamegrapher](https://github.com/flamegrapher/flamegrapher) | A front-end for Java Flight Recorder allowing you to manage JFR recordings from your browser. |
+| [JFR-Flame-Graph](https://github.com/chrishantha/jfr-flame-graph) | Reads method profiling examples from Java Flight Recorder dumps and converts them to a FlameGraph format. |
+| [JavaFlame](https://github.com/beothorn/javaflame) | Simple flame graphs for Java without needing a server or open connections. |
+</div>
+
+## 🛠 Fault Tolerance and Resilience
+
+**🛠 Fault Tolerance and Resilience**: encompasses strategies and tools to ensure systems remain operational and recover quickly from failures, including techniques for fault-tolerant components and chaos engineering.
+
+## 🛠 Fault-Tolerant Components
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Bucket4j](https://github.com/bucket4j/bucket4j) | Java library for rate limiting based on the token bucket algorithm. |
+| [Concurrency Limits](https://github.com/Netflix/concurrency-limits) | Java library implementing TCP congestion control concepts to manage service concurrency limits. Open sourced by Netflix. |
+| [Failsafe](https://github.com/failsafe-lib/failsafe) | Lightweight library for handling failures in Java with a concise API for common use cases. |
+| [Hystrix](https://github.com/Netflix/Hystrix) | Latency and fault tolerance library for isolating access points to remote systems and preventing cascading failures. Open sourced by Netflix. |
+| [MicroProfile Fault Tolerance](https://github.com/eclipse/microprofile-fault-tolerance) | Fault tolerance component provided in MicroProfile. |
+| [Resilience4j](https://github.com/resilience4j/resilience4j) | Fault tolerance library designed for Java 8 and functional programming. |
+| [Token-Bucket](https://github.com/bbeck/token-bucket) | Library providing an implementation of the token bucket algorithm. |
+</div>
+
+## 🛠 Chaos Engineering
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Byte Monkey](https://github.com/mrwilson/byte-monkey) | Small Java library for testing failure scenarios in JVM applications. |
+| [Mangle](https://github.com/vmware/mangle) | Tool for running chaos engineering experiments on applications and infrastructure components. Open sourced by VMware. |
+| [OpenChaos](https://github.com/openmessaging/openchaos) | Unified API for chaos engineering in cloud-native environments. Initiated by Alibaba. |
+</div>
+
+
+## 🔐 Security Libraries
+
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [AntiSamy](https://github.com/nahsra/antisamy) | Library for fast, configurable sanitization of HTML from untrusted sources. |
+| [Auth0 Java](https://github.com/auth0/auth0-java) | Java client library for the Auth0 platform. |
+| [Athenz](https://github.com/AthenZ/athenz) | Platform for X.509 certificate-based service authentication and fine-grained access control. |
+| [Apache Shiro](https://github.com/apache/shiro) | Java security framework for authentication, authorization, encryption, and session management. |
+| [Bouncy Castle](https://www.bouncycastle.org/java.html) | All-purpose cryptographic library and JCA provider offering a wide range of functions, from basic helpers to PGP/SMIME operations. |
+| [DependencyCheck](https://github.com/jeremylong/DependencyCheck) | Detects publicly disclosed vulnerabilities contained within a project's dependencies. |
+| [Fosstars Rating Core](https://github.com/SAP/fosstars-rating-core) | Framework for defining and calculating open source project ratings. |
+| [Hdiv](https://github.com/hdiv/hdiv) | Runtime application that addresses OWASP Top 10 risks including SQL injection, cross-site scripting, and more. |
+| [Java-TOTP](https://github.com/samdjstevens/java-totp) | Library for generating and verifying time-based one-time passwords. |
+| [Keywhiz](https://github.com/square/keywhiz) | System for distributing and managing secrets. |
+| [Microsoft Authentication Library](https://github.com/AzureAD/microsoft-authentication-library-for-java) | Library for integrating with the Microsoft identity platform. |
+| [NTRU](https://github.com/tbuktu/ntru) | Java implementation of NTRUEncrypt and NTRUSign. |
+| [OpenAS2](https://github.com/OpenAS2/OpenAs2App) | Java-based implementation of the EDIINT AS2 standard for secure data exchange. |
+| [OpenJSSE](https://github.com/openjsse/openjsse) | JSSE provider supporting TLS 1.3. |
+| [Passay](https://github.com/vt-middleware/passay) | Password policy implementation for Java. |
+| [PowerAuth](https://github.com/wultra/powerauth-crypto) | Protocol for key exchange and request signing with high security requirements. |
+| [RFC3161 Timestamping Server](https://github.com/elbosso/rfc3161timestampingserver) | Timestamping authority/server compliant with RFC 3161. |
+| [SecurityBuilders](https://github.com/tersesystems/securitybuilder) | Fluent API builders for java.security classes with a more type-safe and intuitive API. |
+| [Soteria](https://github.com/eclipse-ee4j/soteria) | Implementation of Jakarta Security. |
+| [TLS-Attacker](https://github.com/tls-attacker/TLS-Attacker) | Framework for analyzing TLS libraries. |
+| [Themis](https://github.com/cossacklabs/themis) | High-level cryptographic library for secure messaging and data storage. |
+| [Tink](https://github.com/google/tink) | Provides a simple and misuse-proof API for common cryptographic tasks. (Archive) |
+</div>
+
+## 🔒 Authentication and Authorization
+
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Aegis](https://github.com/beemdevelopment/Aegis) | Secure and open source Android 2FA application. |
+| [Apache Syncope](https://github.com/apache/syncope) | System for managing digital identities in enterprise environments. |
+| [AndOTP](https://github.com/andOTP/andOTP) | Open source two-factor authentication app for Android. (Archive) |
+| [AuthzForce](https://github.com/authzforce/core) | Attribute-based access control (ABAC) framework compliant with OASIS XACML standard. |
+| [Google Auth Library](https://github.com/googleapis/google-auth-library-java) | Java client library for Google authentication services. |
+| [Iridium](https://github.com/IridiumIdentity/iridium) | OAuth 2.x compliant Customer Identity and Access Management system. |
+| [jCasbin](https://github.com/casbin/jcasbin) | Access control library supporting various models for Java projects. |
+| [Keycloak](https://www.keycloak.org) | Integrated SSO and IDM for browser apps and RESTful web services. |
+| [Line FIDO2 Server](https://github.com/line/line-fido2-server) | Open source FIDO2 implementation certified by the FIDO Alliance. |
+| [MidPoint](https://github.com/Evolveum/midpoint) | Comprehensive identity governance and administration platform. |
+| [OpenAM](https://github.com/OpenIdentityPlatform/OpenAM) | Access management solution including authentication, SSO, and authorization. |
+| [OpenID4Java](https://github.com/jbufu/openid4java) | Library for enabling OpenID in Java web applications. |
+| [PowerAuth Server](https://github.com/wultra/powerauth-server) | Backend application implementing the PowerAuth protocol cryptography. |
+| [SAML Java](https://github.com/SAML-Toolkits/java-saml) | Adds SAML support to Java applications. |
+| [Sureness](https://github.com/dromara/sureness) | Security framework focusing on REST API protection. |
+| [Topaz](https://www.topaz.sh/) | Open source authorization service for fine-grained, real-time policy-based access control. |
+| [UAF](https://github.com/eBay/UAF) | Strong Authentication Framework for leveraging native security features of devices. |
+| [Vertx-Auth](https://github.com/eclipse-vertx/vertx-auth) | Authentication implementations for Vert.x and common authentication interfaces. |
+| [WSO2 Identity Server](https://github.com/wso2/product-is) | Identity and access management solution for enterprise and cloud environments. |
+| [WebAuthn4J](https://github.com/webauthn4j/webauthn4j) | Portable Java library for WebAuthn server-side authentication. |
+| [UAA](https://github.com/cloudfoundry/uaa) | Multi-tenant identity management service for Cloud Foundry and standalone OAuth2 server. |
+</div>
+
+## 🔐 JWT Library
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [JJWT](https://github.com/jwtk/jjwt) | Easiest library for creating and validating JWTs and JWKs on the JVM and Android. |
+| [Java-JWT](https://github.com/auth0/java-jwt) | Java implementation of JWT. |
+| [Jose4j](https://bitbucket.org/b_c/jose4j/src/master/) | Open source implementation of JWS, JWE, JWA, and JWK from the IETF JOSE working group. |
+| [Nimbus-JOSE-JWT](https://connect2id.com/products/nimbus-jose-jwt) | JWT library for Java and Android. |
+| [FusionAuth JWT](https://github.com/FusionAuth/fusionauth-jwt) | Simple Java library for verifying, signing, encoding, and decoding JWT. |
+| [JWT](https://github.com/PhilJay/JWT) | Lightweight Kotlin JWT implementation. |
+| [JWT-Java](https://github.com/BastiaanJansen/jwt-java) | Create and parse JWTs using a fluent API. |
+| [JWT-Resource-Server](https://github.com/entur/jwt-resource-server) | Tools for a synchronous OpenID resource server using Access Tokens for authorization. |
+</div>
+
+## 🔒 OAuth Libraries
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Apache Oltu](https://github.com/apache/oltu) | A Java language implementation of the OAuth protocol by Apache. |
+| [AppAuth](https://github.com/openid/AppAuth-Android) | Android client SDK for OAuth 2.0 and OpenID Connect providers. |
+| [Google OAuth Client](https://github.com/googleapis/google-oauth-java-client) | A powerful and easy-to-use Java library for OAuth 1.0 and 2.0, developed by Google. |
+| [Java Authorization Server](https://github.com/authlete/java-oauth-server) | An authorization server implementation in Java that supports OAuth 2.0 and OpenID Connect. |
+| [JOAuth](https://github.com/twitter/joauth) | A Java library for authenticating HTTP requests using OAuth, developed by Twitter. |
+| [Keycloak](https://github.com/keycloak/keycloak) | Open source identity and access management solution for modern applications and services. |
+| [Light-OAuth2](https://github.com/networknt/light-oauth2) | A fast, lightweight, cloud-native OAuth 2.0 server built on the Light-4j framework. (Archive) |
+| [MITREid-Connect](https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server) | OpenID Connect identity provider and OAuth 2.0 authorization server. |
+| [OAuth2-Essentials](https://github.com/dmfs/oauth2-essentials) | A simple OAuth2 client implementation based on Http-Client-Essentials. |
+| [OxAuth](https://github.com/GluuFederation/oxAuth) | Open source OpenID Connect Provider and UMA Authorization Server. |
+| [Pac4j](https://github.com/pac4j/pac4j) | A simple and powerful Java security framework that supports OAuth, CAS, SAML, OIDC, LDAP, and JWT. |
+| [ScribeJava](https://github.com/scribejava/scribejava) | Simple and intuitive OAuth library for Java. |
+| [Signpost](https://github.com/mttkay/signpost) | A simple solution for signing HTTP messages compliant with OAuth 1.0a on the Java platform. |
+| [Spring Authorization Server](https://github.com/spring-projects/spring-authorization-server) | A framework for implementing OAuth 2.1 and OpenID Connect 1.0 specifications. |
+| [SuperTokens](https://github.com/supertokens/supertokens-core) | An open source alternative to Auth0, Firebase Auth, and AWS Cognito. |
+| [Tokens](https://github.com/zalando/tokens) | A Java library for validating and storing OAuth 2.0 service access tokens, open-sourced by Zalando. |
+| [UAA](https://github.com/cloudfoundry/uaa) | A multi-tenant identity management service used in Cloud Foundry, also functioning as a standalone OAuth2 server. |
+
+</div>
+
+
+## 🔒 Encryption Library
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [AES](https://github.com/mervick/aes-everywhere) | A cross-language encryption library that provides the ability to encrypt and decrypt data using a single algorithm across different platforms. |
+| [ACME4J](https://github.com/shred/acme4j) | A Java client for the ACME protocol, used for obtaining certificates from Let’s Encrypt. |
+| [Apache Commons Crypto](https://github.com/apache/commons-crypto) | An encryption library optimized for AES-NI, providing Java APIs for both cipher and Java stream levels. |
+| [BouncyCastle Java](https://github.com/bcgit/bc-java) | The Java distribution of BouncyCastle, providing cryptographic operations and implementations. |
+| [Clusion](https://github.com/encryptedsystems/Clusion) | A searchable cryptographic library from the Cryptosystems Lab at Brown University. |
+| [Conscrypt](https://github.com/google/conscrypt) | A Java security provider implementing parts of the Java Cryptography Extension (JCE) and Java Secure Sockets Extension (JSSE), developed by Google. |
+| [CredHub](https://github.com/cloudfoundry/credhub) | An API for securely storing, generating, retrieving, and deleting various types of credentials. |
+| [Cryptacular](https://github.com/vt-middleware/cryptacular) | A friendly supplement to the BouncyCastle Java encryption API. |
+| [Cryptomator](https://github.com/cryptomator/cryptomator) | Provides multi-platform, transparent, client-side encryption for files stored in the cloud. |
+| [Encryptor4j](https://github.com/martinwithaar/Encryptor4j) | A set of wrappers and utility classes to make it easier to leverage encryption technology in Java applications. |
+| [FRESCO](https://github.com/aicis/fresco) | A framework for efficient and secure computation in Java. |
+| [I2P](https://github.com/i2p/i2p.i2p) | An anonymity network that provides a secure communication layer for identity-sensitive applications. |
+| [Jasypt](https://github.com/jasypt/jasypt) | A Java library that simplifies adding cryptographic functionality to projects with minimal effort. |
+| [JNCryptor](https://github.com/RNCryptor/JNCryptor) | Java implementation of RNCryptor for encrypting data. |
+| [KeePassJava2](https://github.com/jorabin/KeePassJava2) | A Java API for the KeePass password database. |
+| [Keyczar](https://github.com/google/keyczar) | An easy-to-use encryption toolkit, developed by Google. (Archive) |
+| [Lazysodium](https://github.com/terl/lazysodium-java) | Java implementation of the Libsodium cryptography library. |
+| [MPC4j](https://github.com/alibaba-edu/mpc4j) | An efficient and easy-to-use secure multi-party computation (MPC) and differential privacy (DP) library, open-sourced by Alibaba. |
+| [Password4j](https://github.com/Password4j/password4j) | A user-friendly cryptographic library for encrypting and verifying passwords using various KDFs and CHFs. |
+| [PrimiHub Platform](https://github.com/primihub/primihub-platform) | A multi-party computation and multi-party joint task security scheduling platform for MPC and FL peer-to-peer services. |
+| [Themis](https://github.com/cossacklabs/themis) | A high-level cryptographic library providing secure messaging, data storage, and forward secrecy, open-sourced by Xiaomi. |
+| [Tink](https://github.com/google/tink) | A multi-language, cross-platform cryptographic library offering a secure API, developed by Google. (Archive) |
+| [Wycheproof](https://github.com/google/wycheproof) | A project testing cryptographic libraries against known attacks, developed by Google. |
+| [XiPKI](https://github.com/xipki/xipki) | A highly scalable and high-performance open-source PKI (CA and OCSP responder). |
+</div>
+
+## 🔐 Password Library
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Nbvcxz](https://github.com/GoSimpleLLC/nbvcxz) | A password strength estimator library in Java. |
+| [Zxcvbn4j](https://github.com/nulab/zxcvbn4j) | Java port of zxcvbn, a JavaScript password strength estimator. |
+| [Google Authenticator](https://github.com/google/google-authenticator) | One-time password generator implementations for multiple platforms, open-sourced by Google. (Archive) |
+| [OTP-Java](https://github.com/BastiaanJansen/OTP-Java) | A small, easy-to-use Java one-time password generator implementing RFC 4226 and RFC 6238. |
+| [Java-OTP](https://github.com/jchambers/java-otp) | Java library for generating HOTP (RFC 4226) and TOTP (RFC 6238) one-time passwords. |
+| [OneTrickPony](https://github.com/Osmerion/OneTrickPony) | A modern Java library for implementing one-time passwords (OTP). |
+| [1Time](https://github.com/atlassian/1time) | Lightweight Java/Kotlin implementation of RFC-6238 and RFC-4226 for generating and verifying TOTP, open-sourced by Atlassian. |
+| [Password4j](https://github.com/Password4j/password4j) | User-friendly cryptographic library supporting various hash functions. |
+| [Passay](http://www.passay.org/) | Enforces password policies by validating against a configurable rule set. |
+| [RandPassGenerator](https://github.com/nsacyber/RandPassGenerator) | Command-line utility for generating random passwords, passphrases, and raw keys, open-sourced by the NSA Cybersecurity Directorate. |
+
+</div>
+
+## 🔒 Encryption Algorithm
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Kalium](https://github.com/abstractj/kalium) | Java bindings for the Networking and Cryptography (NaCl) library. (Archive) |
+| [EdDSA-Java](https://github.com/str4d/ed25519-java) | Java implementation of EdDSA. |
+| [Dilithium](https://github.com/mthiim/dilithium-java) | Experimental Java implementation of the post-quantum encryption algorithm Dilithium. |
+| [jBCrypt](https://github.com/jeremyh/jBCrypt) | Java implementation of the OpenBSD Blowfish password hashing algorithm. |
+| [Bcrypt](https://github.com/patrickfav/bcrypt) | Standalone Java implementation of the bcrypt password hash function. |
+| [Argon2-JVM](https://github.com/phxql/argon2-jvm) | Argon2 bindings for the JVM. |
+| [2FA](https://github.com/j256/two-factor-auth) | 2-factor authentication Java code using the TOTP algorithm. |
+| [XXTEA-Java](https://github.com/xxtea/xxtea-java) | Java library for the XXTEA fast and secure encryption algorithm. |
+| [Tencent Kona SM Suite](https://github.com/Tencent/TencentKonaSMSuite) | Java security providers supporting SM2, SM3, SM4 algorithms, and TLCP/GMSSL, TLS 1.3, and TLS 1.2 protocols, developed by Tencent. |
+| [Themis](https://github.com/cossacklabs/themis) | High-level cryptographic library for secure messaging and data storage. |
+| [Tink](https://github.com/google/tink) | Simple and misuse-proof API for cryptographic tasks. |
+| [Chronicle-Salt](https://github.com/OpenHFT/Chronicle-Salt) | Chronicle wrapper for the NaCl library. |
+| [Tongsuo-Java-SDK](https://github.com/Tongsuo-Project/tongsuo-java-sdk) | Java security provider implementing parts of the Java Cryptography Extension and Java Secure Socket Extension. |
+| [Hash4j](https://github.com/dynatrace-oss/hash4j) | Java library with various non-cryptographic hash algorithms and data structures based on high-quality hash functions. |
+| [Homomorphic Encryption](https://github.com/adwise-fiu/Homomorphic_Encryption) | Contains ElGamal, Paillier, Goldweiser-Micali, and DGK homomorphic encryption systems, open-sourced by Florida International University. |
+
+</div>
+
+## 🖊 Electronic Signature
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Apache Santuario](https://github.com/apache/santuario-xml-security-java) | Library implementing the XML Digital Signature and XML Encryption specifications, developed by Apache. |
+| [Apache Shiro](https://shiro.apache.org) | Performs authentication, authorization, cryptography, and session management. |
+| [Bouncy Castle](https://www.bouncycastle.org/java.html) | Cryptographic library offering a range of functions, including electronic signatures. |
+| [Cryptomator](https://cryptomator.org) | Provides client-side encryption and secure storage solutions. |
+| [DigiDoc4j](https://github.com/open-eid/digidoc4j) | Java library for digitally signing documents and creating digital signature containers. |
+| [DSS](https://github.com/esig/dss) | Open-source library for electronic signature creation and verification, open-sourced by the European Commission. |
+| [JHOVE](https://github.com/openpreserve/jhove) | Extensible software framework for format identification, validation, and characterization of digital objects, developed at Harvard University. |
+| [SignServer Community](https://github.com/Keyfactor/signserver-ce) | Open-source signature software for signing code, documents, timestamps, etc., based on PKI. |
+| [XAdES4j](https://github.com/luisgoncalves/xades4j) | Java implementation of XML Advanced Electronic Signatures (XAdES 1.3.2 and 1.4.1), configurable and extensible. |
+</div>
+
+## 🔧 Security Tools
+
+**Security Tools** encompass a wide range of resources designed to enhance the security of applications, systems, and networks. 
+
+## 🛡 Self-Protection
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [OpenRASP](https://github.com/baidu/openrasp) | A free, open-source application runtime self-protection product by Baidu Security. |
+| [Hdiv](https://github.com/hdiv/hdiv) | Open source software for real-time, self-protecting applications, offering protection against a wide range of web security risks. |
+
+</div>
+
+## 🔍 Safety Training
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [CRAPI](https://github.com/OWASP/crAPI) | A vulnerable API project designed for educational purposes, provided by OWASP. |
+| [WebGoat](https://github.com/WebGoat/WebGoat) | An intentionally insecure web application maintained by OWASP, used to teach web application security. |
+| [BodgeIt](https://github.com/psiinon/bodgeit) | A vulnerable web application aimed at beginners in penetration testing. |
+| [OWASP Benchmark](https://github.com/OWASP-Benchmark/BenchmarkJava) | A Java test suite designed to assess the speed and accuracy of vulnerability detection tools. |
+| [OWASP Security Shepherd](https://github.com/OWASP/SecurityShepherd) | A security training platform for web and mobile applications, aimed at improving security awareness. |
+| [MASTG Hacking Playground](https://github.com/OWASP/MASTG-Hacking-Playground) | A series of educational mobile apps intentionally built to be insecure, helping developers and security professionals practice their skills. |
+
+</div>
+
+## 📱 Mobile and Web Development
+**📱 Mobile and Web Development** focuses on creating responsive and functional applications for mobile devices and the web, using a variety of tools, libraries, and frameworks.
+
+## 📱 Mobile Development
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Codename One](https://www.codenameone.com) | Cross-platform solution for writing native mobile apps using Java and Kotlin, with support for iOS, Android, and more. |
+| [MobileUI](https://mobileui.dev) | Cross-platform framework for developing mobile apps with native UI using Java and Kotlin. |
+| [Multi-OS Engine](https://multi-os-engine.org) | Open-source engine for developing native mobile apps across iOS, Android, and more platforms. |
+| [Flutter](https://flutter.dev) | Google’s UI toolkit for crafting natively compiled applications for mobile, web, and desktop from a single codebase. |
+| [Kivy](https://kivy.org) | Open-source Python framework for developing multitouch applications with a natural user interface. |
+</div>
+
+## 📦 Android Library
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) | A powerful chart library for Android that supports a variety of charts like line, pie, radar, and more. |
+| [Lottie](https://github.com/airbnb/lottie-android) | Library to render animations exported as JSON from Adobe After Effects. |
+| [Glide](https://github.com/bumptech/glide) | Fast and efficient image loading library that focuses on smooth scrolling. |
+| [Retrofit](https://github.com/square/retrofit) | Type-safe HTTP client for Android and Java. |
+| [Room](https://developer.android.com/jetpack/androidx/releases/room) | A persistence library providing an abstraction layer over SQLite. |
+| [Dagger](https://github.com/google/dagger) | A fully static, compile-time dependency injection framework for Java, Kotlin, and Android. |
+| [Koin](https://insert-koin.io) | A pragmatic lightweight dependency injection framework for Kotlin developers. |
+| [Picasso](https://github.com/square/picasso) | A powerful image downloading and caching library for Android. |
+| [ExoPlayer](https://github.com/google/ExoPlayer) | An extensible media player library for Android, maintained by Google. |
+</div>
+
+## 📱 Mobile Development Framework
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform) | A framework to share UI across platforms using Kotlin, developed by JetBrains. |
+| [React Native](https://github.com/facebook/react-native) | A popular framework for building native apps using React. |
+| [Hippy](https://github.com/Tencent/Hippy) | Cross-platform framework to write once and run on multiple platforms, open-sourced by Tencent. |
+| [CodenameOne](https://github.com/codenameone/CodenameOne) | A mobile-first, cross-platform environment for Java and Kotlin developers. |
+| [Flutter](https://flutter.dev) | Google’s UI toolkit for crafting natively compiled apps for mobile, web, and desktop. |
+| [RIBs](https://github.com/uber/RIBs) | Uber's cross-platform mobile architecture framework. |
+| [Hummer](https://github.com/didi/Hummer) | A high-performance, cross-end framework for developing Android and iOS applications, open-sourced by Didi. |
+| [Ionic](https://github.com/ionic-team/ionic-framework) | Cross-platform mobile app framework built with web technologies like HTML, CSS, and JavaScript. |
+</div>
+
+## 🌐 Web Development
+
+**Web Development** refers to the process of creating, building, and maintaining websites and web applications.
+
+## 📦 Responsive
+<div align="center">
+ 
+| Name | Description |
+| ---- | ----------- |
+| [RxJava](https://github.com/ReactiveX/RxJava) | JVM implementation of Reactive Extensions for writing asynchronous and event-based programs using observable sequences. Open sourced by Netflix. |
+| [Project Reactor](https://github.com/reactor/reactor-core) | Reactive library based on the Reactive Streams specification for building non-blocking applications on the JVM. |
+| [Reactive Stream](https://github.com/reactive-streams/reactive-streams-jvm) | Standard for asynchronous stream processing with non-blocking back pressure. |
+| [Vert.x](https://github.com/eclipse-vertx/vert.x) | Toolkit for building reactive applications on the JVM. |
+| [Akka](https://github.com/akka/akka) | Toolkit for building highly concurrent and distributed applications on the JVM. Open sourced by Lightbend. |
+| [Alpakka](https://github.com/akka/alpakka) | Reactive enterprise integration library for Java and Scala based on Reactive Streams and Akka. |
+| [RSocket](https://github.com/rsocket/rsocket-java) | Binary protocol for byte stream transports such as TCP, WebSockets, and Aeron. |
+| [Agera](https://github.com/google/agera) | Functional, asynchronous, and reactive library for Android, open sourced by Google. (Archive) |
+| [Mobius](https://github.com/spotify/mobius) | Functional reactive framework for managing state evolution and side effects, with add-ons for Android UI and RxJava Observables. Open sourced by Spotify. |
+| [Smallrye Mutiny](https://github.com/smallrye/smallrye-mutiny) | Modern Java reactive programming library. |
+| [AutoDispose](https://github.com/uber/AutoDispose) | RxJava tool for automatically binding the execution of RxJava streams to a provided scope via disposal/cancellation. Open sourced by Uber. |
+| [Store](https://github.com/nytimes/Store) | Java library for asynchronous data loading and caching. (Archive) |
+| [Reaktive](https://github.com/badoo/Reaktive) | Kotlin multi-platform implementation of Reactive Extensions. |
+| [RSocket JVM](https://github.com/jauntsdn/rsocket-jvm) | Provides fast gRPC-like services on the JVM with a rich streaming model over multiple network transports. |
+| [Sqlbrite](https://github.com/square/sqlbrite) | Lightweight wrapper around SupportSQLiteOpenHelper and ContentResolver introducing Responsive Streams semantics. Open sourced by Square. (Archive) |
+| [StorIO](https://github.com/pushtorefresh/storio) | Responsive API for SQLiteDatabase and ContentResolver. |
+| [RxNetty](https://github.com/ReactiveX/RxNetty) | Netty reactive extension adapter. |
+| [Reactive gRPC](https://github.com/salesforce/reactive-grpc) | Libraries combining gRPC with the Reactive Streams programming library, open sourced by Salesforce. |
+| [QBit](https://github.com/advantageous/qbit) | Responsive programming library for building microservices. |
+| [ScaleCube](https://github.com/scalecube/scalecube-services) | Simplifies the development of responsive and distributed applications with an embeddable microservices library. |
+| [Reactive-Audit](https://github.com/octo-online/reactive-audit) | Audit tool for projects using reactive architectures. (Archive)|
+| [CohereFlux](https://github.com/pellse/cohereflux) | Responsive, functional, type-safe, and stateless data aggregation framework for querying and merging data from multiple sources/services. |
+| [Reactive-Commons](https://github.com/reactive-commons/reactive-commons-java) | Provides abstractions and implementations for reactive microservices architecture patterns and practices. |
+| [Arez](https://github.com/arez/arez) | Simple, efficient, and extensible client-side application state management library. |
+</div>
+
+## 🌐 WebServer
+<div align="center">
+ 
+| Name | Description |
+| ---- | ----------- |
+| [Netty](https://github.com/netty/netty) | Asynchronous event-driven network application framework for rapid development of maintainable, high-performance protocol servers and clients. |
+| [Apache Tomcat](https://github.com/apache/tomcat) | Open source implementation of Java Servlet, JavaServer Pages, Jav EL, and Java WebSocket technologies. |
+| [Apache TomEE](https://github.com/apache/tomee) | Lightweight but powerful JavaEE application server with feature-rich tooling. |
+| [Undertow](https://github.com/undertow-io/undertow) | Java web server based on non-blocking IO, open sourced by RedHat. |
+| [Wildfly](https://github.com/wildfly/wildfly) | Powerful, modular, and lightweight application server open sourced by RedHat. |
+| [Oracle WebLogic](https://www.oracle.com/sg/java/weblogic/) | Unified and extensible platform for developing, deploying, and running enterprise applications like Java on-premises and in the cloud. |
+| [Payara](https://github.com/payara/Payara) | Open source server runtime for development projects, containerized Jakarta EE, and MicroProfile applications. |
+| [Eclipse Jetty](https://github.com/eclipse/jetty.project) | Lightweight, highly extensible Java-based web server and Servlet engine. |
+| [Eclipse Glassfish](https://github.com/eclipse-ee4j/glassfish) | Jakarta EE-compatible implementation sponsored by the Eclipse Foundation and open sourced by Oracle. |
+| [Apache Geronimo](https://github.com/apache/geronimo) | Open source Java EE server under the Apache Foundation. |
+| [Red5](https://github.com/Red5/red5-server) | Open source Flash server written in Java. |
+| [Microhttp](https://github.com/ebarlas/microhttp) | Fast, scalable, event-driven, standalone Java web server. |
+| [Apache MINA](https://github.com/apache/mina) | Network application framework that helps users develop high-performance and highly scalable network applications. |
+| [Resin](https://caucho.com/products/resin) | Supports Servlet and JSP. |
+| [ZFoo](https://github.com/zfoo-project/zfoo) | Extremely fast enterprise server framework for RPC, game server, and web server. |
+| [Eclipse Grizzly](https://github.com/eclipse-ee4j/grizzly) | Helps developers build scalable and powerful servers using NIO and provide extension framework components. |
+| [Reactor Netty](https://github.com/reactor/reactor-netty) | Non-blocking and backpressure-ready TCP/HTTP/UDP/QUIC clients and servers based on the Netty framework. |
+| [Nettosphere](https://github.com/Atmosphere/nettosphere) | Java WebSocket and HTTP server powered by Atmosphere and Netty. |
+| [NanoHTTPD](https://github.com/NanoHttpd/nanohttpd) | Lightweight HTTP server designed to be embedded in other applications. |
+| [Java NIO Server](https://github.com/jjenkov/java-nio-server) | Java NIO server that always uses non-blocking IO. |
+| [AndServer](https://github.com/yanzhenjie/AndServer) | HTTP and reverse proxy server. |
+| [Rapidoid](https://github.com/rapidoid/rapidoid) | Extremely fast HTTP server and modern Java web framework/application container. |
+| [Quixote](https://github.com/io7m/quixote) | Small embedded HTTP server for unit testing. |
+| [Nginx-Clojure](https://github.com/nginx-clojure/nginx-clojure) | Nginx module for embedding Clojure, Java, or Groovy programs. |
+| [Acteur](https://github.com/timboudreau/acteur) | Framework for writing web server applications using Netty. |
+| [QuickServer](https://github.com/QuickServerLab/QuickServer-Main) | Open source Java library/framework for quickly creating powerful multi-client TCP server applications. |
+| [Android HTTP Server](https://github.com/piotrpolak/android-http-server) | Small but powerful multi-threaded web server written entirely in Java SE. |
+| [MuServer](https://github.com/3redronin/mu-server) | Modern Java web server based on Netty. |
+| [Fluent-HTTP](https://github.com/CodeStory/fluent-http) | Simple, fast, and mature web server. |
+| [Webpieces](https://github.com/deanhiller/webpieces) | Web server designed to be asynchronous, testable, fast, and easy to use. |
+| [Kooby](https://github.com/jooby-project/jooby) | Web framework that delivers the minimalism and feel of Flask, the power of Spring Boot, and more. |
+</div>
+
+
+## 🔗 WebSocket
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [AndroidAsync](https://github.com/koush/AndroidAsync) | An asynchronous socket, HTTP(s) client/server, and WebSocket library for Android, based on NIO instead of threads. |
+| [Async Http Client](https://github.com/AsyncHttpClient/async-http-client) | An asynchronous HTTP and WebSocket client library for Java. |
+| [Autobahn](https://github.com/crossbario/autobahn-java) | WebSocket and WAMP in Java for Android and Java 8. |
+| [Babl WebSocket Server](https://github.com/babl-ws/babl) | A high-performance, scalable WebSocket server designed for low-latency applications. |
+| [Eclipse Tyrus](https://github.com/eclipse-ee4j/tyrus) | An open-source JSR 356-WebSocket reference implementation of the Java API for developing WebSocket applications. |
+| [EzyFox](https://github.com/youngmonkeys/ezyfox-server) | A server supporting various components including WebSocket, HTTP RESTful API, and more, for enterprise product development. |
+| [Java/Android WebSocket Client](https://github.com/gusavila92/java-android-websocket-client) | A lightweight WebSocket client library suitable for JVM-based clients or Android, implementing the WebSocket protocol defined in RFC 6455. |
+| [Java WebSocket](https://github.com/TooTallNate/Java-WebSocket) | A barebones WebSocket client and server implementation written in pure Java. |
+| [JavaWebsocketClient](https://github.com/jacek-marchwicki/JavaWebsocketClient) | A simple library for WebSocket connections in RX for Java and Android, designed to be fast and fault-tolerant. |
+| [Kafka-WebSocket](https://github.com/b/kafka-websocket) | A simple WebSocket server interface for the Kafka distributed message broker. |
+| [Netty Socket.IO](https://github.com/mrniko/netty-socketio) | An open-source Java implementation of the Socket.IO server, based on the Netty server framework. |
+| [Netty WebSocket Spring Boot Starter](https://github.com/YeautyYE/netty-websocket-spring-boot-starter) | A lightweight, high-performance WebSocket framework. |
+| [NV Websocket Client](https://github.com/TakahikoKawasaki/nv-websocket-client) | A high-quality WebSocket client implementation in Java. |
+| [Pusher Java Client](https://github.com/pusher/pusher-websocket-java) | Pusher Channels client library for Java, targeting Java and Android. |
+| [Qonduit](https://github.com/NationalSecurityAgency/qonduit) | Accumulo's secure WebSocket proxy, open-sourced by the National Security Agency. |
+| [Scarlet](https://github.com/Tinder/Scarlet) | A WebSocket client for Kotlin, Java, and Android inspired by Retrofit. |
+| [Socket.IO Java Client](https://github.com/Gottox/socket.io-java-client) | A Socket.IO client implementation in Java. |
+| [Socket.IO Java](https://github.com/socketio/socket.io-client-java) | A full-featured Java Socket.IO client library, compatible with Socket.IO v1.0 and higher. |
+| [Socket.IO Java](https://github.com/trinopoty/socket.io-server-java) | A Java Socket.IO server library ported from the JavaScript server. |
+| [Socket.x](https://github.com/obsidiandynamics/socketx) | A library for building high-performance, distributed WebSocket applications. |
+| [wAsync](https://github.com/Atmosphere/wasync) | A Java-based library allowing asynchronous communication with any web server that supports the WebSocket or HTTP protocols. |
+| [Webbit](https://github.com/webbit/webbit) | A Java event-based WebSocket and HTTP server. |
+| [WebSocket Android](https://github.com/codebutler/android-websockets) | A very simple Android WebSocket client. |
+
+</div>
+
+## 🌐 Jakarta EE Products
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Adobe ColdFusion](https://www.adobe.com/products/coldfusion-family.html) | A proven, high-performance application server that simplifies web development. |
+| [AISWare FlyingServer](https://www.asiainfo.com/zh_cn/product_aisware_flyingServer.html) | Web middleware software meeting the Java EE 8 standard, supporting various application deployments. |
+| [Apache Geronimo](https://github.com/apache/geronimo) | An open-source Java EE server under the Apache Foundation. |
+| [Apache TomEE](https://github.com/apache/tomee) | A lightweight but powerful Java EE application server with feature-rich tooling. |
+| [Apusic AAS](https://www.apusic.com/list-117.html) | A secure, efficient, integrated, and feature-rich enterprise-level application server software that supports Jakarta EE 8/9. |
+| [BES Application Server](https://www.bessystem.com/product/0ad9b8c4d6af462b8d15723a5f25a87d/info?p=101#page-2) | A general-purpose middleware for Java applications that complies with the Java EE standard, provided by Borland. |
+| [Eclipse Glassfish](https://github.com/eclipse-ee4j/glassfish) | A Jakarta EE-compatible implementation sponsored by the Eclipse Foundation, open-sourced by Oracle. |
+| [Fujitsu Software Enterprise Application Server](https://www.fujitsu.com/jp/products/software/middleware/business-middleware/middleware/applatform/) | A cloud-native application server using Fujitsu's proprietary technology to enhance the reliability and operability of Java. |
+| [Fujitsu Software Interstage Application Server](https://www.fujitsu.com/jp/products/software/middleware/business-middleware/interstage/products/apserver/) | An application server that ensures the stable operation of highly open business applications. |
+| [InforSuite Application Server](https://www.inforbus.com/as.html) | Enterprise-level middleware that has passed full compatibility certification of Jakarta EE and Java EE. |
+| [IBM WebSphere Liberty](https://www.ibm.com/support/pages/node/6250961#asset/runtimes-wlp-javaee8) | An application server developed by IBM that complies with Java EE, XML, and Web Services standards. |
+| [JOnAS](https://jonas.ow2.org/) | The leading Java EE 6 Web Profile certified open-source OSGi enterprise server developed by Bull and OW2. |
+| [JEUS](https://www.tmaxsoft.com/en/solution/view?solutionSeq=27) | A platform for developing, running, and executing applications in a web environment, developed by TmaxSoft. |
+| [KumuluzEE](https://github.com/kumuluz/kumuluzee) | A lightweight open-source framework for developing microservices using standard Jakarta EE technologies. |
+| [ManageFish Server](https://managecat.com/products/managed-glassfish) | A commercially supported distribution of the GlassFish application server. |
+| [Open Liberty](https://github.com/OpenLiberty/open-liberty) | A highly composable, fast-starting, dynamic application server runtime environment. |
+| [Oracle WebLogic](https://www.oracle.com/middleware/technologies/weblogic-server-downloads.html) | A Java application server produced by Oracle for developing and managing large-scale distributed Web applications. |
+| [Payara](https://github.com/payara/Payara) | An open-source server runtime for containerized Jakarta EE and MicroProfile applications. |
+| [Piranha](https://github.com/piranhacloud/piranha) | A cloud-ready container and integration module provider. |
+| [Primeton AppServer](https://www.primeton.com/products/pas/) | A "deploy-instant" Java EE container developed by Primeton. |
+| [Resin](https://caucho.com/products/resin) | A web server and Java application server developed by Caucho, available in Resin (free) and Resin Pro (licensed) versions. |
+| [RockyAS](https://rockyasfile.obs-cn-shenzhen.pinganyun.com/RockyAS.html) | A secure and efficient Web application server developed by Ping An Cloud. |
+| [SAP AS](https://www.sap.com/products/technology-platform/netweaver.html) | A component of the NetWeaver solution by SAP, compliant with Jakarta EE standards. |
+| [Thunisoft Application Server](https://www.thunisoft.cn/col81/index) | An enterprise-level middleware product independently developed by Huayu, complying with the Jakarta EE standard. |
+| [TongWeb Application Server](https://www.tongtech.com/dft/pctype/25.html) | A lightweight, powerful, and easy-to-use application server developed by Tongtech. |
+| [UseOpen Application Server](http://www.useopen.com/p/uoas/) | An open-source Java application server product supporting Jakarta EE Web Profile specifications. |
+| [WebOTX Application Server](https://jpn.nec.com/webotx/appserver/index.html) | A Java application execution platform ideal for promoting digital transformation, developed by NEC Corporation. |
+| [WildFly](https://www.wildfly.org/downloads/) | A flexible, lightweight, managed application runtime developed by Red Hat for building highly optimized Jakarta EE and MicroProfile applications. |
+
+</div>
+
+## 🧑‍💻 Software Engineering Tools
+
+**📚 Software Engineering** encompasses a wide range of practices, tools, and frameworks aimed at improving the efficiency, quality, and maintainability of software development.
+
+## 📚 Software Engineering
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Eclipse Capella](https://github.com/eclipse/capella) | A model-based systems engineering (MBSE) tool for designing system architectures, open sourced by Thales. |
+| [FJage](https://github.com/org-arl/fjage) | A platform for agent-oriented software development in Java and Groovy, developed by the National University of Singapore. |
+| [JRugged](https://github.com/Comcast/jrugged) | Implements patterns needed to build robust, production-ready server code in Java, open sourced by Comcast. |
+| [JSyntrax](https://github.com/atp-mipt/jsyntrax) | A railroad diagram generator that creates visual syntax descriptions for programming languages, open sourced by the Moscow Institute of Physics and Technology. |
+| [Lowfer](https://github.com/mbouchenoire/lowfer) | A tool that helps software engineers and architects document, discuss, and analyze software designs and architectures. |
+| [Moduliths](https://github.com/moduliths/moduliths) | A framework for building modular, monolithic Spring Boot applications. (Archive) |
+| [Rosie](https://github.com/Karumi/Rosie) | An Android framework that follows the principles of Clean Architecture. (Archive) |
+| [RR](https://github.com/GuntherRademacher/rr) | A syntax diagram generator (railroad diagrams) with a browser-based GUI and batch mode. |
+| [RRDiagram](https://github.com/Chrriis/RRDiagram) | A Java library that generates railroad diagrams from code or BNF notation. |
+| [Spring Modulith](https://github.com/spring-projects/spring-modulith) | A library that guides developers in building well-structured Spring Boot applications using domain-driven application modules. |
+| [Structurizr Java](https://github.com/structurizr/java) | Built on "diagram as code," Structurizr allows creating multiple software architecture diagrams from a single model. |
+| [Umple](https://github.com/umple/umple) | A technology that embeds modeling concepts like UML associations and state machines in traditional code and vice versa, developed by the University of Ottawa. |
+| [VMF](https://github.com/miho/VMF) | A lightweight modeling framework that converts annotated Java interfaces into powerful implementations. |
+
+</div>
+
+## 🔧 Design Patterns
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Apache Commons Chain](https://github.com/apache/commons-chain) | Implementation of the GoF Chain of Responsibility pattern. |
+| [Apache Commons Proxy](https://github.com/apache/commons-proxy) | A Java library for creating dynamic proxies. |
+| [AutoProxy](https://github.com/OleksandrKucherenko/autoproxy) | A library that generates proxy classes on top of interfaces or abstract classes, allowing interception of calls. |
+| [Decorator](https://github.com/eyeem/decorator) | A dynamic inheritance library that implements the decorator pattern. |
+
+</div>
+
+## 🔧 Idempotent Processing
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Idempotence4j](https://github.com/transferwise/idempotence4j) | A lightweight library providing support for handling idempotent operations. |
+| [Idempotent](https://github.com/it4alla/idempotent) | A solution for idempotent processing. |
+| [Quidem](https://github.com/julianhyde/quidem) | An idempotent query executor. |
+
+</div>
+
+## 🔧 Migration & Refactoring
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Astra](https://github.com/alfasoftware/astra) | A tool for analyzing and refactoring Java source code. |
+| [Butterfly](https://github.com/paypal/butterfly) | An application code transformation tool used for automated application migrations, upgrades, and source code changes, open sourced by PayPal. |
+| [EMT4J](https://github.com/adoptium/emt4j) | A project that simplifies Java version migration, open sourced by Alibaba. |
+| [Eclipse Transformer](https://github.com/eclipse/transformer) | Tools and runtime components for transforming Java binaries, open sourced by the Open Liberty team. |
+| [Jakarta Migration](https://github.com/apache/tomcat-jakartaee-migration) | A tool that automatically converts Java EE 8 web applications for Jakarta EE 9 compatibility. |
+| [MigrationMiner](https://github.com/hussien89aa/MigrationMiner) | A tool for detecting migration code between two Java third-party libraries. |
+| [RefactoringMiner](https://github.com/tsantalis/RefactoringMiner) | A library/API that detects refactorings applied in the history of a Java project. |
+| [Rewrite](https://github.com/openrewrite/rewrite) | A source code automatic refactoring ecosystem that enables developers to effectively eliminate technical debt, open sourced by Netflix. |
+| [Scientist4J](https://github.com/rawls238/Scientist4J) | The Java port of the GitHub refactoring tool Scientist. |
+| [Spring Boot Migrator](https://github.com/spring-projects-experimental/spring-boot-migrator) | A tool that automates the migration or upgrade to Spring Boot. |
+| [Windup](https://github.com/windup/windup) | A toolset for large-scale Java application modernization and migration projects, open sourced by RedHat. |
+
+</div>
+
+## 🔧 Development Tools
+🔧 Development Tools encompass a wide range of software utilities that assist developers in creating, managing, and deploying applications. 
+
+### 🔧 Build Tools
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Apache Maven](https://github.com/apache/maven) | A software project management and comprehension tool that helps manage a project’s build, reporting, and documentation. |
+| [Apache Mvnd](https://github.com/apache/maven-mvnd) | A faster build tool derived from Gradle and Takari, created by the Apache Maven team. |
+| [Gradle](https://github.com/gradle/gradle) | A build automation tool that supports multi-language development with a focus on performance. |
+| [Bazel](https://github.com/bazelbuild/bazel) | A fast, scalable, multi-language build system developed by Google. |
+| [Apache Ant](https://github.com/apache/ant) | A Java-based build tool that uses XML files to describe the build process. |
+| [Buck](https://github.com/facebook/buck) | A fast build system that encourages the creation of small, reusable modules, developed by Facebook. (Archive) |
+| [SBT](https://github.com/sbt/sbt) | A build tool specifically designed for Scala and Java projects. |
+| [Mill](https://github.com/com-lihaoyi/mill) | A modern build tool that supports the building and management of Scala and Java projects. |
+| [Pants](https://github.com/pantsbuild/pants) | A fast, extensible, and user-friendly build system for codebases of all sizes. |
+| [1JPM](https://github.com/Osiris-Team/1JPM) | An alternative to Maven/Gradle that uses a single Java file for configuration. |
+| [Boot](https://github.com/boot-clj/boot) | A Clojure build framework and ad-hoc Clojure script evaluator. |
+| [JeKa](https://github.com/jeka-dev/jeka) | A Java build tool for building or executing Java applications and scripts directly from source code. |
+| [Apache Ivy](https://github.com/apache/ant-ivy) | A dependency management tool integrated with Apache Ant. |
+| [Leiningen](https://github.com/technomancy/leiningen) | A build automation and dependency management tool for Clojure. |
+| [Maven Wrapper](https://github.com/takari/maven-wrapper) | A tool that allows building Maven projects without installing Maven. (Archive) |
+| [BLD](https://github.com/rife2/bld) | A new build system that allows you to write build logic in pure Java. |
+| [Pro](https://github.com/forax/pro) | A Java build tool designed to work seamlessly with Java 9 modules. |
+| [Fury](https://github.com/propensive/fury-old) | A next-generation build tool designed to address challenges in a changing environment. |
+| [Saker.build](https://github.com/sakerbuild/saker.build) | A language-agnostic build system focused on extensibility and scalable incremental builds. |
+
+</div>
+
+### 📦 Package Manager
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Nuts](https://github.com/thevpc/nuts) | A Java package manager that helps discover, download, assemble, and execute local and remote artifacts. |
+| [Nix](https://github.com/fzakaria/mvn2nix) | A package manager that simplifies the packaging of Maven Java applications. |
+
+</div>
+
+### 🔁 CI/CD
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Jenkins](https://github.com/jenkinsci/jenkins) | A leading open-source automation server that supports the automation of almost everything. |
+| [TeamCity](https://www.jetbrains.com/teamcity/) | A general-purpose CI/CD software platform by JetBrains for flexible workflows and collaboration. |
+| [Bamboo](https://www.atlassian.com/software/bamboo) | A continuous integration build server provided by Atlassian with a free version available. |
+| [GoCD](https://github.com/gocd/gocd) | An open-source tool to automate and simplify the build-test-release cycle. |
+| [OneDev](https://github.com/theonedev/onedev) | A self-hosted Git server with CI/CD and Kanban features. |
+| [FlowCI](https://github.com/FlowCI/flow-core-x) | An open-source CI/CD automation server designed to be simple and fast. |
+| [Hudson](https://github.com/hudson/hudson-2.x) | A continuous integration server and the predecessor of Jenkins. |
+| [Bob](https://github.com/bob-cd/bob) | A tool to build custom CI/CD infrastructure for various purposes. |
+| [Blazar](https://github.com/HubSpot/Blazar-Archive) | A CI tool designed to integrate with GitHub and Singularity, developed by HubSpot. |
+
+</div>
+
+### 📤 Publishing Tools
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [JitPack](https://github.com/jitpack/jitpack.io) | A novel repository that builds Git projects on demand and provides ready-to-use artifacts. |
+| [Sonatype Nexus](https://github.com/sonatype/nexus-public) | A binary management tool supporting proxy and caching capabilities. |
+| [Indy](https://github.com/Commonjava/indy) | A simple repository manager for Maven and other build tools using the Maven repository format. |
+| [Maven Central](https://central.sonatype.com/) | The largest binary component repository, providing free services to the open-source community. |
+| [Cloudsmith](https://cloudsmith.io/) | A fully managed package management SaaS that supports Maven/Gradle/SBT with a free tier. |
+| [Apache Archiva](https://github.com/apache/archiva) | Extensible repository management software to manage build artifact repositories. (Archive) |
+| [Apache Rat](https://github.com/apache/creadur-rat) | A tool to improve accuracy and efficiency in checking releases. |
+| [Strongbox](https://github.com/strongbox/strongbox) | A modern OSS artifact repository manager. |
+| [Reposilite](https://github.com/dzikoysk/reposilite) | A lightweight and easy-to-use repository manager for Maven-based artifacts. |
+| [CloudRepo](https://cloudrepo.io/) | Cloud-based private and public Maven and PyPi repositories, free for open-source projects. |
+| [Gemfury](https://gemfury.com/) | Private and public artifact repositories for various languages, free for public projects. |
+
+</div>
+
+## 🔧 Java Environment and Tools
+
+🔧 **Java Environment and Tools** refers to the ecosystem and tools used for developing and running Java applications, including the management of Java environments, the Java Development Kit (JDK), JVM languages, and various JVM implementations. 
+
+## 🧰 Java Environment Management
+
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [IDE](https://github.com/devonfw/ide) | Tool to help developers set up and share development environments and project settings. |
+| [JEnv](https://github.com/jenv/jenv) | Java environment manager for managing parallel versions of the JDK on any system. |
+| [JEnv Windows](https://github.com/FelixSelter/JEnv-for-Windows) | Tool for changing the current Java version with a single command on Windows. |
+| [Jabba](https://github.com/shyiko/jabba) | Java version management tool developed in Go language. |
+| [JVMS](https://github.com/ystyle/jvms) | JDK version manager specifically for Windows. |
+| [SDKMAN](https://github.com/sdkman/sdkman-cli) | Tool for managing parallel versions of multiple software development kits on Unix-based systems. |
+</div>
+
+## 🛠 JDK
+
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Alibaba Dragonwell](https://github.com/dragonwell-project/dragonwell8) | Alibaba's open source JDK version. |
+| [AWS Corretto](https://github.com/corretto/corretto-8) | Free, multi-platform, production-ready distribution of OpenJDK provided by Amazon. |
+| [Azul Zulu](https://www.azul.com/zh-hans/core/) | Azul's open source JDK version. |
+| [Bellsoft Liberica](https://github.com/bell-sw/Liberica) | BellSoft's open source JDK version. |
+| [Eclipse OpenJ9](https://github.com/eclipse-openj9/openj9) | Optimized Java virtual machine for small footprint, fast startup, and high throughput. |
+| [Eclipse Temurin](https://github.com/adoptium/temurin-build) | JDK version under the Eclipse Foundation. |
+| [GraalVM](https://github.com/oracle/graal) | High-performance JDK distribution supporting multiple languages and JVM languages. |
+| [IBM Semeru](https://www.ibm.com/support/pages/java-sdk-downloads) | IBM's open source JDK version. |
+| [JetBrains JDK](https://github.com/JetBrains/JetBrainsRuntime) | Runtime environment based on OpenJDK developed by JetBrains. |
+| [Loongson JDK](https://github.com/loongson/jdk) | Java environment for the Loongson platform, based on OpenJDK. |
+| [Mandrel](https://github.com/graalvm/mandrel) | Downstream distribution of GraalVM Community Edition for Quarkus support. |
+| [Microsoft JDK](https://github.com/microsoft/openjdk) | Microsoft's open source JDK build version. |
+| [OpenLogic](https://www.openlogic.com/openjdk-downloads) | OpenLogic's open source JDK version. |
+| [Redhat JDK](https://developers.redhat.com/products/openjdk/download) | Redhat open source JDK version. |
+| [SapMachine](https://github.com/SAP/SapMachine) | OpenJDK version maintained and supported by SAP. |
+| [Tencent Kona](https://github.com/Tencent/TencentKona-17) | Tencent's open source JDK version. |
+| [Trava OpenJDK](https://github.com/TravaOpenJDK/trava-jdk-11-dcevm) | OpenJDK with advanced hot-swapping capabilities. |
+| [VMS Software OpenJDK](https://vmssoftware.com/products/openjdk/) | VMS Software's free and open source implementation of OpenJDK. |
+</div>
+
+## 🖥 JVM Languages
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Ballerina](https://github.com/ballerina-platform/ballerina-lang) | An open-source, cloud-native language optimized for integration tasks. Developed by WSO2. |
+| [BeanShell](https://github.com/beanshell/beanshell) | A lightweight, embeddable Java source interpreter with scripting capabilities. |
+| [BoxLang](https://github.com/ortus-boxlang/BoxLang) | A modern dynamic language for the JVM, designed for deployment across various runtimes. |
+| [Clojure](https://github.com/clojure/clojure) | A functional, dynamic language combining scripting ease with powerful concurrency features. |
+| [Concurnas](https://github.com/Concurnas/Concurnas) | A JVM language focused on building high-performance concurrent and distributed systems. |
+| [DDlog](https://github.com/vmware/differential-datalog) | A language for incremental computing, ideal for applications needing continuous updates. |
+| [Ecstasy](https://github.com/xtclang/xvm) | A secure, general-purpose language designed for cloud and serverless environments. |
+| [Eclipse Ceylon](https://github.com/eclipse-archived/ceylon) | A modular, statically typed language for the JVM and JavaScript, developed by Red Hat. |
+| [Eclipse Epsilon](https://github.com/eclipse/epsilon) | A set of languages for automating software engineering tasks like model transformation and code generation. |
+| [Eclipse Golo](https://github.com/eclipse-archived/golo-lang) | A simple, dynamic language for the JVM, focused on rapid development. |
+| [Enkel](https://github.com/JakubDziworski/Enkel-JVM-language) | A straightforward language that runs on the JVM, designed for simplicity. |
+| [EOLang](https://github.com/objectionary/eo) | An object-oriented language based on 𝜑-calculus, emphasizing immutability and composability. |
+| [Erjang](https://github.com/trifork/erjang) | A JVM-based Erlang virtual machine. |
+| [Eta](https://github.com/typelead/eta) | A Haskell dialect that operates on the JVM, bringing functional programming to Java. |
+| [Fantom](https://github.com/fantom-lang/fantom) | A portable language for the JVM and web browsers, designed for simplicity and performance. |
+| [Flix](https://github.com/flix/flix) | A functional, imperative, and logic programming language with static typing. |
+| [Frege](https://github.com/Frege/frege) | A Haskell variant for the JVM, supporting pure functional programming. |
+| [Genesis](https://github.com/elonlit/Genesis) | An ancient Hebrew-inspired programming language, procedural and Turing-complete. |
+| [Gosu](https://github.com/gosu-lang/gosu-lang) | A practical and versatile language for the JVM, offering both static and dynamic typing. |
+| [Groovy](https://github.com/apache/groovy) | A powerful, dynamic language for the JVM, offering seamless Java integration and scripting capabilities. |
+| [Ioke](https://github.com/olabini/ioke) | A dynamic, prototype-based language with strong typing, designed for flexibility. |
+| [Jactl](https://github.com/jaccomoc/jactl) | A scripting language for the JVM, blending features from Java, Groovy, and Perl. |
+| [Java](https://www.oracle.com/java/) | The ubiquitous general-purpose, object-oriented programming language led by Oracle. |
+| [JGO](https://github.com/thomasmodeneis/jgo) | A Java compiler and runtime environment tailored for Golang. |
+| [Jolie](https://github.com/jolie/jolie) | A service-oriented language for developing microservices with native abstractions. |
+| [JPHP](https://github.com/jphp-group/jphp) | A JVM-based implementation of PHP, supporting modern PHP features. |
+| [JRuby](https://github.com/jruby/jruby) | A Ruby language implementation that runs on the JVM. |
+| [Jython](https://github.com/jython/jython) | A Python implementation for the JVM, allowing Python scripts to interact with Java libraries. |
+| [Kotlin](https://github.com/JetBrains/kotlin) | A modern, statically typed language for the JVM, fully interoperable with Java, developed by JetBrains. |
+| [LuaJ](https://github.com/luaj/luaj) | A lightweight Lua interpreter for the JVM, designed for portability and speed. |
+| [Lucee](https://github.com/lucee/Lucee) | A dynamic scripting language for rapid web development, Java-based. |
+| [Lux](https://github.com/LuxLang/lux) | A statically typed, functional Lisp language that runs on multiple platforms, including the JVM. |
+| [Panda](https://github.com/panda-lang/panda) | A clean and modern JVM language with an emphasis on readability and simplicity. |
+| [Processing](https://github.com/processing/processing) | A flexible programming language and environment for learning code, popular in the visual arts. |
+| [Rascal](https://github.com/usethesource/rascal) | A metaprogramming language for the JVM, ideal for source code analysis and transformation. |
+| [Renjin](https://github.com/bedatadriven/renjin) | A JVM-based interpreter for the R language, allowing integration with Java. |
+| [Scala](https://github.com/scala/scala) | A multi-paradigm language combining object-oriented and functional programming on the JVM. |
+| [Swift/T](https://github.com/swift-lang/swift-t) | A parallel programming language for composing external functions into large-scale applications. |
+| [Venice](https://github.com/jlangch/venice) | A Lisp dialect for the JVM, inspired by Clojure and focused on sandboxing and Java interoperability. |
+| [Virgil](https://github.com/titzer/virgil) | A lightweight, high-performance systems programming language for the JVM. |
+| [Yeti](https://github.com/mth/yeti) | A functional programming language for the JVM, inspired by ML. |
+
+</div>
+
+## ⚙ JVM Implementation
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Avian](https://github.com/ReadyTalk/avian) | A lightweight JVM and class library designed for building standalone applications. |
+| [Bck2Brwsr](https://github.com/jtulach/bck2brwsr) | A JVM that converts Java bytecode into JavaScript, enabling Java applications to run in a browser. |
+| [CACAO](http://www.cacaojvm.org/) | A JVM using Just-In-Time (JIT) compilation to execute Java methods natively. |
+| [DCEVM](https://github.com/dcevm/dcevm) | A JVM variant for Java 7/8 that supports dynamic code evolution, allowing changes to classes without restarting the JVM. |
+| [DoppioJVM](https://github.com/plasma-umass/doppio) | A JVM written in TypeScript, compliant with POSIX, developed as a research project by the University of Massachusetts. |
+| [Eclipse OpenJ9](https://github.com/eclipse-openj9/openj9) | A JVM for OpenJDK with a small footprint, fast startup, and high throughput, developed by IBM. |
+| [HaikuVM](https://github.com/chuckb/haikuVM) | A tiny JVM designed for Arduino-compatible microcontrollers. |
+| [IKVM](https://github.com/ikvmnet/ikvm) | A JVM implementation that integrates with the Microsoft .NET platform, allowing Java applications to run on .NET. |
+| [JamaicaVM](https://www.aicas.com/wp/products-services/jamaicavm/) | A JVM optimized for embedded systems, supporting real-time applications, developed by aicas. |
+| [Jamiga](http://os4depot.net/?function=showfile&file=development/language/jamiga.lha) | A JVM for the AmigaOS, allowing Java applications to run on Amiga computers. |
+| [JamVM](https://jamvm.sourceforge.net/) | A compact and easy-to-understand JVM designed to support the latest JVM specifications. |
+| [Jelatine JVM](https://jelatine.sourceforge.net/) | A JVM targeting Java 2 Micro Edition Connected Limited Device Configuration (J2ME CLDC) for embedded systems. |
+| [Jikes RVM](https://github.com/JikesRVM/JikesRVM) | A research-focused JVM written in Java, contributing to virtual machine technology advancements. |
+| [JOE](https://github.com/joekoolade/JOE) | A JVM that integrates the operating system and hardware subsystems within the Java programming environment. |
+| [JVM.Go](https://github.com/zxh0/jvm.go) | A simple JVM implementation written in the Go programming language. |
+| [LeJOS](https://lejos.sourceforge.io/) | A JVM developed by Lego for robotics, used on devices like the International Space Station. |
+| [Maxine VM](https://github.com/beehive-lab/Maxine-VM) | A meta-circular JVM developed by the University of Manchester, focused on research and development in VM technologies. |
+| [Metascala](https://github.com/lihaoyi/Metascala) | A minimal JVM written in the Scala language, designed as a meta-circular implementation. |
+| [Mini JVM](https://github.com/se-tuebingen/mini-jvm) | A simplified JVM written in Java, developed by the University of Tübingen for educational purposes. |
+| [Multi-OS Engine](https://github.com/multi-os-engine/multi-os-engine) | A Java runtime for developing native iOS applications with portability across Android and iOS. |
+| [Node JVM](https://github.com/YaroslavGaponov/node-jvm) | A JVM implemented in pure Node.js, allowing Java bytecode to run within a JavaScript environment. |
+| [ParparVM](https://github.com/codenameone/CodenameOne/tree/master/vm) | A JVM bytecode to C translator for iOS, developed as part of the CodenameOne project. |
+| [PHPJava](https://github.com/php-java/php-java) | An experimental library emulating the JVM and compiling intermediate code through PHP. |
+| [RJVM](https://github.com/andreabergia/rjvm) | A minimal JVM implementation written in Rust. |
+| [RoboVM](https://github.com/MobiVM/robovm) | A JVM bytecode Ahead-Of-Time (AOT) compiler for iOS, macOS, and Linux applications. |
+| [SableVM](http://sablevm.org/) | A portable, efficient JVM developed by McGill University, designed to be easy to maintain and extend. |
+| [SSVM](https://github.com/xxDark/SSVM) | A JVM that operates on the JVM, designed for experimental purposes. |
+| [TakaTuka](https://sourceforge.net/projects/takatuka/) | A highly portable JVM for micro embedded devices and wireless sensor networks, developed by the University of Freiburg. |
+
+</div>
+
+## 🧪 Data Science and AI
+
+**🧪 Data Science and AI**: This encompasses the study and application of algorithms, models, and tools to analyze data and solve complex problems, including various specialized areas such as artificial intelligence, machine learning, natural language processing, and more.
+Here’s a revised and formatted version of the AI and LLM repositories table in alphabetical order, with clear, concise descriptions and working links:
+
+## 🤖 Artificial Intelligence
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [AIMA Java](https://github.com/aimacode/aima-java) | A Java implementation of the algorithms in "Artificial Intelligence: A Modern Approach." |
+| [Artemis](https://github.com/ls1intum/Artemis) | An interactive learning platform offering instant feedback on exercises, developed by the Technical University of Munich. |
+| [EdgeChains](https://github.com/arakoodev/EdgeChains) | A syntax framework for production-friendly generative AI applications. |
+| [FATE](https://github.com/FederatedAI/FATE) | A framework for federated learning, enabling secure data collaboration, developed by WeBank. |
+| [GDX AI](https://github.com/libgdx/gdx-ai) | A framework offering AI techniques commonly used in the gaming industry. |
+| [Hbox](https://github.com/Qihoo360/XLearning) | A platform combining big data and AI, supporting multiple machine learning frameworks. |
+| [Intelligent Java](https://github.com/intelligentnode/IntelliJava) | A tool for integrating Java with modern language models and deep learning frameworks. |
+| [jAER](https://github.com/SensorsINI/jaer) | A Java tool for neuromorphic processing, developed by ETH Zurich. |
+| [Lucida](https://github.com/claritylab/lucida) | A voice and vision-based personal assistant inspired by Sirius. |
+| [Malmo](https://github.com/microsoft/malmo) | An AI experimentation platform built on Minecraft, open-sourced by Microsoft. |
+| [ModernMT](https://github.com/modernmt/modernmt) | A neural machine translation technology offering context-aware, incremental translations. |
+| [SD4J](https://github.com/oracle-samples/sd4j) | An implementation of Stable Diffusion inference using ONNX runtime, developed by Oracle. |
+| [Serenade](https://github.com/serenadeai/serenade) | A tool for coding via voice commands, integrating speech recognition and AI. |
+| [Starwhale](https://github.com/star-whale/starwhale) | An MLOps/LLMOps platform simplifying model creation, evaluation, and publishing. |
+| [SUSI.AI Server](https://github.com/fossasia/susi_server) | An open-source personal assistant supporting chat and voice interactions, developed by FOSSASIA. |
+| [XEF](https://github.com/xebia-functional/xef) | A library bringing AI capabilities like LLM and image generation to your applications, developed by Xebia. |
+| [Xtreme1](https://github.com/xtreme1-io/xtreme1) | A data labeling and annotation platform supporting 3D LiDAR, images, and LLMs. |
+
+</div>
+
+## 🧠 LLM
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [CodeMind](https://github.com/Intelligent-CAT-Lab/CodeMind) | A framework for evaluating inductive code reasoning in LLMs, developed by the University of Illinois. |
+| [Freeplay](https://freeplay.ai/) | A tool for managing the end-to-end LLM product development lifecycle for product teams. |
+| [Jama](https://github.com/tjake/Jlama) | A modern LLM reasoning engine for Java. |
+| [LangChain4j](https://github.com/langchain4j/langchain4j) | A library simplifying the integration of AI/LLM capabilities into Java applications. |
+| [LangStream](https://github.com/LangStream/langstream) | A framework for building and running GenAI applications, open-sourced by DataStax. |
+| [Langtorch](https://github.com/Knowly-ai/langtorch) | A Java library for building composable LLM applications. |
+| [LangChain Java](https://github.com/HamaWhiteGG/langchain-java) | Java version of LangChain, enabling integration with LLM big data. |
+| [OpenAI Java](https://github.com/TheoKanning/openai-java) | A Java library for using OpenAI's GPT API, supporting GPT-3, ChatGPT, and GPT-4. (Archive) |
+| [OpenAI Kotlin](https://github.com/Aallam/openai-kotlin) | A Kotlin client for the OpenAI API, supporting multiplatform and coroutine capabilities. |
+| [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | An SDK integrating LLMs like OpenAI and Hugging Face with traditional languages like Java. |
+| [Spring AI](https://github.com/spring-projects-experimental/spring-ai) | Provides Spring-friendly APIs and abstractions for AI application development. |
+
+</div>
+
+
+## 💬 ChatGPT Client
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [ChatGPT Java](https://github.com/PlexPt/chatgpt-java) | A Java SDK for ChatGPT, supporting GPT-3.5 and GPT-4 API. |
+| [ChatGPT Java](https://github.com/Grt1228/chatgpt-java) | Java client for ChatGPT, offering a simple and easy-to-use API interface. |
+| [ChatGPT-Java](https://github.com/AcaiSoftware/chatgpt-java) | Java wrapper for the unofficial reverse-engineered ChatGPT API. |
+| [EDDI](https://github.com/labsai/eddi) | Middleware for connecting and managing LLM API bots, including OpenAI's ChatGPT. |
+| [Easy OpenAI](https://github.com/namankhurpia/Easy-open-ai) | A community-maintained OpenAI API library in Java, designed for ease of use with GPT-3/4. |
+| [Google-Bard](https://github.com/LarryDpk/Google-Bard) | A Java library for interacting with Google Bard, a question-answering AI. |
+| [Ollama4j](https://github.com/amithkoujalgi/ollama4j) | Java library for interacting with the Ollama server for AI interactions. |
+| [OpenAI Java](https://github.com/TheoKanning/openai-java) | A Java library for using OpenAI's GPT API, supporting multiple versions including GPT-3, GPT-4, and ChatGPT. |
+| [OpenAI Kotlin](https://github.com/Aallam/openai-kotlin) | Kotlin client for the OpenAI API, featuring multi-platform support and coroutine capabilities. |
+| [OpenAI-Java-SDK](https://gitee.com/devlive-community/openai-java-sdk) | A convenient SDK for Java developers to interact with OpenAI's model API. |
+| [OpenAi4J](https://github.com/Lambdua/openai4j) | An unofficial Java library for interacting with OpenAI's GPT models, including the latest features. |
+| [Watson Java SDK](https://github.com/watson-developer-cloud/java-sdk) | Java SDK for using IBM Watson services, including NLP and machine learning capabilities. |
+
+</div>
+
+## 🔍 Machine Learning
+
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [9nFL](https://github.com/jd-opensource/9n-mpc) | A federated learning solution developed by JD. |
+| [Alink](https://github.com/alibaba/Alink) | A machine learning algorithm platform based on Flink, developed by the Alibaba computing platform PAI team. |
+| [Alluxio](https://github.com/Alluxio/alluxio) | Data orchestration for analytics and machine learning in the cloud, developed by Haoyuan Li at UC Berkeley. |
+| [AMIDST](https://github.com/amidst/toolbox) | A Java toolkit for scalable probabilistic machine learning. |
+| [Angel](https://github.com/Angel-ML/angel) | A high-performance distributed machine learning and graph computing platform based on the parameter server concept, open sourced by Tencent and Peking University. |
+| [Apache Flink](https://flink.apache.org) | A fast, reliable, large-scale data processing engine. |
+| [Apache Mahout](https://mahout.apache.org) | Scalable algorithms focused on collaborative filtering, clustering, and classification. |
+| [Apache PredictionIO](https://github.com/apache/predictionio) | An open-source machine learning framework for developers, data scientists, and end users. |
+| [Apache Samoa](https://github.com/apache/incubator-samoa) | A platform for mining big data streams and distributed streaming machine learning framework. |
+| [Apache Spark MLlib](https://github.com/apache/spark/tree/master/mllib) | Spark's scalable machine learning library. |
+| [Apache Submarine](https://github.com/apache/submarine) | An end-to-end machine learning platform for creating workflows. |
+| [Apache SystemDS](https://github.com/apache/systemds) | Open-source machine learning system for the end-to-end data science lifecycle. |
+| [Aurora](https://github.com/AcaiSoftware/aurora) | A Java machine learning framework for model training, evaluation, deployment, tuning, and benchmarking. |
+| [BEAST](https://github.com/beast-dev/beast-mcmc) | A cross-platform program for Bayesian analysis of molecular sequences using MCMC. |
+| [BEAST 2](https://github.com/CompEvol/beast2) | Bayesian inference using molecular sequence MCMC, developed by the University of Auckland. |
+| [Breeze](https://github.com/scalanlp/breeze) | A set of libraries for machine learning and numerical computing. |
+| [Byzer](https://github.com/byzer-org/byzer-lang) | A low-code, open-source, distributed programming language for data pipelines, analytics, and AI. |
+| [CERMINE](https://github.com/CeON/CERMINE) | A Java library and web service for extracting metadata and content from PDFs of scholarly publications, developed by the University of Warsaw. |
+| [Chronon](https://github.com/airbnb/chronon) | A platform that removes the complexity of data computation and serves AI/ML applications, developed by Airbnb. |
+| [Dagli](https://github.com/linkedin/dagli) | A machine learning framework that simplifies writing efficient, maintainable, and easily deployable models in Java, developed by LinkedIn. |
+| [Datumbox](https://github.com/datumbox/datumbox-framework) | An open-source machine learning framework for rapid development of ML applications. |
+| [DatumBox](http://www.datumbox.com) | Provides several algorithms and pre-trained models for natural language processing. |
+| [DeepDive](https://github.com/HazyResearch/deepdive) | An information extraction system developed by Stanford University. |
+| [Deeplearning4j](https://deeplearning4j.org) | A distributed and multi-threaded deep learning library. |
+| [DJL](https://djl.ai) | A high-level, engine-agnostic framework for deep learning. |
+| [EasyML](https://github.com/ICT-BDA/EasyML) | A general-purpose dataflow-based system that simplifies the application of machine learning algorithms to real-world tasks. |
+| [Elasticsearch Learning](https://github.com/o19s/elasticsearch-learning-to-rank) | A plugin for integrating machine learning with Elasticsearch. |
+| [Encog](https://github.com/jeffheaton/encog-java-core) | A pure Java machine learning framework that supports genetic programming, NEAT/HyperNEAT, and other neural network techniques. |
+| [FATE-Serving](https://github.com/FederatedAI/FATE-Serving) | A high-performance, industrialized federated learning model serving system designed for production environments. |
+| [Feathr](https://github.com/feathr-ai/feathr) | A data and AI engineering platform used in production at LinkedIn, open sourced in 2022. |
+| [FeatureFu](https://github.com/linkedin/FeatureFu) | A project for agile feature engineering in machine learning tasks, open sourced by LinkedIn. |
+| [Flink ML](https://github.com/apache/flink-ml) | A library providing machine learning APIs and infrastructure to simplify building ML pipelines. |
+| [Fregata](https://github.com/TalkingData/Fregata) | A lightweight, ultra-fast large-scale machine learning library based on Apache Spark, developed by TalkingData. |
+| [GROBID](https://github.com/kermitt2/grobid) | A machine learning library for extracting, parsing, and reconstructing raw documents into structured XML/TEI encoded documents, focusing on technical and scientific publications. |
+| [H2O](https://github.com/h2oai/h2o-3) | An in-memory platform for distributed, scalable machine learning. |
+| [H2O.ai](https://www.h2o.ai) | An analytics engine for statistics over big data. |
+| [HTM.Java](https://github.com/numenta/htm.java) | Hierarchical Temporary Memory Implementation in Java - Official community-driven Java port of the Numenta Intelligent Computing Platform. |
+| [Intelligent Java](https://github.com/Barqawiz/IntelliJava) | Seamlessly integrates remote deep learning and language models programmatically. |
+| [Java-ML](https://github.com/charliermarsh/java-ml) | A collection of standard machine learning (classification) algorithms implemented in Java. |
+| [JSAT](https://github.com/EdwardRaff/JSAT) | A library for quickly getting started with machine learning problems, supporting multi-threaded execution. |
+| [Libsvm](https://github.com/cjlin1/libsvm) | A simple, easy-to-use and efficient SVM classification and regression software, developed by Professor Zhiren Lin of National Taiwan University. |
+| [MacroBase](https://github.com/stanford-futuredata/macrobase) | A data analysis tool that uses machine learning to prioritize attention in large datasets, open sourced by Stanford. |
+| [Mallet](https://github.com/mimno/Mallet) | A Java-based package for statistical natural language processing, document classification, clustering, topic modeling, and information extraction. |
+| [Meka](https://github.com/Waikato/meka) | An open-source implementation of multi-label learning and evaluation methods, developed by the University of Waikato. |
+| [Metarank](https://github.com/metarank/metarank) | An open-source ranking service for building personalized semantic/neural search and recommendations. |
+| [MLReef](https://github.com/MLReef/mlreef) | An open-source ML-Ops platform for collaboration and sharing of machine learning work. |
+| [ModelDB](https://github.com/VertaAI/modeldb) | An open-source system for machine learning model versioning, metadata, and experiment management, created by Verta CEO Manasi Vartak during his doctoral research at MIT. |
+| [MOA](https://github.com/Waikato/moa) | An open-source framework for big data stream mining, including a range of machine learning algorithms and evaluation tools. |
+| [Morel](https://github.com/hydromatic/morel) | A Standard ML interpreter with relational extensions, implemented in Java. |
+| [Neureka](https://github.com/Gleethos/neureka) | A lightweight, platform-independent, OpenCL-accelerated nd-array/tensor library. |
+| [Neuroph](https://github.com/neuroph/neuroph) | An open-source Java neural network framework and neural network development environment. |
+| [Oryx 2](https://github.com/OryxProject/oryx) | A framework for building real-time, large-scale machine learning applications using Lambda architecture on Apache Spark and Apache Kafka. |
+| [Primus](https://github.com/bytedance/primus) | A distributed scheduling framework for machine learning applications, managing training lifecycle and data distribution. Developed by ByteDance. |
+| [PSL](https://github.com/linqs/psl) | A machine learning framework for developing probabilistic models, developed by the University of Maryland and the University of California, Santa Cruz. |
+| [QuickML](https://github.com/QuickML/quickml) | A high-performance, easy-to-use machine learning library designed for Scala developers. |
+| [RankLib](https://sourceforge.net/p/lemur/wiki/RankLib/) | A library of learning to rank algorithms. |
+| [SAMOA](https://github.com/apache/samoa) | A platform for mining big data streams and distributed streaming machine learning framework. |
+| [Scikit-Multilearn](https://github.com/scikit-multilearn/scikit-multilearn) | A Python library for multi-label classification. |
+| [Scikit-Optimize](https://github.com/scikit-optimize/scikit-optimize) | Sequential model-based optimization with a focus on machine learning. |
+| [Seldon](https://github.com/SeldonIO/seldon-core) | An open-source platform to deploy and scale machine learning models on Kubernetes. |
+| [Spacy](https://spacy.io) | An industrial-strength natural language processing library in Python and Cython. |
+| [Spark MLlib](https://spark.apache.org/mllib/) | Apache Spark's scalable machine learning library. |
+| [Stanford NLP](https://stanfordnlp.github.io/CoreNLP/) | An open-source Java library for natural language processing and analysis, developed by Stanford University. |
+| [SystemML](https://github.com/apache/systemml) | Declarative large-scale machine learning (ML) that aims to improve the productivity of data scientists and reduce the complexity of training algorithms. |
+| [SynapseML](https://github.com/microsoft/SynapseML) | A library that simplifies the creation of massively scalable and distributed machine learning pipelines. |
+| [TensorFlow Java](https://github.com/tensorflow/java) | An open-source library for machine learning, developed by the Google Brain team. |
+| [TensorFlowJS](https://github.com/tensorflow/tfjs) | An open-source library that enables you to define, train, and run machine learning models entirely in the browser using JavaScript. |
+| [Vowpal Wabbit](https://github.com/VowpalWabbit/vowpal_wabbit) | A fast, scalable machine learning system, designed to be efficient in both memory usage and learning speed. |
+| [WeLearn](https://github.com/Tylous/WeLearn) | A machine learning library that implements an automatic learning process for data-driven models. |
+| [Weka](https://www.cs.waikato.ac.nz/ml/weka/) | A collection of machine learning algorithms for data mining tasks, developed by the University of Waikato. |
+| [XGBoost](https://github.com/dmlc/xgboost) | A scalable, flexible, and portable gradient boosting framework for large-scale machine learning. |
+| [Zerene](https://github.com/ZereneLearning/Zerene) | A machine learning framework with a focus on speed and flexibility, developed by the University of California, Berkeley. |
+
+</div>
+
+
+## 🧠 Natural Language Processing
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [AIKA](https://github.com/aika-algorithm/aika) | A new type of artificial neural network that aims to mimic the behavior of the biological brain and bridge the gap with classical artificial intelligence. |
+| [AmbiverseNLU](https://github.com/ambiverse-nlu/ambiverse-nlu) | A natural language understanding suite developed by the Max Planck Institute for Informatics. |
+| [Apache cTAKES](https://github.com/apache/ctakes) | A natural language processing platform for clinical text, open sourced by Apache. |
+| [Apache NLPCraft](https://github.com/apache/incubator-nlpcraft) | An open-source library for adding natural language interfaces to modern applications. |
+| [Apache OpenNLP](https://github.com/apache/opennlp) | A machine learning-based toolkit for processing natural language text, developed by Apache. |
+| [Apache UIMA](https://github.com/apache/uima-uimaj) | A software system for analyzing large amounts of unstructured information to discover knowledge relevant to end users, open sourced by IBM. |
+| [ARK Twitter NLP](https://github.com/brendano/ark-tweet-nlp) | A part-of-speech tagger for Twitter data, developed by the CMU ARK group. |
+| [ClearTK](https://github.com/ClearTK/cleartk) | A framework for developing statistical natural language processing components, developed by the Center for Computational Language and Education Research at the University of Colorado Boulder. |
+| [CogCompNLP](https://github.com/CogComp/cogcomp-nlp) | A toolkit with various NLP tools like lemmatizer, NER, POS tagging, etc., developed by the University of Illinois. |
+| [Cornell SPF](https://github.com/lil-lab/spf) | A Semantic Parsing Framework developed by Cornell University. |
+| [CoreNLP](https://github.com/stanfordnlp/CoreNLP) | A set of Java core NLP tools for tasks such as tokenization, NER, and sentiment analysis, developed by Stanford University. |
+| [DKPro Core](https://github.com/dkpro/dkpro-core) | A collection of NLP components based on the Apache UIMA framework, developed by the Technical University of Darmstadt. |
+| [FNLP](https://github.com/FudanNLP/fnlp) | A toolkit mainly for Chinese NLP, developed by Fudan University. |
+| [GATE](https://github.com/GateNLP/gate-core) | A comprehensive software toolkit for text processing, developed by the University of Sheffield. |
+| [Hawking](https://github.com/zoho/hawking) | A natural language date and time parser that can extract and parse date and time from text. |
+| [HeidelTime](https://github.com/HeidelTime/heideltime) | A multilingual, cross-domain temporal tagger developed by Heidelberg University. |
+| [Joshua](http://joshua-decoder.org/) | An open-source statistical machine translation decoder developed by Johns Hopkins University. |
+| [JStarCraft NLP](https://github.com/HongZhaoHua/jstarcraft-nlp) | A lightweight engine for natural language processing. |
+| [LAC](https://github.com/baidu/lac) | A joint lexical analysis tool developed by Baidu's NLP department, implementing Chinese word segmentation, POS tagging, and more. |
+| [Lingua](https://github.com/pemistahl/lingua) | A highly accurate natural language detection library for Java, suitable for both long and short texts. |
+| [LingPipe](https://www.alias-i.com/) | A toolkit for tasks ranging from POS tagging to sentiment analysis. |
+| [Mallet](https://github.com/mimno/Mallet) | A Java-based package for statistical NLP, document classification, clustering, and more, developed by the University of Massachusetts and the University of Pennsylvania. |
+| [MetaMapLite](https://github.com/lhncbc/metamaplite) | A near real-time named entity recognizer, open sourced by the National Centre for Biomedical Communications at Mount Lister. |
+| [MiNLP](https://github.com/XiaoMi/MiNLP) | Xiaomi's Natural Language Processing Platform, offering modules for lexical, syntactic, and semantic analysis. |
+| [MyNLP](https://github.com/mayabot/mynlp) | A high-performance, modular, and extensible Chinese NLP toolkit, open sourced by Shanghai Wanxing Company. |
+| [Neo4j NLP](https://github.com/graphaware/neo4j-nlp) | A plugin for Neo4j that provides graph-based natural language processing capabilities. |
+| [NLP-Lang](https://github.com/NLPchina/nlp-lang) | A basic package that encapsulates commonly used NLP tools for Java projects. |
+| [NLP4J](https://github.com/emorynlp/nlp4j) | An NLP toolkit for JVM languages, developed by Emory University. |
+| [Phrasal](https://github.com/stanfordnlp/phrasal) | A large-scale statistical machine translation system developed by Stanford University. |
+| [Processors](https://github.com/clulab/processors) | A set of open-source natural language processors developed by the Computational Language Understanding (CLU) Laboratory at the University of Arizona. |
+| [SemanticVectors](https://github.com/semanticvectors/semanticvectors) | A toolkit that creates semantic WordSpace models from natural language text. |
+| [SimpleNLG](https://github.com/simplenlg/simplenlg) | A simple Java API designed to facilitate natural language generation, developed at the University of Aberdeen. |
+| [Similarity](https://github.com/shibing624/similarity) | A Java toolkit for similarity calculation methods in natural language processing. |
+| [Spark NLP](https://github.com/JohnSnowLabs/spark-nlp) | A state-of-the-art NLP library built on Apache Spark. |
+| [Twitter Text](https://github.com/twitter/twitter-text) | The library used by Twitter for tokenizing and parsing text to meet platform content expectations. |
+| [VnCoreNLP](https://github.com/vncorenlp/VnCoreNLP) | A fast and accurate Vietnamese NLP annotation pipeline. |
+| [Z-MERT](http://cs.jhu.edu/~ozaidan/zmert/) | A software tool for minimum error rate training of machine translation systems, developed by Johns Hopkins University. |
+| [Zemberek-NLP](https://github.com/ahmetaa/zemberek-nlp) | Provides Turkish natural language processing tools. |
+
+</div>
+
+## 🔍 Deep Learning
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [ADAMS](https://adams.cms.waikato.ac.nz/) | A deep learning library specifically for Java, developed by the University of Waikato. |
+| [CaffeOnSpark](https://github.com/yahoo/CaffeOnSpark) | Brings deep learning to Hadoop and Spark clusters, open sourced by Yahoo. |
+| [Deep Java Library (DJL)](https://github.com/deepjavalibrary/djl) | A high-level, engine-agnostic deep learning framework for Java, open sourced by AWS. |
+| [Deep Learning Flink](https://github.com/flink-extended/dl-on-flink) | Integrates Flink with deep learning frameworks like TensorFlow and PyTorch for distributed deep learning. |
+| [Deep Netts](https://github.com/deepnetts/deepnetts-communityedition) | A Java-based deep learning platform providing a community version of the Deep Netts engine. |
+| [DL Inference](https://github.com/wuba/dl_inference) | A general deep learning inference tool for production environments, supporting TensorFlow, PyTorch, and Caffe, open sourced by 58.com. |
+| [Eclipse Deeplearning4J](https://github.com/deeplearning4j/deeplearning4j) | A set of tools for running deep learning on the JVM, including support for distributed computing. |
+| [JDLL](https://github.com/bioimage-io/JDLL) | A Java library for running deep learning models and communicating with various deep learning frameworks. |
+| [KotlinDL](https://github.com/Kotlin/kotlindl) | A high-level deep learning API for Kotlin, inspired by Keras. |
+| [Multi Model Server (MMS)](https://github.com/awslabs/multi-model-server) | A flexible tool for serving deep learning models trained with any ML/DL framework, open sourced by AWS. |
+| [Neural Networks](https://github.com/ivan-vasilev/neuralnetworks) | Java implementation of algorithms for training deep neural networks. |
+| [OpenDL](https://github.com/guoding83128/OpenDL) | A deep learning training framework on Apache Spark. |
+| [OpenLabeler](https://github.com/kinhong/OpenLabeler) | An open-source application for annotating objects for AI and deep learning training. |
+| [Porcupine](https://github.com/Picovoice/porcupine) | A highly accurate and lightweight wake-word engine. |
+| [TensorDash](https://github.com/CleanPegasus/TensorDash) | Allows remote monitoring of deep learning model metrics and notifications for training status. |
+| [TonY](https://github.com/tony-framework/TonY) | A framework for running deep learning jobs natively on Apache Hadoop. |
+
+</div>
+
+## 🧬 Genetic Algorithms
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Chips-n-Salsa](https://github.com/cicirello/Chips-n-Salsa) | A customizable Java library for iterative, parallel, and adaptive local search algorithms. |
+| [ECJ 23](https://github.com/GMUEClab/ecj) | An evolutionary computation framework with tools for popular EC algorithms, including genetic programming, open sourced by George Mason University. |
+| [EARS](https://github.com/UM-LPM/EARS) | A framework for ranking, developing, and experimenting with evolutionary algorithms, open sourced by the University of Maribor. |
+| [EasyOpt](http://www.iescm.com/easyopt/) | A lightweight Java library for heuristic optimization algorithms like genetic algorithms and particle swarm optimization. |
+| [Eva](https://github.com/decorators-squad/eva) | A Java OOP implementation of evolutionary algorithms. |
+| [Evolving-Protozoa](https://github.com/DylanCope/Evolving-Protozoa) | Creates an environment where protozoan-like entities evolve behavior and morphology for survival and reproduction. |
+| [Genetic Algorithms](https://github.com/lagodiuk/genetic-algorithm) | A general implementation of genetic algorithms in Java. |
+| [Gin](https://github.com/gintool/gin) | A genetic improvement (GI) tool. |
+| [JCLEC](https://sourceforge.net/projects/jclec) | A general evolutionary computation framework developed in Java, open sourced by the University of Cordoba. |
+| [JGAP](https://sourceforge.net/projects/jgap/) | A genetic algorithm and genetic programming package written in Java, open sourced by Victoria University of Wellington. |
+| [JGEA](https://github.com/ericmedvet/jgea) | A modular Java framework for experimental evolutionary computation. |
+| [Jenetics](https://github.com/jenetics/jenetics) | A modern Java library for genetic algorithms, evolutionary algorithms, and genetic programming. |
+| [MergeLife](https://github.com/jeffheaton/mergelife) | A project focused on evolving complex cellular automata using genetic algorithms. |
+| [MOEAFramework](https://github.com/MOEAFramework/MOEAFramework) | A library for developing and experimenting with Multi-Objective Evolutionary Algorithms (MOEA). |
+| [Opt4J](https://github.com/SDARG/opt4j) | An open source evolutionary computation framework with optimization algorithms like evolutionary algorithms, particle swarm optimization, and simulated annealing. |
+| [Watchmaker](https://github.com/dwdyer/watchmaker) | An extensible framework for implementing platform-independent evolutionary/genetic algorithms in Java. |
+
+</div>
+
+## 🔧 Expert System
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Apache Jena](https://github.com/apache/jena) | A Java framework for building semantic web and linked data applications, originally developed by HP Labs. |
+| [EYE](https://github.com/eyereasoner/eye) | A reasoning engine that supports the semantic web layer and implements Notation3. |
+| [PowerLoom](https://www.isi.edu/isd/LOOM/PowerLoom/) | The successor to the Loom knowledge representation system, providing a language and environment for building intelligent, knowledge-based applications, developed by USC. |
+| [Tweety](https://github.com/TweetyProjectTeam/TweetyProject) | A collection of Java frameworks for logical aspects of artificial intelligence and knowledge representation. |
+
+</div>
+
+## 🔧 Constraint Solving
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [ACE](https://github.com/xcsp3team/ACE) | An open-source constraint solver written in Java, developed by the University of Artois. |
+| [Choco Solver](https://github.com/chocoteam/choco-solver) | A Java library for constraint programming, developed by Ecole Nationale Supérieure des Mines de Nantes. |
+| [CLP Java](https://github.com/quantego/clp-java) | A Java interface to the CLP linear solver, optimized for fast model building and parsing. |
+| [CPSolver](https://github.com/UniTime/cpsolver) | A local search-based framework for modeling problems using constraint programming primitives. |
+| [JaCoP](https://github.com/radsz/jacop) | A Java-based constraint solver developed by Lund University, Sweden. |
+| [JavaSMT](https://github.com/sosy-lab/java-smt) | A general API layer for accessing various SMT solvers, developed by the University of Munich. |
+| [JSCIPOpt](https://github.com/scipopt/JSCIPOpt) | A Java interface for SCIP, a fast non-commercial solver for mixed integer programming, developed by the Free University of Berlin. |
+| [JSolver](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=fff2046e43828a00c406835be84b571553b65087) | Extends Java programming with object-oriented, constraint-based declarative programming, open sourced by City University of Hong Kong. |
+| [JSprit](https://github.com/graphhopper/jsprit) | A Java toolkit for solving Traveling Salesman and Vehicle Routing Problems. |
+| [Kiwi-Solver](https://github.com/google/kiwi-solver) | A simple, extensible constraint programming solver designed for education, open sourced by Google. (Archive) |
+| [MiniCP](https://github.com/minicp/minicp) | A lightweight CP solver implemented in Java, developed by universities in the US and Belgium. |
+| [OptaPlanner](https://github.com/apache/incubator-kie-optaplanner) | A lightweight, embeddable constraint satisfaction engine that optimizes planning problems, developed by RedHat. |
+| [OptaPy](https://github.com/optapy/optapy) | An AI constraint solver for Python, optimizing various planning problems like vehicle routing and employee scheduling. |
+| [Sat4j](https://gitlab.ow2.org/sat4j/sat4j) | A Java library for solving Boolean satisfaction and optimization problems, developed by Artois University. |
+| [SMTInterpol](https://github.com/ultimate-pa/smtinterpol) | An interpolation SMT solver developed at the University of Freiburg. |
+| [Statix ​​Solver](https://mvnrepository.com/artifact/org.metaborg/statix.solver) | A constraint solver developed by Delft University of Technology. |
+| [Timefold](https://github.com/TimefoldAI/timefold-solver) | An AI solver for optimizing operations and scheduling in Java, Python, or Kotlin. |
+
+</div>
+
+## 🔍 Entity Resolution
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [JedAI](https://github.com/scify/JedAIToolkit) | An open-source, scalable Java toolkit for entity resolution, developed by KU Leuven, Université Paris-Cité, and Università degli Studi di Modena and Reggio Emilia. |
+| [ReCiter](https://github.com/wcmc-its/ReCiter) | A system for guessing which publications a person has authored in PubMed, developed by Cornell University. |
+| [Zentity](https://github.com/zentity-io/zentity) | An Elasticsearch plugin for real-time entity resolution. |
+| [Zingg](https://github.com/zinggAI/zingg) | An ML-based tool for entity resolution. |
+
+</div>
+
+## 📊 Data Science
+**Data Science**: involves extracting insights and knowledge from structured and unstructured data using various techniques such as statistical analysis, machine learning, and data visualization.
+
+## 📊 Data Science 
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Classifai](https://github.com/CertifaiAI/classifai) | A comprehensive open-source data annotation platform. |
+| [CUDF](https://github.com/rapidsai/cudf/tree/branch-24.08/java) | Provides Java bindings for CUDF to process large amounts of data on GPUs, developed by NVIDIA. |
+| [DataCleaner](https://github.com/datacleaner/DataCleaner) | A data quality toolkit for analyzing, correcting, and enriching data. |
+| [Dataframe](https://github.com/Kotlin/dataframe) | A Kotlin-based library for handling and processing tabular data, suitable for Jupyter Notebooks. |
+| [DataMelt](https://datamelt.org/) | A software suite for numerical computing, data analysis, and data visualization. |
+| [DFLib](https://github.com/dflib/dflib) | A lightweight, pure-Java DataFrame implementation. |
+| [Eclipse ICE](https://github.com/eclipse/ice) | A scientific workbench and workflow environment for computational scientists. (Archive) |
+| [ELKI](https://github.com/elki-project/elki) | An open-source data mining software for research and teaching. |
+| [Enso](https://github.com/enso-org/enso) | An interactive programming language with visual and textual representations. |
+| [Featran](https://github.com/spotify/featran) | A Scala feature transformation library for data science and machine learning, developed by Spotify. |
+| [Incanter](https://github.com/incanter/incanter) | A Clojure-based, R-like statistical computing and graphics environment. |
+| [JFreeChart](https://github.com/jfree/jfreechart) | A comprehensive charting library for Java, supporting both client and server-side applications. |
+| [Joinery](https://github.com/cardillo/joinery) | A DataFrame library for Java. |
+| [JScience](https://github.com/javolution/jscience) | Provides classes for working with scientific measurements and units. |
+| [Krangl](https://github.com/holgerbrandl/krangl) | A Kotlin library for data manipulation with a modern functional API. (Archive) |
+| [Morpheus](https://github.com/zavtech/morpheus-core) | A high-performance analytical library for large datasets on the JVM. |
+| [OpenRefine](https://github.com/OpenRefine/OpenRefine) | A tool for data cleaning, harmonization, and augmentation. |
+| [RumbleDB](https://github.com/RumbleDB/rumble) | A query engine for large and chaotic datasets, developed by ETH Zurich. |
+| [Tablesaw](https://github.com/jtablesaw/tablesaw) | A Java-based data framework and visualization library for data loading, cleaning, and analysis. |
+| [TMD](https://github.com/techascent/tech.ml.dataset) | A Clojure library for tabular data processing, similar to Python's Pandas. |
+| [XChart](https://github.com/knowm/XChart) | A lightweight data plotting library for quick and customizable chart creation. |
+
+</div>
+
+## 🔍 Anomaly Detection
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Adaptive Alerting](https://github.com/ExpediaGroup/adaptive-alerting) | A streaming anomaly detection tool with automatic model selection, developed by Expedia. |
+| [Random Cut Forest](https://github.com/aws/random-cut-forest-by-aws) | A probabilistic data structure for non-parametric anomaly detection on streaming data, developed by Amazon. |
+| [ThirdEye](https://github.com/startreedata/thirdeye) | An integrated tool for real-time time series monitoring and root cause analysis, originally from LinkedIn. |
+
+</div>
+
+## 📊 Business Intelligence
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Abixen Platform](https://github.com/abixen/abixen-platform) | A microservices-based platform for building enterprise applications with CMS integration. |
+| [ART](https://art.sourceforge.net/) | A reporting and business intelligence solution supporting SQL query results, tabular reports, and dashboards. |
+| [Helical Insight](https://github.com/helicalinsight/helicalinsight) | An open-source BI framework for insights from multiple data sources. |
+| [KNOWAGE](https://github.com/KnowageLabs/Knowage-Server) | An open-source analytics and BI suite for combining traditional and big/cloud data sources. |
+| [Poli](https://github.com/shzlw/poli) | An easy-to-use SQL reporting application for SQL enthusiasts. |
+| [SuperSonic](https://github.com/tencentmusic/supersonic) | A next-generation LLM-powered data analysis platform integrating ChatBI and HeadlessBI, developed by Tencent Music. |
+| [Wren Engine](https://github.com/Canner/wren-engine) | A standalone semantic engine designed for AI agents and semantic layer integration. |
+
+</div>
+
+
+## 🔍 Recommendation System
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [LensKit](https://github.com/lenskit/lenskit) | An implementation of collaborative filtering algorithms and tools for benchmarking, developed by the University of Minnesota. |
+| [LibRec](https://github.com/guoguibing/librec) | A Java library for recommender systems, offering state-of-the-art algorithms for rating prediction and item ranking. |
+| [RankSys](https://github.com/RankSys/RankSys) | A framework for implementing and evaluating recommendation algorithms and techniques. |
+| [Twitter Recommendation Algorithm](https://github.com/twitter/the-algorithm) | Twitter's recommendation algorithm providing a feed of tweets and content across its product interfaces. |
+
+</div>
+
+## 🧠 Fingerprint Recognition
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Android-Goldfinger](https://github.com/infinum/Android-Goldfinger) | A library for simplifying biometric authentication implementation on Android. |
+| [FingerprintIdentify](https://github.com/uccmawei/FingerprintIdentify) | An Android fingerprint authentication SDK. |
+| [SourceAFIS](https://github.com/robertvazan/sourceafis-java) | A Java port of SourceAFIS, used for fingerprint identification with 1:1 comparison and 1:N search capabilities. |
+
+</div>
+
+## 🧠 Logic Programming
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Alpha](https://github.com/alpha-asp/Alpha) | An Answer Set Programming (ASP) system for computing answer sets from logic programs, developed by the Vienna University of Technology. |
+| [Formulog](https://github.com/HarvardPL/formulog) | Extends Datalog with SMT formulas and first-order functional programming, developed by Harvard Programming Languages Research Group. |
+| [LogicNG](https://github.com/logic-ng/LogicNG) | A Java library for creating and solving Boolean and pseudo-Boolean formulas, including implementations of MiniSAT and related tools. |
+| [NeuraLogic](https://github.com/GustikS/NeuraLogic) | A framework for writing differentiable programs to encode learning scenarios, similar to deep learning frameworks. |
+
+</div>
+
+## 🔧 Multi-Agent
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Jason](https://github.com/jason-lang/jason) | A full-fledged interpreter for AgentSpeak, a logic programming language for BDI agents, developed by the Federal University of Santa Catarina. |
+| [JaCaMo](https://github.com/jacamo-lang/jacamo) | A development platform for Multi-Agent Oriented Programming (MAOP), integrating various tools and languages. |
+| [Yggdrasil](https://github.com/Interactions-HSG/yggdrasil) | A hypermedia multi-agent system (MAS) platform built with Vert.x, developed by the Interactions research team at the University of St. Gallen. |
+
+</div>
+
+## 🔧 Miscellaneous Tools and Libraries
+
+**🔧 Miscellaneous Tools and Libraries**: These libraries serve specialized or niche functions, such as configuration file parsing, license management, and data validation, among others. They often complement other libraries in specific contexts or enhance the functionality of a primary library by adding additional capabilities.
+
+## 📚 Libraries
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Apache Commons Testing](https://github.com/apache/commons-testing) | A package of Java utility classes for testing. |
+| [Component Test Framework](https://github.com/lydtechconsulting/component-test-framework) | A library that allows component testing of Spring Boot applications. |
+| [ConsoleCaptor](https://github.com/Hakky54/console-captor) | A library that allows you to easily capture console output for unit testing. |
+| [Courgette-JVM](https://github.com/prashant-ramcharan/courgette-jvm) | An extension for Cucumber that adds the ability to run Cucumber tests in parallel at the feature level or scenario level. |
+| [EasyTest](https://github.com/EaseTech/easytest-core) | A library for performing data-driven testing in Java. |
+| [EqualsVerifier](https://github.com/jqno/equalsverifier) | Verifies that the contracts of equals and hashCode methods in a class are met in unit testing. |
+| [Freud](https://github.com/LMAX-Exchange/freud) | A framework for writing static analysis tests, developed by LMAX, a British foreign exchange trading company. |
+| [Hsac-Fitnesse-Fixtures](https://github.com/fhoeben/hsac-fitnesse-fixtures) | Assists in testing web services and applications by providing utilities for defining and running tests. |
+| [HtmlUnit](https://github.com/HtmlUnit/htmlunit) | A GUI-free browser for Java programs, useful for testing. |
+| [JsonUnit](https://github.com/lukas-krecan/JsonUnit) | Simplifies JSON comparison in tests. |
+| [Karibu-Testing](https://github.com/mvysny/karibu-testing) | Server-side, browser-less, and container-less unit testing for Vaadin. |
+| [LogCaptor](https://github.com/Hakky54/log-captor) | Captures logging entries for unit and integration testing purposes. |
+| [Mutability Detector](https://github.com/MutabilityDetector/MutabilityDetector) | Analyzes Java classes to report whether an instance of a given class is immutable. |
+| [Oleaster](https://github.com/mscharhag/oleaster) | Allows writing JUnit tests similarly to Jasmine tests. |
+| [OpenPojo](https://github.com/OpenPojo/openpojo) | Simplifies POJO testing in Java. |
+| [OpenTest4J](https://github.com/ota4j-team/opentest4j) | A project initiated by the JUnit 5 team, providing a minimal common foundation for testing frameworks. |
+| [Overcast](https://github.com/xebialabs/overcast) | Java utility classes for writing tests against cloud-hosted environments. |
+| [POJO-TESTER](https://github.com/sta-szek/pojo-tester) | A Java library that makes POJO testing easier. |
+| [SikuliRobot](https://github.com/rainmanwy/robotframework-SikuliLibrary) | Provides keywords for testing UI through Sikuli in the Robot Framework. |
+| [Skippy](https://github.com/skippy-io/skippy) | A test impact analysis and predictive test selection framework for the JVM. |
+| [SocketTest](https://github.com/akshath/SocketTest) | A Java tool for socket testing, useful for testing servers or clients that use TCP or UDP protocols. |
+| [Specnaz](https://github.com/skinny85/specnaz) | A library for writing RSpec/Jasmine/Mocha/Jest style specifications in Java, Kotlin, and Groovy. |
+| [Spring Addons](https://github.com/ch4mpy/spring-addons) | Provides OAuth2 resource server configuration and testing for Spring. |
+| [SQL Logic Test](https://github.com/hydromatic/sql-logic-test) | A suite of over 7 million tests for testing core aspects of SQL. |
+| [StackSrc](https://github.com/laech/java-stacksrc) | Decorates the stack trace of test failures to make them more useful. |
+| [Tzatziki](https://github.com/Decathlon/tzatziki) | A collection of ready-made Cucumber steps for implementing TDD Java microservices, focusing on an outside-in testing strategy. |
+</div>
+
+## 📄 JSON Library
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Ason](https://github.com/afollestad/ason) | A library aimed at making JSON very easy to interact with in Java. (Archive) |
+| [Avaje JsonB](https://github.com/avaje/avaje-jsonb) | A fast, reflection-free JSON binding library generated via APT source code. |
+| [Boon](https://github.com/boonproject/boon) | A simple Java-based JSON toolkit for encoding or decoding JSON data efficiently. |
+| [BSON4Jackson](https://github.com/michel-kraemer/bson4jackson) | Adds support for BSON to the Jackson JSON processor. |
+| [DSL-JSON](https://github.com/ngs-doo/dsl-json) | The fastest JVM JSON library with advanced compile-time data binding support. |
+| [Eclipse Parsson](https://github.com/eclipse-ee4j/parsson) | Implementation of the Jakarta JSON Processing specification. |
+| [Eclipse Yasson](https://github.com/eclipse-ee4j/yasson) | A framework providing a standard binding layer between Java classes and JSON documents. |
+| [Fastjson](https://github.com/alibaba/fastjson) | A high-performance JSON library open sourced by Alibaba. |
+| [Functional JSON](https://github.com/MAIF/functional-json) | Parse and write JSON in a functional way. |
+| [Genson](https://github.com/owlike/genson) | A complete JSON Java transformation library that provides full data binding, streaming, and more. |
+| [Gson](https://github.com/google/gson) | A Java library for converting Java objects to JSON and vice versa, open sourced by Google. |
+| [HikariJSON](https://github.com/brettwooldridge/HikariJSON) | A high-performance JSON parser. |
+| [Hjson Java](https://github.com/hjson/hjson-java) | A relaxed configuration file format for humans, with more comments and fewer errors. |
+| [Hope](https://github.com/santanusinha/hope) | A high-level language for predicate evaluation on JSON in Java. |
+| [Instagram JSON Parser](https://github.com/Instagram/ig-json-parser) | A fast JSON parser for Java projects, open sourced by Instagram. (Archive) |
+| [Jackson](https://github.com/FasterXML/jackson) | The most widely used JSON library in Java, and the default JSON processor in Spring. |
+| [Jackson-JQ](https://github.com/eiiches/jackson-jq) | A pure Java jq implementation for Jackson JSON processor. |
+| [Jakarta JSON Processing](https://github.com/jakartaee/jsonp-api) | Provides a portable API for parsing, generating, transforming, and querying JSON documents. |
+| [JMESPath-Java](https://github.com/burtcorp/jmespath-java) | A Java implementation of JMESPath, a query language for JSON. |
+| [Jolt](https://github.com/bazaarvoice/jolt) | A JSON to JSON transformation library, open sourced by Bazaarvoice. |
+| [JSON Canonicalization](https://github.com/cyberphone/json-canonicalization) | A Java implementation of JSON Canonicalization Scheme. |
+| [JSON Compare](https://github.com/fslev/json-compare) | A Java library for comparing JSON. |
+| [JSON-Flattener](https://github.com/wnameless/json-flattener) | A library that flattens nested JSON objects and can also unflatten them. |
+| [JSON-Java](https://github.com/stleary/JSON-java) | A reference implementation for parsing and generating JSON documents in Java. |
+| [JSON-LD Java](https://github.com/jsonld-java/jsonld-java) | A Java implementation of the JSON-LD 1.0 and JSON-LD-API 1.0 specifications. |
+| [JSON-Lib](https://github.com/kordamp/json-lib) | A Java library for converting Beans, Maps, Collections, Java Arrays, and XML to JSON and back. |
+| [JSON-IO](https://github.com/jdereg/json-io) | A small, lightweight library for converting between JSON and Java objects. |
+| [JSON Patch](https://github.com/java-json-tools/json-patch) | An implementation of RFC 6902 JSON Patch and RFC 7386 JSON Merge Patch. |
+| [JSON-RPC](https://github.com/briandilley/jsonrpc4j) | Tools for implementing JSON-RPC for the Java programming language. |
+| [JSON Schema Generator](https://github.com/victools/jsonschema-generator) | A tool for generating JSON schemas from Java classes. |
+| [JSON Schema Validator](https://github.com/everit-org/json-schema) | A Java implementation of JSON Schema. |
+| [JSON Simple](https://github.com/fangyidong/json-simple) | A simple Java library for parsing and generating JSON. |
+| [JsonPath](https://github.com/json-path/JsonPath) | A Java implementation of XPath for JSON, allowing you to navigate through JSON objects. |
+| [JsonUnit](https://github.com/lukas-krecan/JsonUnit) | Simplifies JSON comparison in tests. |
+| [JsonWriter](https://github.com/bluelinelabs/LoganSquare) | JSON parsing and serialization library based on Jackson's streaming parser. |
+| [JWKS RSA](https://github.com/lestrrat-go/jwx) | A library for handling JSON Web Keys in Java. |
+| [JsonSurfer](https://github.com/jsurfer/JsonSurfer) | A high-performance streaming JSON processor in Java. |
+| [Moshi](https://github.com/square/moshi) | A modern JSON library for Android and Java, created by Square. |
+| [Nashorn JSON](https://github.com/openjdk/nashorn) | The JavaScript engine Nashorn, part of the JDK, can be used to work with JSON data in Java. |
+| [Minimal JSON](https://github.com/ralfstx/minimal-json) | A fast and minimal memory footprint JSON parser and generator in Java. |
+| [Org.JSON](https://github.com/stleary/JSON-java) | A reference implementation for parsing and generating JSON documents in Java. |
+| [Protocol Buffers - JSON](https://github.com/protocolbuffers/protobuf) | A Google library for serializing structured data, with JSON encoding support. |
+| [Qute Json](https://github.com/qutebrowser/qutebrowser) | A Java library that provides a JSON extension for the Qute template engine. |
+| [RapidJson](https://github.com/Tencent/rapidjson) | A fast JSON parser/generator for C++ with optional Java binding. |
+| [Storm JSON](https://github.com/nathanmarz/storm) | A tool for real-time computation on JSON objects in Java. |
+| [Jolt](https://github.com/bazaarvoice/jolt) | A JSON to JSON transformation library, open sourced by Bazaarvoice. |
+| [Swagger-parser](https://github.com/swagger-api/swagger-parser) | A parser for Swagger API specifications, using JSON. |
+| [Tapestry JSON](https://github.com/apache/tapestry-5) | Provides JSON support for Apache Tapestry web applications. |
+</div>
+
+Sure! Below is the table format for the PDF and Excel libraries listed in alphabetical order.
+
+### 📄 PDF Library
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Apache FOP](https://xmlgraphics.apache.org/fop/) | An XSL-FO driven print formatter and output independent formatter. |
+| [Apache PDFBox](https://github.com/apache/pdfbox) | An open-source Java tool for processing PDF documents. |
+| [Boxable](https://github.com/dhorions/boxable) | A library for easily creating tables in PDF documents. |
+| [Briss](https://github.com/mbaeuerle/Briss-2.0) | A small application for cropping PDF files. |
+| [ComPDFKit](https://github.com/ComPDFKit/compdfkit-api-java) | A powerful PDF library for building viewers and editors with features like annotation, signing, and encryption. |
+| [EasyTable](https://github.com/vandeseer/easytable) | A small project built on Apache PDFBox for simple table creation in PDFs. |
+| [HTMLToPDF](https://github.com/wooio/htmltopdf-java) | A Java-based project for converting HTML documents to PDF. |
+| [ICEpdf](https://github.com/pcorless/icepdf) | A pure Java PDF document rendering and viewing solution. |
+| [iText](https://github.com/itext/itext7) | A high-performance library for creating, adapting, and maintaining PDF documents. |
+| [Java WkHtmlToPdf Wrapper](https://github.com/jhonnymertz/java-wkhtmltopdf-wrapper) | A Java-based wrapper for the WkHtmlToPdf command-line tool. |
+| [JSignPdf](https://github.com/intoolswetrust/jsignpdf) | A Java application for adding digital signatures to PDF documents. |
+| [OPENHTMLTOPDF](https://github.com/danfickle/openhtmltopdf) | A Java library for rendering well-formed XML/XHTML using CSS 2.1, outputting to PDF or images. |
+| [OpenPDF](https://github.com/LibrePDF/OpenPDF) | An open-source Java library for PDF files. |
+| [OrsonPDF](https://github.com/jfree/orsonpdf) | A PDF generation library for Java using the Java2D drawing API. |
+| [PDF Converter](https://github.com/jmrozanec/pdf-converter) | A Java library for converting PDF files to various formats like EPUB, TXT, PNG, JPG, and ZIP. |
+| [PDF Layout Text Stripper](https://github.com/JonathanLink/PDFLayoutTextStripper) | Converts PDF files to text files while preserving the layout. |
+| [PDF Studio Viewer](https://www.qoppa.com/pdfstudioviewer/) | A reliable and easy-to-use cross-platform PDF reader. |
+| [PDF Test](https://github.com/codeborne/pdf-test) | A PDF test library for validating PDF content. |
+| [PDF Util](https://github.com/vinsguru/pdf-util) | A library for comparing two PDF files. |
+| [PDF2DOM](https://github.com/radkovo/Pdf2Dom) | A PDF parser that converts documents to an HTML DOM representation. |
+| [PDF2JSON](https://github.com/modesty/pdf2json) | A PDF file parser that converts PDF binary files into text-based JSON. |
+| [PdfCompare](https://github.com/red6/pdfcompare) | A simple Java library for comparing two PDF files. |
+| [PdfRenderer](https://github.com/katjas/PDFrenderer) | A Java library for rendering PDF documents to the screen using Java2D. |
+| [PDFsam](https://github.com/torakiki/pdfsam) | A desktop application for splitting, merging, mixing, rotating PDF files, and extracting pages. |
+| [Sejda](https://github.com/torakiki/sejda) | A task-oriented PDF editing SDK library written in Java. |
+| [Staplr](https://github.com/pridiltal/staplr) | A library providing functions for manipulating PDF files. |
+| [Stirling-PDF](https://github.com/Frooodle/Stirling-PDF) | A powerful locally hosted web-based PDF manipulation tool with various operations like splitting, merging, and compressing. |
+| [Tabula](https://github.com/tabulapdf/tabula-java) | A library for extracting tables from PDF files. |
+| [TrapRange](https://github.com/thoqbk/traprange) | A data method for detecting table contents and extracting them from a PDF file. |
+| [VeraPDF](https://github.com/veraPDF/veraPDF-library) | An industry-supported open-source PDF/A validation library. |
+
+</div>
+
+### 📈 Excel Library
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Apache POI](https://github.com/apache/poi) | A Java library for reading and writing Office binary and OOXML file formats. |
+| [AutoExcel](https://github.com/feng-haitao/auto-excel) | A fast import and export tool for Excel. |
+| [DsExcel Java](https://github.com/GrapeCity/DsExcel-Java) | A high-speed Java Excel spreadsheet API library. |
+| [Excel Streaming Reader](https://github.com/monitorjbl/excel-streaming-reader) | An easy-to-use implementation of a streaming Excel reader using Apache POI. |
+| [ExcelCompare](https://github.com/na-ka-na/ExcelCompare) | A command-line tool for comparing Excel/Open document (ODS) spreadsheets. |
+| [FastExcel](https://github.com/dhatim/fastexcel) | A library for quickly generating and reading large Excel files. |
+| [JXLS](https://github.com/jxlsteam/jxls) | A small and easy-to-use Java library for generating Excel reports using Excel template files. |
+| [Keikai](https://github.com/keikai/dev-ref) | A web application for building spreadsheet-driven applications. |
+| [MemPOI](https://github.com/firegloves/MemPOI) | A library that simplifies exporting from a database to Excel files using Apache POI. |
+| [Poiji](https://github.com/ozlerhakan/poiji) | A small thread-safe Java library that maps Excel worksheets to Java classes. |
+| [Xcelite](https://github.com/eBay/xcelite) | An ORM-like Java library that easily serializes and deserializes Java Beans to/from Excel spreadsheets, open-sourced by eBay. |
+| [ZK Spreadsheet](https://github.com/zkoss/zkspreadsheet) | An open-source, embeddable, web-based online spreadsheet with rich Excel-like functionality in the browser. |
+| [ZeroCell](https://github.com/creditdatamw/zerocell) | A simple API for loading data from Excel into POJO using annotations. |
+
+</div>
+
+
+### 📁 CSV Library
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [AdaptiveTableLayout](https://github.com/Cleveroad/AdaptiveTableLayout) | A library for reading, editing, and writing CSV files. |
+| [Charred](https://github.com/cnuernber/charred) | An efficient character-based file parsing library for CSV and JSON formats. |
+| [CSVeed](https://github.com/42BV/CSVeed) | A Java library that works with CSV files and exposes them as rows or Java Beans. |
+| [Daff](https://github.com/paulfitz/daff) | A library for comparing tables and generating summaries of their differences. |
+| [DeCS](https://github.com/diergo/decs) | A simple Java 8 CSV parser and generator. |
+| [Deephaven CSV](https://github.com/deephaven/deephaven-csv) | A high-performance, column-oriented, type-inferred CSV parser. |
+| [FastCSV](https://github.com/osiegmar/FastCSV) | A lightning-fast, dependency-free Java CSV library that complies with RFC standards. |
+| [Jackson Dataformats Text](https://github.com/FasterXML/jackson-dataformats-text) | Support for reading and writing CSV-encoded data through the Jackson abstraction. |
+| [Java CSV](http://sourceforge.net/projects/javacsv) | A small, fast, open-source Java library for reading and writing CSV and delimited text files. |
+| [kotlin CSV](https://github.com/doyaaaaaken/kotlin-csv) | A pure Kotlin library for reading and writing CSV files. |
+| [Scala CSV](https://github.com/tototoshi/scala-csv) | CSV reading and writing library for Scala. |
+| [Super CSV](https://github.com/super-csv/super-csv) | A fast, programmer-friendly open-source library for reading and writing CSV files. |
+| [TomlJ](https://github.com/tomlj/tomlj) | A complete TOML parser. |
+| [UniVocity Parsers](https://github.com/uniVocity/univocity-parsers) | A fast and comprehensive library for CSV and fixed-width records parsing. |
+
+</div>
+
+### 📄 Word Library
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Documents4j](https://github.com/documents4j/documents4j) | A Java library for converting documents to other formats. |
+| [Docx Stamper](https://github.com/thombergs/docx-stamper) | A Java template engine for DOCX documents. |
+| [Docx4j](https://github.com/plutext/docx4j) | An open-source library for creating, editing, and saving OpenXML packages, including DOCX, PPTX, and XLSX. |
+| [Mammoth](https://github.com/mwilliamson/java-mammoth) | Converts DOCX documents to HTML. |
+| [POI-TL](https://github.com/Sayi/poi-tl) | A Word template engine for generating documents based on templates and data. |
+
+</div>
+
+### 🔧 Toml Library
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Toml4j](https://github.com/mwanji/toml4j) | A TOML 0.4.0 parser for Java. |
+| [TomlJ](https://github.com/tomlj/tomlj) | A complete TOML parser. |
+
+</div>
+
+### 🌐 HTML Library
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [AttoParser](https://github.com/attoparser/attoparser) | A Java parser for XML and HTML tags. |
+| [CSSBox](https://github.com/radkovo/CSSBox) | An XHTML/CSS rendering engine written in JavaScript. |
+| [Fruit](https://github.com/graycreate/Fruit) | A library for converting HTML to Java objects. |
+| [HTMLParser](https://github.com/validator/htmlparser) | A Java implementation of the HTML parsing algorithm. |
+| [J2Html](https://github.com/tipsy/j2html) | Java to HTML generator. |
+| [JFiveParse](https://github.com/digitalfondue/jfiveparse) | A Java HTML 5 compliant parser. |
+| [Jspoon](https://github.com/DroidsOnRoids/jspoon) | A Java library for parsing HTML into Java objects based on CSS selectors. |
+| [JTidy](https://github.com/jtidy/jtidy) | A Java port of HTML Tidy for syntax checking and pretty-printing. |
+| [NekoHTML](https://github.com/codelibs/nekohtml) | HTML parser and tag balancer. |
+| [OWASP Java HTML Sanitizer](https://github.com/owasp/java-html-sanitizer) | A fast HTML sanitizer for including third-party HTML while preventing XSS. |
+| [RenderSnake](https://github.com/emicklei/rendersnake) | A Java library for generating HTML using Java. |
+
+</div>
+
+## 📄 XML Library
+
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Aalto-XML](https://github.com/FasterXML/aalto-xml) | An ultra-high-performance, next-generation Stax XML processor implementing both basic Stax API and Stax2 API extensions. |
+| [Apache Commons Digester](https://github.com/apache/commons-digester) | Configures XML-to-Java object mapping with rules triggered by specific patterns of nested XML elements. |
+| [Apache Commons JXPath](https://github.com/apache/commons-jxpath) | Java-based XPath 1.0 implementation that can inspect/modify Java object graphs and mixed Java/XML structures. |
+| [Apache Commons SCXML](https://github.com/apache/commons-scxml) | A Java implementation of a statechart XML engine. |
+| [Apache Santuario](https://github.com/apache/santuario-xml-security-java) | Provides implementations of major XML security standards. |
+| [BaseX](https://github.com/BaseXdb/basex) | An XML database to store compressed XML data with efficient XPath and XQuery implementations. |
+| [Dom4j](https://github.com/dom4j/dom4j) | An open-source framework for processing XML with support for XPath, DOM, SAX, JAXP, and the Java platform. |
+| [FlyingSaucer](https://github.com/flyingsaucerproject/flyingsaucer) | A Java library for rendering arbitrary XML or XHTML using CSS 2.1, outputting to Swing panels, PDF, and images. |
+| [GsonXml](https://github.com/stanfy/gson-xml) | A small library that enables XML deserialization using the Google Gson library. (Archive) |
+| [Jaxb RI](https://github.com/eclipse-ee4j/jaxb-ri) | Eclipse implementation of JAXB. |
+| [Jackson-XML](https://github.com/FasterXML/jackson-dataformat-xml) | An extension to the Jackson JSON processor adding support for XML serialization and deserialization. |
+| [JDOM](https://github.com/hunterhacker/jdom) | A library simplifying XML operations in Java. |
+| [Jcabi-XML](https://github.com/jcabi/jcabi-xml) | Java library for XML parsing, conversion, printing, and validation. |
+| [jOOX](https://github.com/jOOQ/jOOX) | A simple wrapper around the org.w3c.dom package for streaming creation and manipulation of XML documents. |
+| [Jaxb Tools](https://github.com/highsource/jaxb-tools) | JAXB2 Maven plugin for XML schema compilation. |
+| [Jaxen](https://github.com/jaxen-xpath/jaxen) | XPath engine for Java. |
+| [Jettison](https://github.com/jettison-json/jettison) | A Java library for converting XML to and from JSON using StAX, supporting Mapped and BadgerFish conventions. |
+| [Jcabi-XML](https://github.com/jcabi/jcabi-xml) | Java XML parsing, conversion, printing, and validation library. |
+| [Json2Xml](https://github.com/lukas-krecan/json2xml) | A simple implementation of JSON to XML conversion. |
+| [SitemapGen4j](https://github.com/dfabulich/sitemapgen4j) | A library for generating XML sitemaps in Java. |
+| [Simple-XMl](http://simple.sourceforge.net) | A high-performance Java XML serialization and configuration framework. |
+| [TikXML](https://github.com/Tickaroo/tikxml) | Fast XML parser for Java and Android. |
+| [Validator](https://github.com/itplr-kosit/validator) | An XML validation engine used to validate and process XML files in various formats. |
+| [Woodstox](https://github.com/FasterXML/woodstox) | Stax XML API (javax.xml.stream) implementation. |
+| [XMLBeam](https://github.com/SvenEwald/xmlbeam) | Process XML using annotations or XPath in your code. |
+| [XmlToJson](https://github.com/smart-fun/XmlToJson) | Android library for converting XML to JSON and vice versa. |
+| [Xembly](https://github.com/yegor256/xembly) | An assembly-like imperative programming language for XML document manipulation. |
+| [XDocReport](https://github.com/opensagres/xdocreport) | Merges XML documents created with Office, OpenOffice, or LibreOffice with Java models to generate reports and convert to other formats. |
+| [XSoup](https://github.com/code4craft/xsoup) | XPath selector based on JSoup. |
+| [XsdParser](https://github.com/xmlet/XsdParser) | A library that parses XML definition files (.xsd) into lists of Java objects. |
+| [XStream](https://github.com/x-stream/xstream) | A library for converting between Java and XML. |
+| [Xjx](https://github.com/jonas-grgt/xjx) | A lightweight XML serialization and deserialization library for Java. |
+| [XmlResolver](https://github.com/xmlresolver/xmlresolver) | Provides high-level implementations of SAX EntityResolver, Transformer URIResolver, and NamespaceResolver. |
+
+</div>
+
+## 📝 YML Library
+
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [BoostedYAML](https://github.com/dejvokep/boosted-yaml) | A simple, easy-to-use, standalone Java library that provides an enhanced experience when working with YAML documents. |
+| [EO-YAML](https://github.com/decorators-squad/eo-yaml) | A YAML library for Java 8 and later. |
+| [Psych](https://github.com/ruby/psych) | A YAML parser and emitter. |
+| [SnakeYAML](https://bitbucket.org/asomov/snakeyaml/overview) | A YAML parsing library for Java. |
+| [YamlBeans](https://github.com/EsotericSoftware/yamlbeans) | YamlBeans simplifies the serialization and deserialization of Java object graphs to and from YAML. |
+
+</div>
+
+## 🔐 License Library
+
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Candlepin](https://github.com/candlepin/candlepin) | An open-source subscription and licensing engine designed to manage software subscriptions from both the vendor and customer perspectives. |
+| [FOSSLight](https://github.com/fosslight/fosslight) | Manages open source, licenses, and vulnerabilities for compliant and secure software usage. |
+| [HawkEye](https://github.com/korandoru/hawkeye) | Simple license header checker and formatter available in multiple distribution forms. |
+| [License3j](https://github.com/verhas/License3j) | A free and open-source Java library for managing license files in Java programs requiring technical license management. |
+| [Licensius](https://github.com/decebals/licensius) | A Java micro-licensing framework. |
+| [Solicitor](https://github.com/devonfw/solicitor) | A tool to manage software dependency licenses. |
+| [TrueLicense](https://github.com/christian-schlichtherle/truelicense) | An open-source engine for license management on the JVM. |
+
+</div>
+
+
+## 📝 Markdown Library
+
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Commonmark-Java](https://github.com/commonmark/commonmark-java) | A Java library for parsing and rendering Markdown text according to the CommonMark specification. |
+| [Intellij-Markdown](https://github.com/JetBrains/markdown) | A multi-platform Markdown processor written in Kotlin. |
+| [Java Markdown Generator](https://github.com/Steppschuh/Java-Markdown-Generator) | Java library for generating Markdown. |
+| [Markdown To AsciiDoc](https://github.com/markdown-asciidoc/markdown-to-asciidoc) | A small, lightweight Markdown to AsciiDoc converter written in Java based on Pegdown. |
+| [MarkdownJ](https://github.com/myabc/markdownj) | MarkdownJ is a pure Java port of Markdown, a text-to-HTML conversion tool written by John Gruber. |
+| [MarkdownPapers](https://github.com/lruiz/MarkdownPapers) | Markdown parser and converter implemented in Java. |
+| [Pegdown](https://github.com/sirthias/pegdown) | A pure-Java Markdown processor based on a parboiled PEG parser supporting a variety of extensions. |
+| [TxtMark](https://github.com/rjeschke/txtmark) | A fast and lightweight Markdown processor in pure Java. |
+</div>
+
+## 📚 Document Library
+
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [AlgART-TIFF](https://github.com/Daniel-Alievsky/algart-tiff) | Java library that provides full read/write support for TIFF files. |
+| [Apron](https://github.com/poiu-de/apron) | Small library for reading and writing Java .properties files. |
+| [CDC](https://gitlab.com/cdc-java/cdc-office) | Tool class related to Office documents. |
+| [DD PList](https://github.com/3breadt/dd-plist) | Java library providing support for ASCII, XML, and binary property lists. |
+| [DotEnv](https://github.com/cdimascio/dotenv-java) | Dependency-free, pure-Java port of the Ruby DotEnv project for loading environment variables from .env files. |
+| [Dotenv Kotlin](https://github.com/cdimascio/dotenv-kotlin) | Port of the Ruby dotenv project to Java and Kotlin. |
+| [EPUBCheck](https://github.com/w3c/epubcheck) | Official conformance checker for EPUB publications, open sourced by W3C. |
+| [Epublib](https://github.com/psiegman/epublib) | Java library for reading and writing EPUB files. |
+| [Fugerit Doc](https://github.com/fugerit-org/fj-doc) | Framework for generating documentation in various output formats starting from an XML document metamodel. |
+| [HCL4j](https://github.com/bertramdev/hcl4j) | Parser for the Hashicorp Configuration Language on the JVM. |
+| [JDBF](https://github.com/iryndin/jdbf) | Java utilities for reading and writing DBF files. |
+| [JElf](https://github.com/fornwall/jelf) | Java library for parsing ELF files. |
+| [JODConverter](https://github.com/jodconverter/jodconverter) | Automates document conversions using LibreOffice or Apache OpenOffice. |
+| [JPMML-Evaluator](https://github.com/jpmml/jpmml-evaluator) | Java library for generating and consuming PMML documents. |
+| [Jcabi Manifests](https://github.com/jcabi/jcabi-manifests) | Java library for conveniently reading MANIFEST.MF files available in the classpath. |
+| [JavaDBF](https://github.com/albfernandez/javadbf) | Java library for reading and writing Xbase (dBase/DBF) files. |
+| [Java netCDF](https://github.com/Unidata/netcdf-java) | Java library for accessing scientific data from various file formats, including netCDF, HDF, GRIB, BUFR, etc. |
+| [JglTF](https://github.com/javagl/JglTF) | Java library related to glTF. |
+| [LASzip4j](https://github.com/mreutegg/laszip4j) | Java port of the LASzip library. |
+| [LibPST](https://github.com/rjohnsondev/java-libpst) | Library for reading PST files in Java. |
+| [MPXJ](https://github.com/joniles/mpxj) | Enables reading and writing of project plans in various file formats. |
+| [MSLinks](https://github.com/DmitriiShamrikov/mslinks) | Library for parsing and creating Windows shortcut files (.lnk). |
+| [Meico](https://github.com/cemfi/meico) | Converter framework for MEI files, open sourced by the University of Paderborn. |
+| [ODF Toolkit](https://github.com/tdf/odftoolkit) | Java modules for programmatic creation, scanning, and manipulation of ODF documents. |
+| [Obj](https://github.com/javagl/Obj) | Simple Wavefront OBJ file loader and writer. |
+| [Org-Java](https://github.com/orgzly/org-java) | Org mode file Java parser. |
+| [OST2PST](https://github.com/mkorthof/ost2pst) | Convert Outlook OST files to PST format. |
+| [SODS](https://github.com/miachm/SODS) | Simple Java library for working with ODS files. |
+| [Silencio](https://github.com/damianszczepanik/silencio) | Java library for converting XML, JSON, YAML, Properties, and other formats. |
+| [TIFF Java](https://github.com/ngageoint/tiff-java) | Java library for reading and writing TIFF files, open sourced by the National Geospatial-Intelligence Agency. |
+| [WaveAccess](https://github.com/sintrb/WaveAccess) | Java library for reading and writing wave files (.wav). |
+
+</div>
+
+## 🔍 Specialized Libraries
+
+**Specialized libraries**: provide focused functionality, such as reflection, date and time handling, mathematical computations, ontology management, semantic web integration, and knowledge graph operations.
+
+## 🔍 Reflection Library
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Apache Commons ClassScan](https://commons.apache.org/sandbox/commons-classscan) | Provides information about all classes available at runtime, whether the class has been loaded or not. |
+| [FEST-Reflect](https://github.com/alexruiz/fest-reflect) | Offers a compact, type-safe fluent API for easy Java reflection usage. |
+| [Jandex](https://github.com/smallrye/jandex) | A space-efficient Java class file indexer and offline reflection library. |
+| [jOOR](https://github.com/jOOQ/jOOR) | A fluent API library for intuitive access to the Class structure via reflection. |
+| [Lambda-Factory](https://github.com/Hervian/lambda-factory) | Provides a fast alternative to reflection-based method invocation. |
+| [Mirror](https://github.com/Genymobile/mirror) | Easy reflection for Java and Android. |
+| [Mirror](https://github.com/vidageek/mirror) | A simple DSL layer over the Java reflection API. |
+| [Objenesis](https://github.com/easymock/objenesis) | Bypasses constructors when creating objects. |
+| [Paranamer](https://github.com/paul-hammant/paranamer) | Allows access to parameter names of non-private methods and constructors at runtime. |
+| [ReflectASM](https://github.com/EsotericSoftware/reflectasm) | Provides high-performance reflection by using code generation. |
+| [Reflections](https://github.com/ronmamo/reflections) | Scans and indexes classpath metadata for reverse transitive queries at runtime. |
+| [Reflection Util](https://github.com/cronn/reflection-util) | Simplifies common use cases of Java reflection. |
+| [Reflecto](https://github.com/cariochi/reflecto) | Simplifies deep reflection tasks with a powerful Java reflection library. |
+| [Jeflect](https://github.com/RomanQed/jeflect) | A set of utilities designed to interact with and speed up reflection. |
+
+</div>
+
+## 📅 Date and Time
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Adhan Kotlin](https://github.com/batoulapps/adhan-kotlin) | A well-tested library for calculating Islamic prayer times. |
+| [Biweekly](https://github.com/mangstadt/biweekly) | An iCalendar library written in Java. |
+| [BusinessCalendar4J](https://github.com/yusuke/businessCalendar4J) | A 100% pure Java business calendar library with no additional dependencies. |
+| [Business Hours Java](https://github.com/dhatim/business-hours-java) | Helps handle business hours like "Monday to Friday 9am to 6pm, Saturday 9am to 12pm". |
+| [Clocks](https://github.com/tim-group/clocks) | Java.time.Clock implementation for testing and Joda-Time integration. |
+| [Date4j](https://github.com/IanDarwin/date4j) | A lightweight replacement for Java's built-in date class. |
+| [DateParser](https://github.com/sisyphsu/dateparser) | A smart, high-performance date and time parser library supporting hundreds of patterns. |
+| [GoodTimes](https://github.com/bdkosher/goodtimes) | Java 8 date/time API enhancements for Groovy. |
+| [iCal4j](https://github.com/ical4j/ical4j) | A Java library for reading and writing iCalendar data streams as defined in RFC2445. |
+| [Internet Time Utility](https://github.com/ethlo/itu) | An extremely fast parser and formatter for ISO format date times. |
+| [Jollyday](https://github.com/focus-shift/jollyday) | A Java library for querying public holidays, supporting over 70 countries. |
+| [Jollyday](https://github.com/svendiedrichsen/jollyday) | Determines holidays for a given year, country/name, and optionally state/region. |
+| [Joda-Time](https://github.com/JodaOrg/joda-time) | A high-quality replacement for the Java date and time classes. |
+| [Lib-Recur](https://github.com/dmfs/lib-recur) | Parses and iterates over repeated strings defined in RFC 5545 and RFC 2445. |
+| [Prettytime](https://github.com/ocpsoft/prettytime) | Social-style date and time formatting for Java. |
+| [Sunrise/SunsetLib Java](https://github.com/mikereedell/sunrisesunsetlib-java) | Java library for calculating local sunrise and sunset based on latitude/longitude and date. |
+| [ThreeTen](https://github.com/ThreeTen/threetenbp) | Backports of Java 8 date-time classes to Java 6 and 7. |
+| [ThreeTen-Extra](https://github.com/ThreeTen/threeten-extra) | Provides additional date-time classes to supplement the classes in JDK 8. |
+| [TickTock](https://github.com/ZacSweers/ticktock) | A time zone data management library for the JVM and Android, targeting the java.time.* API in Java 8 or later. (Archive) |
+| [TimeAgo](https://github.com/marlonlom/timeago) | A simple Java library for displaying dates as relative times in various languages. |
+| [TimeFlow](https://github.com/stawirej/timeflow) | Provides a Java clock that can be adjusted in tests without using dependency injection. |
+| [Tyme4j](https://github.com/6tail/tyme4j) | A powerful calendar tool library supporting Gregorian and lunar calendars, constellations, zodiac signs, solar terms, and holidays. |
+| [Zmanim](https://github.com/KosherJava/zmanim) | An API for calculating astronomical times, including Jewish religious times for prayers. |
+
+</div>
+
+
+## 🔢 Mathematical Library
+
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Apache Commons Math](https://github.com/apache/commons-math) | Provides a range of basic mathematical algorithms and advanced functions. |
+| [Apache Commons Numbers](https://github.com/apache/commons-numbers) | Implements number types and utilities. |
+| [Apfloat](https://github.com/mtommila/apfloat) | High-performance arbitrary-precision arithmetic library for calculations with millions of digits. |
+| [BigDecimalMath](https://github.com/eobermuhlner/big-math) | High-level BigDecimal math functions with arbitrary precision. |
+| [BigDecimal Utils](https://github.com/mortezaadi/bigdecimal-utils) | Utility library for comparing BigDecimals. |
+| [Catalano](https://github.com/DiegoCatalano/Catalano-Framework) | Scientific computing framework for Java and Android. |
+| [Cojac](https://github.com/Cojac/Cojac) | Improves arithmetic capabilities of Java numbers. |
+| [DDoggeg](https://github.com/lessthanoptimal/ddogleg) | High-performance library for nonlinear optimization, robust model fitting, and other tasks. |
+| [Decimal4j](https://github.com/tools4j/decimal4j) | Fast fixed-point arithmetic library supporting up to 18 decimal places. |
+| [DSI Utils](https://github.com/vigna/dsiutils) | Collection of utility classes developed at the University of Milan. |
+| [Eclipse January](https://github.com/eclipse/january) | Libraries for working with numerical data in Java, inspired by NumPy. |
+| [EJML](https://github.com/lessthanoptimal/ejml) | Fast and easy-to-use linear algebra library for dense and sparse matrices. |
+| [FastDoubleParser](https://github.com/wrandelshofer/FastDoubleParser) | Optimized parsers for double, float, BigDecimal, and BigInteger values. |
+| [GLPK](https://winglpk.sourceforge.net/) | Solvers for large-scale linear and mixed integer programming. |
+| [Hipparchus](https://github.com/Hipparchus-Math/hipparchus) | Lightweight math and statistics components for common problems. |
+| [Histogram](https://github.com/bigmlcom/histogram) | Implementation of streaming one-shot histograms. |
+| [JAutoDiff](https://github.com/uniker9/JAutoDiff) | Automatic differentiation library written in pure Java. |
+| [JTransforms](https://github.com/wendykierp/JTransforms) | Multi-threaded FFT library written in pure Java. |
+| [KMath](https://github.com/SciProgCentre/kmath) | Kotlin math extension library. |
+| [KotlinGrad](https://github.com/breandan/kotlingrad) | Type-safe symbolic differentiation for the JVM. |
+| [La4j](https://github.com/vkostyukov/la4j) | Provides linear algebra primitives and algorithms. |
+| [LIBLINEAR](https://github.com/bwaldvogel/liblinear-java) | Java version of LIBLINEAR for large-scale regularized linear problems. |
+| [Matrix-Toolkits-Java](https://github.com/fommil/matrix-toolkits-java) | High-performance library for linear algebra applications. (Archive) |
+| [NetLib-Java](https://github.com/fommil/netlib-java) | Wrapper for low-level BLAS, LAPACK, and ARPACK implementations. (Archive) |
+| [NdArray Java](https://github.com/tensorflow/java-ndarray) | Framework for manipulating data in N-dimensional space. |
+| [NM Dev](https://nm.dev/) | Numerical library covering a wide range of algorithms. |
+| [Neanderthal](https://github.com/uncomplicate/neanderthal) | Clojure library for fast matrix and linear algebra computations. |
+| [Ojalgo](https://github.com/optimatika/ojAlgo) | Open source code for mathematics, linear algebra, and optimization. |
+| [ParallelColt](https://github.com/rwl/ParallelColt) | Multithreaded version of Colt. |
+| [SSJ](https://github.com/umontreal-simul/ssj) | Library for stochastic simulation. |
+| [SymJava](https://github.com/yuemingl/SymJava) | Symbolic numerical computation library. |
+| [Symja](https://github.com/axkr/symja_android_library) | Computer algebra language and symbolic mathematics library. |
+| [Tensorics](https://github.com/tensorics/tensorics-core) | Framework for multidimensional data processing. |
+| [UnCommons-Maths](https://github.com/dwdyer/uncommons-maths) | Libraries for random number generation, probability distributions, and statistics. |
+| [UJMP](https://github.com/ujmp/universal-java-matrix-package) | Library for dense and sparse matrix computations and linear algebra. |
+| [Vectorz](https://github.com/mikera/vectorz) | Fast double-precision vector and matrix math library. |
+| [BigInt](https://github.com/tbuktu/bigint) | Improved version of `java.math.BigInteger` with fast algorithms. |
+</div>
+
+## 🔗 Ontology Library
+
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [AMIE](https://github.com/dig-team/amie) | System for mining Horn rules on knowledge bases. |
+| [Apache Jena](https://github.com/apache/jena) | Java framework for building semantic web and linked data applications. |
+| [CEL](https://github.com/julianmendez/cel) | Lightweight description logic reasoner for large-scale biomedical ontologies. |
+| [DL-Learner](https://github.com/SmartDataAnalytics/DL-Learner) | Machine learning framework for enforcing rich semantic background knowledge. |
+| [ELK](https://github.com/liveontologies/elk-reasoner) | Ontology reasoner supporting the OWL 2 EL profile. |
+| [IDMP](https://github.com/edmcouncil/idmp) | OWL ontology for drug identification based on ISO standards. |
+| [JOPA](https://github.com/kbss-cvut/jopa) | Java OWL persistence layer for efficient access to OWL2 ontologies and RDF graphs. |
+| [Karma](https://github.com/usc-isi-i2/Web-Karma) | Information integration tool for various data sources including databases and web APIs. |
+| [KOMMA](https://github.com/komma/komma) | RDF object mapper and framework for managing and editing RDF, RDFS, and OWL. |
+| [LODE](https://github.com/essepuntato/LODE) | Converts OWL ontologies into human-readable HTML pages. |
+| [LogMap](https://github.com/ernestojimenezruiz/logmap-matcher) | Scalable ontology matching system with reasoning and inconsistency repair. |
+| [MELT](https://github.com/dwslab/melt) | Framework for developing, tuning, and evaluating ontology matching systems. |
+| [Ontmalizer](https://github.com/srdc/ontmalizer) | Automates transformation of XML schemas and data to RDF/OWL. |
+| [Ontology Modeling Language](https://github.com/opencaesar/oml) | Abstract syntax, textual syntax, graphical syntax, API, and specification for OML. |
+| [ONT-API](https://github.com/owlcs/ont-api) | RDF-centric Java library for use with OWL2. |
+| [Openllet](https://github.com/Galigator/openllet) | Checks ontology consistency, computes hierarchies, and answers SPARQL queries. |
+| [O'FAIRe](https://github.com/agroportal/fairness) | Tool for assessing fairness in ontologies and semantic resources. |
+| [OBOGraphs](https://github.com/geneontology/obographs) | JSON/YAML format specification for ontology exchange with OWL converter. |
+| [OntoBrowser](https://github.com/Novartis/ontobrowser) | Web-based application for managing ontologies. |
+| [OntoGraph](https://github.com/NinePts/OntoGraph) | OWL ontology graphing program. |
+| [OWL-CLI](https://github.com/atextor/owl-cli) | Command-line tool for ontology engineering including diagram generation and OWL DL reasoning. |
+| [OWLAPI](https://github.com/owlcs/owlapi) | Java API for creating, manipulating, and serializing OWL ontologies. |
+| [OWLTools](https://github.com/owlcollab/owltools) | Convenient Java API on top of the OWL API. |
+| [OWL2VOWL](https://github.com/VisualDataWeb/OWL2VOWL) | Converts ontologies to WebVOWL format. |
+| [Pellet](https://github.com/stardog-union/pellet) | OWL 2 reasoning engine available under open source and commercial licenses. |
+| [Phenol](https://github.com/monarch-initiative/phenol) | Phenomics and genomics ontology library. |
+| [Racer](https://github.com/ha-mo-we/Racer) | Knowledge representation system with optimized tabular calculus for description logic SRIQ(D). |
+| [RDF Toolkit](https://github.com/edmcouncil/rdf-toolkit) | Tool for reading and writing RDF files in various formats. |
+| [ROBOT](https://github.com/ontodev/robot) | Command-line tool and library for automating ontology development tasks. |
+| [Scowl](https://github.com/phenoscape/scowl) | Scala DSL for writing OWL expressions and axioms in a declarative way. |
+| [SciGraph](https://github.com/SciGraph/SciGraph) | Represents ontologies and data as Neo4j graphs. |
+| [Sigma](https://github.com/ontologyportal/sigmakee) | Integrated development environment for logic theories, extending the Suggested Upper Merged Ontology (SUMO). |
+| [STATO](https://github.com/ISA-tools/stato) | General statistical ontology. |
+| [ZOOMA](https://github.com/EBISPOT/zooma) | Application for discovering optimal ontology mappings. |
+| [WebProtégé](https://github.com/protegeproject/webprotege) | Collaborative ontology development environment. |
+| [Widoco](https://github.com/dgarijo/Widoco) | Generates HTML templates with ontology documents. |
+</div>
+
+## 🌐 Semantic Web
+
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Apache Commons RDF](https://github.com/apache/commons-rdf) | Provides a common library for RDF 1.1 with implementations for various Java RDF frameworks. |
+| [CARML](https://github.com/carml/carml) | Java library for converting structured sources into RDF as declared in RML mappings. |
+| [Corese](https://github.com/Wimmics/corese) | Platform for creation, manipulation, parsing, serialization, querying, reasoning, and validation of RDF data. |
+| [D2RQ](https://github.com/d2rq/d2rq) | Accesses relational databases as virtual read-only RDF graphs. (Archive) |
+| [ESMF SDK](https://github.com/eclipse-esmf/esmf-sdk) | Artifacts and resources for using, extending, or integrating with the Semantic Aspect Metamodel (SAMM). |
+| [Empire](https://github.com/mhgrove/Empire) | Provides a JPA-style interface to RDF databases using SPARQL. |
+| [FOX](https://github.com/dice-group/FOX) | Framework for extracting RDF triples from natural language using NLP algorithms. |
+| [HeFQUIN](https://github.com/LiUSemWeb/HeFQUIN) | Query federation engine for heterogeneous federation of graph data sources. |
+| [HDT](https://github.com/rdfhdt/hdt-java) | Java library for the RDF HDT (Header-Dictionary-Triple) binary format. |
+| [JSON2RDF](https://github.com/AtomGraph/JSON2RDF) | Streaming, general-purpose JSON to RDF converter. |
+| [LinkedGeoData](https://github.com/GeoKnow/LinkedGeoData) | Adds a spatial dimension to the Semantic Web, using OpenStreetMap data as an RDF knowledge base. |
+| [LodView](https://github.com/LodLive/LodView) | Java web application providing IRI dereferencing compliant with W3C standards. |
+| [NeoSemantics](https://github.com/neo4j-labs/neosemantics) | Plugin for integrating RDF with Neo4j. |
+| [Pinto](https://github.com/stardog-union/pinto) | Java framework for converting JavaBeans to RDF. |
+| [qEndpoint](https://github.com/the-qa-company/qEndpoint) | Scalable triple store with full-text and GeoSPARQL support. |
+| [Ripple](https://github.com/joshsh/ripple) | Stack-based functional query language for Linked Data and RDF data sources. |
+| [RDFUnit](https://github.com/AKSW/RDFUnit) | Data validation tool based on the Test Driven Data Validation Ontology. |
+| [SPARQL](https://github.com/SPARQL-Anything/sparql.anything) | System for querying anything using SPARQL. |
+| [Trellis](https://github.com/trellis-ldp/trellis) | Platform for building scalable linked data applications. |
+| [Vitro](https://github.com/vivo-project/Vitro) | Web-based ontology and instance editor with customizable public browsing. |
+| [Wikidata Toolkit](https://github.com/Wikidata/Wikidata-Toolkit) | Java library for accessing Wikidata and other Wikibase installations. |
+| [Mobi](https://github.com/inovexcorp/mobi) | Collaborative knowledge graph platform for teams and communities. |
+</div>
+
+## 🔍 Knowledge Graph
+
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [DMX](https://github.com/dmx-systems/dmx-platform) | Knowledge building platform. |
+| [LinkedDataHub](https://github.com/AtomGraph/LinkedDataHub) | Software for managing data, creating visualizations, and building applications on RDF knowledge graphs. |
+| [OpenSPG](https://github.com/OpenSPG/openspg) | Knowledge graph engine based on the SPG (Semantic Enhanced Programmable Graph) framework. |
+| [Wandora](https://github.com/wandora-team/wandora) | General-purpose information extraction, management, and publishing application based on topic graphs. |
+</div>
+
 ## 🎮 Game Development and Multimedia
 
 🎮 **Game Development and Multimedia** encompasses creating and designing games, including game engines, rendering tools for 2D and 3D graphics, and game server frameworks for online gameplay.
@@ -2401,8 +4216,8 @@ Here’s the updated and formatted list for file systems, file uploads, file ope
 
 <div align="center">
 
-| Name                           | Description |
-| ------------------------------ | ----------- |
+| Name | Description |
+| ---- | ----------- |
 | [Alice](https://github.com/TheAliceProject/alice3) | Alice is an innovative block-based programming environment for creating animations, interactive narratives, or simple 3D games. |
 | [AndEngine](https://github.com/nicolasgramlich/AndEngine) | A free 2D OpenGL game engine for Android. |
 | [Artemis ODB](https://github.com/junkdog/artemis-odb) | A high-performance entity component system framework based on Java. |
@@ -2490,22 +4305,126 @@ Here’s the updated and formatted list for file systems, file uploads, file ope
 
 </div>
 
+## 🎵 Multimedia Processing
 
+**Multimedia processing**: libraries offer tools for handling, analyzing, and manipulating audio, video, images, optical character recognition (OCR), and Scalable Vector Graphics (SVG) formats.
 
-## ☁️ Spring Cloud Ecosystem
+## 🔵 Audio and Video Processing
+
 <div align="center">
 
 | Name | Description |
 | ---- | ----------- |
-| [Spring Cloud Alibaba](https://github.com/alibaba/spring-cloud-alibaba) | A one-stop solution for distributed application development with Spring Cloud, provided by Alibaba. |
-| [Spring Cloud AWS](https://github.com/awspring/spring-cloud-aws) | Simplifies the use of AWS managed services in Spring and Spring Boot applications. |
-| [Spring Cloud Azure](https://github.com/microsoft/spring-cloud-azure) | Integrates Spring with Azure services, developed by Microsoft. |
-| [Spring Cloud GCP](https://github.com/GoogleCloudPlatform/spring-cloud-gcp) | Makes the Spring Framework a first-class citizen on the Google Cloud Platform. |
-| [Spring Cloud Huawei](https://github.com/huaweicloud/spring-cloud-huawei) | Facilitates efficient microservices development using Spring Cloud, provided by Huawei. |
-| [Spring Cloud Netflix](https://github.com/spring-cloud/spring-cloud-netflix) | Provides Netflix OSS integration for Spring Boot applications through auto-configuration and binding to the Spring Environment. |
-| [Spring Cloud OCI](https://github.com/oracle/spring-cloud-oci) | Simplifies integration with Oracle Cloud Infrastructure services using the internal OCI Java SDK. |
-| [Spring Cloud Services Starters](https://github.com/pivotal-cf/spring-cloud-services-starters) | A curated set of dependencies for use with Spring Cloud Services in a Pivotal Cloud Foundry environment. |
-| [Spring Cloud Tencent](https://github.com/Tencent/spring-cloud-tencent) | A one-stop microservice solution that integrates Spring Cloud with Tencent middleware. |
+| [Airsonic](https://github.com/airsonic/airsonic) | A free web-based media streamer that lets you access your music anywhere, anytime. (Archive) |
+| [Alexa Skills Kit Java SDK](https://github.com/alexa/alexa-skills-kit-sdk-for-java) | Amazon's cloud-based voice service SDK, enabling developers to build voice-driven applications for Alexa. |
+| [Audiveris](https://github.com/Audiveris/audiveris) | An open-source optical music recognition (OMR) software that converts scanned sheet music into machine-readable formats like MusicXML or MIDI. |
+| [AudioBookConverter](https://github.com/yermak/AudioBookConverter) | An improved converter for turning MP3s into M4B audiobook formats. |
+| [Beat-Link](https://github.com/Deep-Symmetry/beat-link) | A Java library for syncing to the beat of a Pioneer DJ Link device and retrieving track information. |
+| [Concentus](https://github.com/lostromb/concentus) | A portable C# and Java implementation of the Opus audio codec. |
+| [Echoprint Server](https://github.com/spotify/echoprint-server) | An open-source audio fingerprint system server developed by Spotify. (Archive) |
+| [FFmpeg CLI Wrapper](https://github.com/bramp/ffmpeg-cli-wrapper) | A streaming interface for running FFmpeg commands from Java. |
+| [FFmpeg4j](https://github.com/Manevolent/ffmpeg4j) | A Java library that encapsulates the functionality of the FFmpeg library. |
+| [GStreamer 1.x Java Core](https://github.com/gstreamer-java/gst1-java-core) | Java bindings for the GStreamer 1.x multimedia framework. |
+| [Horizon](https://github.com/Yalantis/Horizon) | A simple visual equalizer for Android devices. |
+| [Jaffree](https://github.com/kokorin/Jaffree) | A command-line wrapper for FFmpeg and FFprobe, written in Java. |
+| [JAVE2](https://github.com/a-schild/jave2) | A Java wrapper library for FFmpeg, used for audio and video transcoding. |
+| [Jitsi](https://github.com/jitsi/jitsi) | A free, open-source audio/video and chat communicator that supports multiple protocols. |
+| [JLayer](https://github.com/umjammer/jlayer) | A library for decoding, playing, and converting MP3 files on the Java platform. |
+| [JNAJack](https://github.com/jaudiolibs/jnajack) | Java bindings for the JACK audio connectivity kit. |
+| [JSyn](https://github.com/philburk/jsyn) | A modular audio synthesizer for Java. |
+| [JCodec](https://github.com/jcodec/jcodec) | A pure Java implementation of video and audio codecs. |
+| [jPSXdec](https://github.com/m35/jpsxdec) | A cross-platform tool for converting PlayStation 1 audio and video formats. |
+| [libjitsi](https://github.com/jitsi/libjitsi) | A high-level media library for secure, real-time audio/video communications. |
+| [LibSDL4J](https://github.com/libsdl4j/libsdl4j) | A Java mapping of the SDL2 API. |
+| [LiTr](https://github.com/linkedin/LiTr) | A lightweight hardware-accelerated video/audio transcoder for Android. |
+| [LavaPlayer](https://github.com/sedmelluq/lavaplayer) | An audio player library for Discord bots, capable of loading tracks from various sources and converting them to Opus streams. |
+| [MaryTTS](https://github.com/marytts/marytts) | An open-source, multilingual text-to-speech synthesis system in Java. |
+| [Metadata Extractor](https://github.com/drewnoakes/metadata-extractor) | A Java library for reading metadata from media files, including images, audio, and video. |
+| [Minim](https://github.com/ddf/Minim) | A Java audio library designed for use with Processing. |
+| [MP3agic](https://github.com/mpatric/mp3agic) | A Java library for reading MP3 files and manipulating ID3 tags. |
+| [M3U8-Parser](https://github.com/carlanton/m3u8-parser) | A simple parser for HLS playlists written in Java. |
+| [OmRecorder](https://github.com/kailash09dabhi/OmRecorder) | A simple PCM/WAV recorder for Android. |
+| [Opencast](https://github.com/opencast/opencast) | An open-source video management system for academic institutions, enabling reliable and scalable video content delivery. |
+| [OSCI Render](https://github.com/jameshball/osci-render) | A synthesizer for creating music by drawing objects, text, and images on an oscilloscope using audio output. |
+| [Panako](https://github.com/JorenSix/Panako) | An acoustic fingerprinting system for matching audio streams with stored fingerprints. |
+| [Photon](https://github.com/Netflix/photon) | A Java implementation of the IMF standard, open-sourced by Netflix for media production. |
+| [Processing Video](https://github.com/processing/processing-video) | A video processing library for Processing, based on GStreamer. |
+| [RootEncoder](https://github.com/pedroSG94/RootEncoder) | A streaming encoder for pushing video/audio to media servers using RTMP, RTSP, and SRT protocols. |
+| [Rebound](https://github.com/facebookarchive/rebound) | A Java library for simulating spring dynamics, open-sourced by Facebook. (Archive) |
+| [RxAndroidAudio](https://github.com/Piasy/RxAndroidAudio) | An Android audio encapsulation library with partial Rx support. |
+| [Smallville](https://github.com/nickm980/smallville) | A framework for generative agents, enabling virtual characters to store memories and react dynamically to environments. |
+| [Sndcpy](https://github.com/rom1v/sndcpy) | A tool for forwarding Android audio to a computer via USB. |
+| [SoundLibs](https://github.com/pdudits/soundlibs) | Maven artifacts for various Java sound libraries. |
+| [Supersonic](https://github.com/Mach5/supersonic) | An open-source media streaming and jukebox server, supporting formats like MP3, OGG, and AAC. |
+| [Sphinx-4](https://github.com/cmusphinx/sphinx4) | A Java-based speech recognition library developed by Carnegie Mellon University. |
+| [TarsosDSP](https://github.com/JorenSix/TarsosDSP) | A Java library for audio processing, providing a simple interface for practical music processing algorithms. |
+| [Tracker](https://github.com/OpenSourcePhysics/tracker) | A video analysis and modeling tool built on the Open Source Physics framework. |
+| [Universal Media Server](https://github.com/UniversalMediaServer/UniversalMediaServer) | A DLNA-compatible UPnP media server for sharing video, audio, and images across devices. |
+| [Vlcj](https://github.com/caprica/vlcj) | A Java framework for integrating the VLC media player. |
+| [WaveInApp](https://github.com/Cleveroad/WaveInApp) | A high-frame-rate animation tool for visualizing audio from any source on Android. |
+| [WhisperJNI](https://github.com/GiviMAD/whisper-jni) | A JNI wrapper for whisper.cpp, enabling speech-to-text transcription in Java. |
+| [XYScope](https://github.com/ffd8/xyscope) | A Processing library for rendering graphics on vectorscopes by converting them to audio. |
+
+</div>
+
+## 🖼 Image Processing
+
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Ant Graph Learning](https://github.com/TuGraph-family/TuGraph-AntGraphLearning) | Provides a comprehensive solution for industrial-scale graph learning tasks, open-sourced by Ant. |
+| [Apache Commons Graph](https://github.com/apache/commons-graph) | A toolkit for managing graphs and graph-based data structures. |
+| [Erdos](https://github.com/Erdos-Graph-Framework/Erdos) | A lightweight, modular, and easy-to-use Java modern graph theory algorithm framework. |
+| [GraphBuilder](https://github.com/intel/graphbuilder) | Provides functions for building large-scale graphs, open-sourced by Intel. (Archive) |
+| [GraphStream](https://github.com/graphstream/gs-core) | A Java library for modeling, analyzing, and visualizing graphs and dynamic graphs, open-sourced by the University of Le Havre. |
+| [Graphviz Java](https://github.com/nidi3/graphviz-java) | Enables the use of Graphviz with pure Java to create models and convert them into graphs. |
+| [Gradoop](https://github.com/dbs-leipzig/gradoop) | An open-source research framework for scalable graph analytics, built on Apache Flink. |
+| [JGraphT](https://github.com/jgrapht/jgrapht) | A free Java library providing mathematical graph theory objects and algorithms. |
+| [JUNG](https://github.com/jrtom/jung) | A software library for modeling, analyzing, and visualizing data represented as graphs or networks. |
+| [Neo4j Graph Data Science](https://github.com/neo4j/graph-data-science) | Includes graph algorithms, transformations, and ML pipelines operated through Cypher programs within the Neo4j DBMS. |
+| [PGQL](https://github.com/oracle/pgql-lang) | A SQL-based query language for property graph data models, open-sourced by Oracle. |
+| [PGX](https://www.oracle.com/middleware/technologies/parallel-graph-analytix.html) | A toolkit for efficient graph analysis and SQL-like graph pattern matching queries, developed by Oracle. |
+| [SociaLite](https://github.com/socialite-lang/socialite) | A high-level query language for distributed graph analysis, open-sourced by Stanford. |
+
+</div>
+
+## 🔍 Optical Character Recognition
+
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [CompreFace](https://github.com/exadel-inc/CompreFace) | A free, open-source face recognition service that can be integrated into systems without machine learning expertise. |
+| [EasyOCR](https://github.com/ushelp/EasyOCR) | An OCR recognition engine in Java that automates image cleaning and CAPTCHA image content recognition. (Archive) |
+| [Face Recognition](https://github.com/Qualeams/Android-Face-Recognition-with-Deep-Learning-Library) | An Android face recognition library with multiple methods, developed by the University of Applied Sciences Zurich. (Archive) |
+| [FaceRecognition](https://github.com/wihoho/FaceRecognition) | Face recognition using PCA, LDA, and LPP techniques. |
+| [OCR4all](https://github.com/OCR4all/OCR4all) | A tool for performing OCR on historical prints to obtain high-quality results, developed by the University of Würzburg. |
+| [Shudong OCR](https://github.com/AnyListen/tools-ocr) | A cross-platform OCR tool that operates without an internet connection. |
+| [Tess4j](https://github.com/nguyenq/tess4j) | A Java JNA wrapper for the Tesseract OCR API. |
+
+</div>
+
+## 🔧 SVG Library
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Apache Batik](https://github.com/apache/xmlgraphics-batik) | A Java-based toolkit for processing images in SVG format, supporting various tasks like viewing, generating, or manipulating SVG content. |
+| [JFreeSVG](https://github.com/jfree/jfreesvg) | A Java graphics library for generating SVG format content using the standard Java2D drawing API. |
+| [JSVG](https://github.com/weisJ/jsvg) | An SVG user agent for Java that utilizes AWT graphics for rendering SVG content. |
+| [Safe SVG](https://github.com/bgalek/safe-svg) | A simple, lightweight library for validating SVG files securely. |
+| [SVG Salamander](https://github.com/blackears/svgSalamander) | A small and fast SVG engine for Java, designed to efficiently render SVG files. |
+| [VectorGraphics2D](https://github.com/eseifert/vectorgraphics2d) | An implementation of the Java Graphics2D interface that exports graphics in various vector file formats, including SVG. |
+| [WebVector](https://github.com/radkovo/WebVector) | An HTML to SVG, PDF, or PNG converter for Java applications. |
+| [WMF2SVG](https://github.com/hidekatsu-izuno/wmf2svg) | A tool and library for converting WMF (Windows Metafile) files to SVG format in Java. |
+
 </div>
 
 
+---
+
+## 📈 Statistics
+<p align="center">
+  <img src="https://repobeats.axiom.co/api/embed/350f7417431b262083b2b7911d642787a16d5222.svg" alt="Repobeats analytics image" width="980" />
+</p>
