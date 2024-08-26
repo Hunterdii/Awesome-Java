@@ -197,6 +197,9 @@ Feel free to open an issue if you have questions, need help, or have requests!
   - [📱 Mobile Development](#-mobile-development)
   - [📦 Android Library](#-android-library)
   - [📱 Mobile Development Framework](#-mobile-development-framework)
+  - [📧 Apple Push Notification](#-apple-push-notification)
+  - [📱 Mobile Phone Number Analysis](#-mobile-phone-number-analysis)
+    
 ## 🌐 Web Development
    - [📦 Responsive](#-responsive)
    - [🌐 WebServer](#-webserver)
@@ -210,6 +213,9 @@ Feel free to open an issue if you have questions, need help, or have requests!
   - [🔧 Migration & Refactoring](#-migration--refactoring)
 ## 🔧 Development Tools
    - [🔧 Build Tools](#-build-tools)
+   - [🔧 Maven Plugin](#-maven-plugin)
+   - [🔧 Gradle Plugin](#-gradle-plugin)
+   - [🔧 Intellij Plugin](#-intellij-plugin)
    - [📦 Package Manager](#-package-manager)
    - [🔁 CI/CD](#-cicd)
    - [📤 Publishing Tools](#-publishing-tools)
@@ -1038,6 +1044,7 @@ The "Tutorial Series" section in your Java repository provides a curated list of
 | [Spring Security](https://github.com/spring-projects/spring-security) | A powerful and customizable authentication and access control framework. |
 | [Tomcat](https://github.com/apache/tomcat) | A robust web server and servlet container for Java applications. |
 | [Tapestry](https://github.com/apache/tapestry-5) | A component-based web application framework for Java. |
+| [tinystruct](https://github.com/tinystruct/tinystruct) | A lightweight Java framework focusing on simplicity and performance for microservice development. | 
 | [Vaadin](https://github.com/vaadin/framework) | A framework for building modern web applications using pure Java. |
 | [Vert.x](https://github.com/vert-x3/vertx) | A tool-kit for building reactive applications on the JVM. |
 | [Vert.x-Web](https://github.com/vert-x3/vertx-web) | A set of building blocks for building web applications using Vert.x. |
@@ -1120,6 +1127,7 @@ The "Tutorial Series" section in your Java repository provides a curated list of
 | **Ratpack** | A set of libraries that facilitate fast, efficient, and lightweight JVM-based web applications. | [Ratpack](https://github.com/ratpack/ratpack) |
 | **Dropwizard** | A Java framework for developing RESTful web services with minimal configuration. | [Dropwizard](https://github.com/dropwizard/dropwizard) |
 | **Micronaut** | A modern JVM-based framework for building modular, easily testable microservices and serverless applications. | [Micronaut](https://github.com/micronaut-projects/micronaut-core) |
+| **Orienteer** | Open-source business application platform for rapid configuration/development of CRM, ERP, LMS, and other applications. | [Orienteer](https://github.com/OrienteerBAP/Orienteer/) |
 | **Jersey** | The reference implementation of JAX-RS, providing APIs to create RESTful web services. | [Jersey](https://github.com/eclipse-ee4j/jersey) |
 | **Vert.x** | A polyglot event-driven application framework that runs on the JVM, allowing the development of reactive microservices. | [Vert.x](https://github.com/eclipse-vertx/vert.x) |
 | **Spark** | A microframework for creating web applications in Java 8 with minimal effort. | [Spark](https://github.com/perwendel/spark) |
@@ -5249,7 +5257,7 @@ Have a question? This section is dedicated to answering queries and solving prob
 - **[GitHub Issues](https://github.com/Hunterdii/Awesome-Java/issues):**  
   If you have any questions or encounter issues, feel free to open an issue with the tag "question."
 
-- **[FAQ](https://github.com/Hunterdii/Awesome-Java/wiki/FAQ):**  
+- **[(* WORKING ON IT *)FAQ](https://github.com/Hunterdii/Awesome-Java/wiki/FAQ):**  
   Check out the FAQ section for answers to commonly asked questions.
 
 ### 💡 Feedback
@@ -5351,36 +5359,44 @@ Expand your knowledge with these podcasts and screencasts.
 
 Follow these influential Java experts on Twitter for the latest insights.
 
-- [Adam Bien](https://twitter.com/AdamBien)
-- [Aleksey Shipilëv](https://twitter.com/shipilev)
-- [Antonio Goncalves](https://twitter.com/agoncal)
-- [Arun Gupta](https://twitter.com/arungupta)
-- [Brian Goetz](https://twitter.com/BrianGoetz)
-- [Bruno Borges](https://twitter.com/brunoborges)
-- [Chris Engelbert](https://twitter.com/noctarius2k)
-- [Chris Richardson](https://twitter.com/crichardson)
-- [Ed Burns](https://twitter.com/edburns)
-- [Eugen Paraschiv](https://twitter.com/
-
-baeldung)
-- [Fabiane Nardon](https://twitter.com/fabianenardon)
-- [Gavin King](https://twitter.com/hibernate2015)
-- [Heinz Kabutz](https://twitter.com/heinzkabutz)
-- [Jakob Jenkov](https://twitter.com/jjenkov)
-- [James Strachan](https://twitter.com/jstrachan)
-- [James Ward](https://twitter.com/_JamesWard)
-- [Jevgeni Kabanov](https://twitter.com/ekabanov)
-- [Josh Long](https://twitter.com/starbuxman)
-- [Mani Sarkar](https://twitter.com/theNeomatrix369)
-- [Marcus Biel](https://twitter.com/marcusbiel)
-- [Martin Thompson](https://twitter.com/mjpt777)
-- [Mario Fusco](https://twitter.com/mariofusco)
-- [Mark Reinhold](https://twitter.com/mreinhold)
-- [Michael Hunger](https://twitter.com/mesirii)
-- [Nicolas Frankel](https://twitter.com/nicolas_frankel)
-- [Simon Ritter](https://twitter.com/speakjava)
-- [Venkat Subramaniam](https://twitter.com/venkat_s)
-- [Viktor Klang](https://twitter.com/viktorklang)
+- [Adam Bien](https://twitter.com/AdamBien) - Freelance author, JavaOne Rockstar, consultant.
+- [Aleksey Shipilëv](https://twitter.com/shipilev) - Performance geek and concurrency bug hunter.
+- [Antonio Goncalves](https://twitter.com/agoncal) - Java Champion, Java EE expert.
+- [Arun Gupta](https://twitter.com/arungupta) - VP of Developer Advocacy at Couchbase, Java Champion.
+- [Brian Goetz](https://twitter.com/BrianGoetz) - Java Language Architect at Oracle.
+- [Bruno Borges](https://twitter.com/brunoborges) - Product Manager/Java Jock at Oracle.
+- [Chris Engelbert](https://twitter.com/noctarius2k) - Developer Advocate at TimescaleDB.
+- [Chris Richardson](https://twitter.com/crichardson) - Software architect and author.
+- [Ed Burns](https://twitter.com/edburns) - Consulting Member at Oracle.
+- [Eugen Paraschiv](https://twitter.com/baeldung) - Author of the Spring Security Course.
+- [Heinz Kabutz](https://twitter.com/heinzkabutz) - Java Champion and concurrency expert.
+- [Holly Cummins](https://twitter.com/holly_cummins) - Technical Lead at IBM London, Java Champion.
+- [James Weaver](https://twitter.com/JavaFXpert) - Java/JavaFX/IoT developer and speaker.
+- [Java EE](https://twitter.com/Java_EE) - Official Java EE account.
+- [Java Magazine](https://twitter.com/Oraclejavamag) - Official Java Magazine account.
+- [Java](https://twitter.com/java) - Official Java Twitter account.
+- [Javin Paul](https://twitter.com/javinpaul) - Well-known Java blogger.
+- [Josh Long](https://twitter.com/starbuxman) - Spring Advocate, author.
+- [Lukas Eder](https://twitter.com/lukaseder) - Founder of Data Geekery (jOOQ).
+- [Mani Sarkar](https://twitter.com/theNeomatrix369) - Java champion, AI/ML/DL enthusiast.
+- [Mario Fusco](https://twitter.com/mariofusco) - RedHatter, speaker, and author.
+- [Mark Heckler](https://twitter.com/MkHeck) - Java Champion and developer advocate.
+- [Mark Reinhold](https://twitter.com/mreinhold) - Chief Architect, Java Platform Group at Oracle.
+- [Markus Eisele](https://twitter.com/myfear) - Java EE evangelist at Red Hat.
+- [Martijn Verburg](https://twitter.com/karianna) - Java Champion and speaker.
+- [Martin Thompson](https://twitter.com/mjpt777) - Java performance expert.
+- [Monica Beckwith](https://twitter.com/mon_beck) - Java performance consultant.
+- [OpenJDK](https://twitter.com/OpenJDK) - Official OpenJDK account.
+- [Peter Lawrey](https://twitter.com/PeterLawrey) - Java performance expert.
+- [Randy Shoup](https://twitter.com/randyshoup) - VP Engineering at Stitch Fix.
+- [Reza Rahman](https://twitter.com/reza_rahman) - Java EE evangelist.
+- [Sander Mak](https://twitter.com/Sander_Mak) - Java Champion, author.
+- [Simon Ritter](https://twitter.com/speakjava) - Deputy CTO at Azul Systems.
+- [Stephen Colebourne](https://twitter.com/jodastephen) - Java Champion, Joda-Time author.
+- [Venkat Subramaniam](https://twitter.com/venkat_s) - Java/Scala/Agile expert.
+- [Viktor Klang](https://twitter.com/viktorklang) - Chief Architect at Lightbend.
+- [Yegor Bugayenko](https://twitter.com/yegor256) - Object-Oriented Programming purist.
+- [Zulfiqar Ali](https://twitter.com/zulfiq_alvi) - Technology Specialist at IBM.
 
 ---
 
@@ -5512,44 +5528,6 @@ _Follow these influencers for the latest in Java._
 
 #### Twitter
 
-- [Adam Bien](https://twitter.com/AdamBien) - Freelance author, JavaOne Rockstar, consultant.
-- [Aleksey Shipilëv](https://twitter.com/shipilev) - Performance geek and concurrency bug hunter.
-- [Antonio Goncalves](https://twitter.com/agoncal) - Java Champion, Java EE expert.
-- [Arun Gupta](https://twitter.com/arungupta) - VP of Developer Advocacy at Couchbase, Java Champion.
-- [Brian Goetz](https://twitter.com/BrianGoetz) - Java Language Architect at Oracle.
-- [Bruno Borges](https://twitter.com/brunoborges) - Product Manager/Java Jock at Oracle.
-- [Chris Engelbert](https://twitter.com/noctarius2k) - Developer Advocate at TimescaleDB.
-- [Chris Richardson](https://twitter.com/crichardson) - Software architect and author.
-- [Ed Burns](https://twitter.com/edburns) - Consulting Member at Oracle.
-- [Eugen Paraschiv](https://twitter.com/baeldung) - Author of the Spring Security Course.
-- [Heinz Kabutz](https://twitter.com/heinzkabutz) - Java Champion and concurrency expert.
-- [Holly Cummins](https://twitter.com/holly_cummins) - Technical Lead at IBM London, Java Champion.
-- [James Weaver](https://twitter.com/JavaFXpert) - Java/JavaFX/IoT developer and speaker.
-- [Java EE](https://twitter.com/Java_EE) - Official Java EE account.
-- [Java Magazine](https://twitter.com/Oraclejavamag) - Official Java Magazine account.
-- [Java](https://twitter.com/java) - Official Java Twitter account.
-- [Javin Paul](https://twitter.com/javinpaul) - Well-known Java blogger.
-- [Josh Long](https://twitter.com/starbuxman) - Spring Advocate, author.
-- [Lukas Eder](https://twitter.com/lukaseder) - Founder of Data Geekery (jOOQ).
-- [Mani Sarkar](https://twitter.com/theNeomatrix369) - Java champion, AI/ML/DL enthusiast.
-- [Mario Fusco](https://twitter.com/mariofusco) - RedHatter, speaker, and author.
-- [Mark Heckler](https://twitter.com/MkHeck) - Java Champion and developer advocate.
-- [Mark Reinhold](https://twitter.com/mreinhold) - Chief Architect, Java Platform Group at Oracle.
-- [Markus Eisele](https://twitter.com/myfear) - Java EE evangelist at Red Hat.
-- [Martijn Verburg](https://twitter.com/karianna) - Java Champion and speaker.
-- [Martin Thompson](https://twitter.com/mjpt777) - Java performance expert.
-- [Monica Beckwith](https://twitter.com/mon_beck) - Java performance consultant.
-- [OpenJDK](https://twitter.com/OpenJDK) - Official OpenJDK account.
-- [Peter Lawrey](https://twitter.com/PeterLawrey) - Java performance expert.
-- [Randy Shoup](https://twitter.com/randyshoup) - VP Engineering at Stitch Fix.
-- [Reza Rahman](https://twitter.com/reza_rahman) - Java EE evangelist.
-- [Sander Mak](https://twitter.com/Sander_Mak) - Java Champion, author.
-- [Simon Ritter](https://twitter.com/speakjava) - Deputy CTO at Azul Systems.
-- [Stephen Colebourne](https://twitter.com/jodastephen) - Java Champion, Joda-Time author.
-- [Venkat Subramaniam](https://twitter.com/venkat_s) - Java/Scala/Agile expert.
-- [Viktor Klang](https://twitter.com/viktorklang) - Chief Architect at Lightbend.
-- [Yegor Bugayenko](https://twitter.com/yegor256) - Object-Oriented Programming purist.
-- [Zulfiqar Ali](https://twitter.com/zulfiq_alvi) - Technology Specialist at IBM.
 
 #### Blogs
 
