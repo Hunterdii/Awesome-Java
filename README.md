@@ -90,6 +90,8 @@ Feel free to open an issue if you have questions, need help, or have requests!
     - [🏗 Application Framework](#-application-framework)
     - [🔧 Microservices Framework](#-microservices-framework)
     - [🔨 Microservices Tools(Additionals)](#-microservices-toolsadditionals)
+    - [🔍 HTTP Client Libraries](#-http-client-libraries)
+    - [🔗 Hypermedia Types](#-hypermedia-types)
 ## 🛠 ORM Framework
    - [🛠 ORM Framework](#-orm-framework) 
 ## 🛠 API Data
@@ -114,6 +116,9 @@ Feel free to open an issue if you have questions, need help, or have requests!
    - [🔒 Penetration Testing](#-penetration-testing)
    - [📸 Snapshot Testing](#-snapshot-testing)
    - [⚫ Black Box & White Box Testing](#-black-box--white-box-testing)
+   - [🧰 Code Analysis](#-code-analysis)
+   - [🧪 Formal Verification](#-formal-verification)
+ 
 ## 🔧 Assertion and Mocking
    - [🔒 Assertion Library](#-assertion-library)
    - [🔄 Mock Framework](#-mock-framework)
@@ -138,6 +143,7 @@ Feel free to open an issue if you have questions, need help, or have requests!
   - [📦 Object Database](#-object-database)
   - [📊 Datalog Database](#-datalog-database)
   - [📦 Other Databases](#-other-databases)
+  - [🔄 Caching Tools](#-caching-tools)
 ## 📊 Database Middleware
   - [🔍 Database middleware](#-database-middleware)
   - [🔄 Stream Processing Platform](#-stream-processing-platform)
@@ -165,6 +171,10 @@ Feel free to open an issue if you have questions, need help, or have requests!
   - [🔧 DevOps](#-devops)
   - [☁️ Cloud Services](#-cloud-services)
   - [☁️ Spring Cloud Ecosystem](#-spring-cloud-ecosystem)
+  - [🔧 Workflow Orchestration Engines](#-workflow-orchestration-engines)
+  - [🛠 Distributed Applications](#-distributed-applications)
+  - [🔄 Distributed Transactions](#-distributed-transactions)
+
       
 ## 🔍 Performance and Monitoring
    - [📊 APM](#-apm)
@@ -177,6 +187,7 @@ Feel free to open an issue if you have questions, need help, or have requests!
    - [🔄 Thread Dump](#-thread-dump)
    - [🧩 Object Measurement](#-object-measurement)
    - [🔥 Flame Graph](#-flame-graph)
+   - [🚀 High Performance Tools](#-high-performance-tools)
 ## 🛠 Fault Tolerance and Resilience
    - [🛠 Fault-Tolerant Components](#-fault-tolerant-components)
    - [🛠 Chaos Engineering](#-chaos-engineering)
@@ -211,6 +222,8 @@ Feel free to open an issue if you have questions, need help, or have requests!
   - [🔧 Design Patterns](#-design-patterns)
   - [🔧 Idempotent Processing](#-idempotent-processing)
   - [🔧 Migration & Refactoring](#-migration--refactoring)
+  - [🔄 Bean Mapping](#-bean-mapping)
+  - [🔧 Dependency Injection](#-dependency-injection)
 ## 🔧 Development Tools
    - [🔧 Build Tools](#-build-tools)
    - [🔧 Maven Plugin](#-maven-plugin)
@@ -219,11 +232,17 @@ Feel free to open an issue if you have questions, need help, or have requests!
    - [📦 Package Manager](#-package-manager)
    - [🔁 CI/CD](#-cicd)
    - [📤 Publishing Tools](#-publishing-tools)
+   - [🔧 Task Scheduling](#-task-scheduling)
+   - [🔧 IDEs](#-ides)
+   - [📄 Configuration](#-configuration)
+
 ## 🔧 Java Environment and Tools
    - [🧰 Java Environment Management](#-java-environment-management)
    - [🛠 JDK](#-jdk)
    - [🖥 JVM Languages](#-jvm-languages)
    - [⚙️ JVM Implementation](#-jvm-implementation)
+   - [🔧 Bytecode Manipulation](#-bytecode-manipulation)
+   - [🔧 Native Compilation](#-native-compilation)
 
 ## 🧪 Data Science and AI
   - [🤖 Artificial Intelligence](#-artificial-intelligence)
@@ -233,6 +252,8 @@ Feel free to open an issue if you have questions, need help, or have requests!
   - [🧠 Natural Language Processing](#-natural-language-processing)
   - [🔍 Deep Learning](#-deep-learning)
   - [🧬 Genetic Algorithms](#-genetic-algorithms)
+  - [🔧 AI Frameworks](#-ai-frameworks)
+  - [🔧 Computer Vision](#-computer-vision)
   - [🔧 Expert System](#-expert-system)
   - [🔧 Constraint Solving](#-constraint-solving)
   - [🔍 Entity Resolution](#-entity-resolution)
@@ -266,6 +287,10 @@ Feel free to open an issue if you have questions, need help, or have requests!
    - [🔗 Ontology Library](#-ontology-library)
    - [🌐 Semantic Web](#-semantic-web)
    - [🔍 Knowledge Graph](#-knowledge-graph)
+   - [🔧 CLI Tools](#-cli-tools)
+   - [🔧 Serialization Libraries](#-serialization-libraries)
+   - [🔍 Logging Libraries](#-logging-libraries)
+   - [🔧 Code Generators](#-code-generators)
 
 ## 🎮 Game Development and Multimedia
   - [🎮 Game Development](#-game-development)
@@ -284,6 +309,11 @@ Feel free to open an issue if you have questions, need help, or have requests!
   - [🔧 Hardware Operation](#-hardware-operation)
   - [🔍 Motion Planning](#-motion-planning)
   - [🔍 Automatic Planning](#-automatic-planning)
+  - [🔗 Blockchain](#-blockchain)
+  - [🔗 IoT](#-iot)
+  - [🔗 Finance Libraries](#-finance-libraries)
+  - [📊 PaaS](#-paas)
+  - [🔧 Networking](#-networking)
   - [🛡 V-RISK](#-v-risk)
 ## 🌐 Emerging Technologies
    - [🔬 Quantum Computing](#-quantum-computing)
@@ -293,7 +323,6 @@ Feel free to open an issue if you have questions, need help, or have requests!
    - [🌐 Internet of Things](#-internet-of-things)
    - [🚗 Internet of Vehicles](#-internet-of-vehicles)
    - [🔧 Embedded](#-embedded)
-   - [🔗 MQTT](#-mqtt)
 
 ## 🧑‍🔬 Science and Research
   - [🔬 Bioinformatics](#-bioinformatics)
@@ -310,6 +339,10 @@ Feel free to open an issue if you have questions, need help, or have requests!
    - [🔗 AIS Library](#-ais-library)
    - [✈️ Aviation](#-aviation)
 
+
+
+
+  
 <!--## 📅 Upcoming Releases
   - [🔄 New Features](#-new-features)
   - [🔄 Roadmap](#-roadmap)
@@ -1204,6 +1237,67 @@ The "Tutorial Series" section in your Java repository provides a curated list of
 | [Uship](https://github.com/yupiik/uship) | A lightweight microservices stack for modern applications. |
 </div>
 
+
+## 🔍 HTTP Client Libraries
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Android Asynchronous HttpClient](https://github.com/android-async-http/android-async-http)              | Asynchronous, callback-based HTTP client for Android, built on Apache HttpClient.                                                                                  |
+| [AndroidAsync](https://github.com/koush/AndroidAsync)                                                    | Asynchronous socket, HTTP(s), and WebSocket library for Java and Android using NIO.                                                                                |
+| [Apache HttpComponents Client](https://github.com/apache/httpcomponents-client)                          | Apache's open-source HTTP client library, providing a more fluent API than HttpComponents Core.                                                                    |
+| [Apache HttpComponents Core](https://github.com/apache/httpcomponents-core)                              | Low-level Java component tools focused on HTTP and related protocols.                                                                                              |
+| [AsyncHttpClient](https://github.com/AsyncHttpClient/async-http-client)                                  | Library for performing HTTP requests asynchronously in Java.                                                                                                       |
+| [Avaje HttpClient](https://github.com/avaje/avaje-http)                                                  | Lightweight wrapper for JDK 11 HttpClient.                                                                                                                         |
+| [Chuck](https://github.com/jgilfelt/chuck)                                                               | In-app HTTP inspector for Android using the OkHttp client.                                                                                                         |
+| [Donkey](https://github.com/AppsFlyer/donkey)                                                            | Modern, Ring-compatible HTTP server and client designed for performance and ease of use.                                                                            |
+| [Feign](https://github.com/OpenFeign/feign)                                                              | Java-to-HTTP client binder inspired by Retrofit, JAX-RS, and WebSocket, open-sourced by Netflix.                                                                   |
+| [FusionAuth HTTPClient](https://github.com/FusionAuth/java-http)                                         | Full-featured, high-performance HTTP server and client written in pure Java.                                                                                       |
+| [Google API Java Client](https://github.com/googleapis/google-api-java-client)                           | Flexible and efficient library for accessing any HTTP-based API.                                                                                                   |
+| [Google HTTP Java Client](https://github.com/googleapis/google-http-java-client)                         | Flexible, efficient Java library for accessing any HTTP resource.                                                                                                  |
+| [HTTP4J](https://github.com/IntellectualSites/HTTP4J)                                                    | Simple, lightweight wrapper around Java `HttpURLConnection`.                                                                                                       |
+| [HTTP4K](https://github.com/http4k/http4k)                                                               | Lightweight, full-featured HTTP toolkit written in Kotlin.                                                                                                         |
+| [HTTP-Kit](https://github.com/http-kit/http-kit)                                                         | Minimalistic and efficient Clojure-compatible HTTP client and server.                                                                                              |
+| [HTTPBuilder](https://github.com/jgritman/httpbuilder)                                                   | Simple HTTP client for Groovy.                                                                                                                                     |
+| [HTTPBuilder NG](https://github.com/http-builder-ng/http-builder-ng)                                     | Modern HTTP client for Groovy and Java, extending the original HTTPBuilder.                                                                                        |
+| [HttpClientUtil](https://github.com/Arronlong/httpclientutil)                                            | HttpClient utility class based on the Apache HttpClient library.                                                                                                   |
+| [Java 11 HttpClient](https://github.com/openjdk/jdk/tree/master/src/java.net.http/share/classes/java/net/http) | High-level HTTP client in the Java standard library, supports HTTP/1.1, HTTP/2, and WebSocket.                                                                    |
+| [Jetty HttpClient](https://github.com/eclipse/jetty.project/tree/jetty-10.0.x/jetty-client)              | HttpClient module in Jetty for performing HTTP and HTTPS requests.                                                                                                 |
+| [Jetty ReactiveStream HttpClient](https://github.com/jetty-project/jetty-reactive-httpclient)            | Reactive stream wrapper for Jetty HttpClient.                                                                                                                      |
+| [Methanol](https://github.com/mizosoft/methanol)                                                         | Lightweight extension for Java HttpClient.                                                                                                                         |
+| [Netty HTTP Client](https://github.com/timboudreau/netty-http-client)                                    | Asynchronous HTTP client based on Netty 4.x.                                                                                                                       |
+| [NoHttp](https://github.com/yanzhenjie/NoHttp)                                                           | HTTP framework for Android with support for multiple cache modes, dynamically switches between OkHttp and URLConnection.                                           |
+| [Novate](https://github.com/Tamicer/Novate)                                                              | Android network framework based on Retrofit and RxJava.                                                                                                            |
+| [OkGo](https://github.com/jeasonlzy/okhttp-OkGo)                                                         | Network request framework for Android built on OkHttp.                                                                                                             |
+| [OkHttp](https://github.com/square/okhttp)                                                               | HTTP client for JVM, Android, and GraalVM, designed by Square.                                                                                                     |
+| [Parallec](https://github.com/eBay/parallec)                                                             | Fast parallel asynchronous HTTP(S), SSH, TCP, UDP, and Ping client based on Akka, open-sourced by eBay.                                                            |
+| [Riptide](https://github.com/zalando/riptide)                                                            | Client-side response routing library open-sourced by Zalando.                                                                                                       |
+| [RestVolley](https://github.com/HujiangTechnology/RestVolley)                                            | Network framework based on Volley and OkHttp for Android.                                                                                                          |
+| [Retrofit](https://github.com/square/retrofit)                                                           | Type-safe HTTP client for Java and Android, open-sourced by Square.                                                                                                |
+| [RoboSpice](https://github.com/stephanenicolas/robospice)                                                | Modular library for writing asynchronous long-running tasks in Android.                                                                                            |
+| [RXHttp](https://github.com/liujingxing/rxhttp)                                                          | Type-safe HTTP client for Android based on OkHttp.                                                                                                                 |
+| [Spring HATEOAS](https://github.com/spring-projects/spring-hateoas)                                      | Simplifies creating RESTful representations that follow the HATEOAS principle when using Spring.                                                                   |
+| [Unirest](https://github.com/Kong/unirest-java)                                                          | Lightweight HTTP client library with a simplified API.                                                                                                             |
+| [Volley](https://github.com/google/volley)                                                               | HTTP library that simplifies networking for Android apps, open-sourced by Google.                                                                                  |
+| [WeChatPay HttpClient](https://github.com/wechatpay-apiv3/wechatpay-apache-httpclient)                   | Apache HttpClient extension for WeChat Pay API v3, including request signature generation and response verification.                                                |
+</div>
+
+
+
+## 🔗 Hypermedia Types
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Edison HAL](https://github.com/otto-de/edison-hal)                                              | A library for generating and consuming `application/hal+json` representations of REST resources using Jackson.                                             |
+| [Hate](https://github.com/blackdoor/hate)                                                       | Builds hypermedia-friendly objects according to the HAL specification.                                                                                     |
+| [JSON-LD](https://github.com/jsonld-java/jsonld-java)                                            | JSON-LD (JavaScript Object Notation for Linked Data) implementation in Java.                                                                               |
+| [REST-Shell](https://github.com/spring-attic/rest-shell)                                        | Command-line shell for interacting with Spring HATEOAS-compliant REST resources.                                                                            |
+| [Siren4J](https://github.com/eserating-chwy/siren4j)                                            | Java library for handling Siren hypermedia type, helping to generate and parse Siren JSON structures.                                                       |
+| [Spring HATEOAS](https://github.com/spring-projects/spring-hateoas)                             | Provides APIs to simplify creating REST representations that follow the HATEOAS principle in Spring-based applications.                                      |
+| [Spring HATEOAS JSON API](https://github.com/toedter/spring-hateoas-jsonapi)                    | Implementation of the `application/vnd.api+json` (JSON:API) media type that integrates with Spring HATEOAS.                                                 |
+</div>
+
 ## 🗃 ORM Framework
 
 **ORM Framework**: An Object-Relational Mapping (ORM) framework facilitates the interaction between an object-oriented programming language and a relational database. It automates the mapping of database tables to objects in code, simplifying data manipulation and reducing the need for manual SQL queries.
@@ -1546,6 +1640,42 @@ This section provides links to repositories containing code samples, tutorials, 
 | [MicroShed](https://github.com/MicroShed/microshed-testing) | Fast and easy way to write and run production integration tests for Java microservices. |
 | [RESTest](https://github.com/isa-group/RESTest) | Framework for automated black-box testing of RESTful Web APIs. |
 </div>
+
+## 🧰 Code Analysis
+<div align="center">
+  
+| Name | Description |
+| ---- | ----------- |
+| [Checkstyle](https://github.com/checkstyle/checkstyle)                                               | Static analysis tool for checking Java coding conventions and standards.                                                                                           |
+| [Error Prone](https://github.com/google/error-prone)                                                 | Compile-time tool that catches common programming mistakes.                                                                                                        |
+| [Error Prone Support](https://github.com/PicnicSupermarket/error-prone-support)                      | Provides additional bug checkers and Refaster templates for Error Prone.                                                                                           |
+| [Infer](https://github.com/facebook/infer)                                                           | Static analysis tool to verify the correctness of code.                                                                                                            |
+| [jQAssistant](https://jqassistant.org)                                                               | Static code analysis tool with a Neo4J-based query language.                                                                                                       |
+| [NullAway](https://github.com/uber/NullAway)                                                         | Eliminates `NullPointerExceptions` at compile-time with minimal build overhead.                                                                                     |
+| [PMD](https://github.com/pmd/pmd)                                                                    | Source code analysis tool for identifying bad coding practices.                                                                                                    |
+| [p3c](https://github.com/alibaba/p3c)                                                                | Coding guidelines and PMD rulesets provided by Alibaba for best practices.                                                                                         |
+| [RefactorFirst](https://github.com/jimbethancourt/RefactorFirst)                                     | Identifies and prioritizes God classes and highly coupled classes for refactoring.                                                                                  |
+| [SonarJava](https://github.com/SonarSource/sonar-java)                                               | Static analysis plugin for SonarQube and SonarLint, focuses on Java.                                                                                               |
+| [Spoon](https://github.com/INRIA/spoon)                                                              | Tool for analyzing and transforming Java source code.                                                                                                              |
+| [Spotbugs](https://github.com/spotbugs/spotbugs)                                                     | Static analysis tool for identifying potential bugs in Java bytecode.                                                                                              |
+</div>
+
+
+## 🧪 Formal Verification
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [CATG](https://github.com/ksen007/janala2) | A concolic unit testing engine that generates unit tests using formal methods. |
+| [Checker Framework](https://checkerframework.org/) | A pluggable type system for Java, including null types, physical units, and immutable types. |
+| [Daikon](https://github.com/codespecs/daikon) | A tool that detects possible program invariants and generates JML specifications, open-sourced by the University of Washington. |
+| [Java PathFinder](https://github.com/javapathfinder/jpf-core) | A JVM formal verification tool that includes model checking, open-sourced by NASA. |
+| [KeY](https://github.com/KeYProject/key) | A tool for formal software development, integrating design, implementation, specification, and verification, open-sourced by Karlsruhe Institute of Technology. |
+| [OpenJML](https://github.com/OpenJML/OpenJML) | A verification tool for Java programs that checks specifications annotated in the Java Modeling Language. |
+| [Theta](https://github.com/ftsrg/theta) | A modular and configurable model checking framework for reachability analysis, developed by the Critical Systems Research Group at the Budapest University of Technology and Economics. |
+
+</div>
+
 
 ## 🔧 Assertion and Mocking
 
@@ -1979,6 +2109,30 @@ Tools and libraries for generating test data, creating test reports, and measuri
 | [SnappyData](https://github.com/TIBCOSoftware/snappydata) | Distributed, memory-optimized analytical database. |
 | [Whois](https://github.com/RIPE-NCC/whois) | Internet resource information database maintained by RIPE NCC. |
 | [XTDB](https://github.com/xtdb/xtdb) | General-purpose database with a bitemporal index. |
+
+</div>
+
+## 🔄 Caching Tools
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Apache Commons JCS](https://github.com/apache/commons-jcs) | A distributed, versatile caching system. |
+| [BlazingCache](https://github.com/diennea/blazingcache) | A fast cache solution for distributed Java applications. |
+| [CarbonJ](https://github.com/salesforce/carbonj) | A high-performance cache designed for metric data points with low query latency. |
+| [Cache2K](https://github.com/cache2k/cache2k) | An in-memory, high-performance Java cache library. |
+| [Caffeine](https://github.com/ben-manes/caffeine) | A high-performance, near-optimal caching library. |
+| [DiskLruCache](https://github.com/JakeWharton/DiskLruCache) | A disk-based LRU cache, designed for Android. |
+| [Ehcache](https://github.com/ehcache/ehcache3) | A standards-based open source cache that improves performance and scalability, open-sourced by Terracotta. |
+| [EVCache](https://github.com/Netflix/EVCache) | A caching solution based on Memcached, used in AWS EC2 to cache data, open-sourced by Netflix. |
+| [Guava Cache](https://github.com/google/guava/tree/master/guava/src/com/google/common/cache) | A local caching tool provided by the Google Guava library. |
+| [Imcache](https://github.com/Cetsoft/imcache) | A Java caching library designed to speed up applications with efficient cache management. |
+| [Infinispan](https://github.com/infinispan/infinispan) | An open-source in-memory data grid with flexible deployment and data processing capabilities, open-sourced by RedHat. |
+| [JetCache](https://github.com/alibaba/jetcache) | A Java cache abstraction providing a unified interface for different cache solutions, open-sourced by Alibaba. |
+| [KCache](https://github.com/rayokota/kcache) | A client library providing an in-memory cache backed by Kafka-compressed topics. |
+| [MicroStream](https://github.com/microstream-one/microstream) | A Java-native object graph persistence layer designed for microservices and serverless functions. |
+| [OHC](https://github.com/snazy/ohc) | An off-heap caching solution for Java. |
+| [RxCache](https://github.com/VictorAlbertos/RxCache) | A responsive caching library for Android and Java. |
 
 </div>
 
@@ -3362,7 +3516,6 @@ Here’s a revised and formatted version of the AI and LLM repositories table in
 | [Ollama4j](https://github.com/amithkoujalgi/ollama4j) | Java library for interacting with the Ollama server for AI interactions. |
 | [OpenAI Java](https://github.com/TheoKanning/openai-java) | A Java library for using OpenAI's GPT API, supporting multiple versions including GPT-3, GPT-4, and ChatGPT. |
 | [OpenAI Kotlin](https://github.com/Aallam/openai-kotlin) | Kotlin client for the OpenAI API, featuring multi-platform support and coroutine capabilities. |
-| [OpenAI-Java-SDK](https://gitee.com/devlive-community/openai-java-sdk) | A convenient SDK for Java developers to interact with OpenAI's model API. |
 | [OpenAi4J](https://github.com/Lambdua/openai4j) | An unofficial Java library for interacting with OpenAI's GPT models, including the latest features. |
 | [Watson Java SDK](https://github.com/watson-developer-cloud/java-sdk) | Java SDK for using IBM Watson services, including NLP and machine learning capabilities. |
 
