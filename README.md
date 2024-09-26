@@ -22,6 +22,8 @@ Welcome to the **Java Ecosystem Library**, your comprehensive guide to the essen
 
 # Github Stats:
 
+
+
 <div align = "center">
 
 <table align="center">
@@ -37,12 +39,12 @@ Welcome to the **Java Ecosystem Library**, your comprehensive guide to the essen
      </thead>
     <tbody>
          <tr>
-            <td><img alt="Stars" src="https://img.shields.io/github/stars/Huntedii/VedicSadhana?style=flat&logo=github"/></td>
-             <td><img alt="Forks" src="https://img.shields.io/github/forks/Huntedii/VedicSadhana?style=flat&logo=github"/></td>
-            <td><img alt="Issues" src="https://img.shields.io/github/issues/Huntedii/VedicSadhana?style=flat&logo=github"/></td>
-            <td><img alt="Repo Size" src="https://img.shields.io/github/repo-size/Huntedii/VedicSadhana?style=flat&logo=github"/></td>
-            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/Huntedii/VedicSadhana?style=flat&logo=github"/></td>
-           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Huntedii/VedicSadhana?style=flat&color=critical&logo=github"/></td>
+            <td><img alt="Stars" src="https://img.shields.io/github/stars/Huntedii/Awesome-Java?style=flat&logo=github"/></td>
+             <td><img alt="Forks" src="https://img.shields.io/github/forks/Huntedii/Awesome-Java?style=flat&logo=github"/></td>
+            <td><img alt="Issues" src="https://img.shields.io/github/issues/Huntedii/Awesome-Java?style=flat&logo=github"/></td>
+            <td><img alt="Repo Size" src="https://img.shields.io/github/repo-size/Huntedii/Awesome-Java?style=flat&logo=github"/></td>
+            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/Huntedii/Awesome-Java?style=flat&logo=github"/></td>
+           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Huntedii/Awesome-Java?style=flat&color=critical&logo=github"/></td>
         </tr>
     </tbody>
 </table>
@@ -286,7 +288,7 @@ Feel free to open an issue if you have questions, need help, or have requests!
   - [🔧 Expert System](#-expert-system)
   - [🔧 Constraint Solving](#-constraint-solving)
   - [🔍 Entity Resolution](#-entity-resolution)
-## 📊 Data Science(DS) 
+## 📊 Data Science
    - [📊 Data Science](#-data-science)
    - [🔍 Anomaly Detection](#-anomaly-detection)
    - [📊 Business Intelligence](#-business-intelligence)
