@@ -370,10 +370,7 @@ Feel free to open an issue if you have questions, need help, or have requests!
 
      
 ## 💬 Community and Support
-  - [💬 Forums](#-forums)
-  - [💬 Q&A](#-qa)
   - [💬 Feedback](#-feedback)
-  - [💬 Contact Us](#-contact-us)
 
 ## ✨ Features
 
