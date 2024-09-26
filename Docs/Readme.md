@@ -191,6 +191,190 @@ Sure! Here's the detailed table format for each category with the provided infor
 
 </div>
 
+## 🛡 V-RISK
+A tool for assessing and managing risks within virtual environments and systems. 
+
+## 🖥 Operating System
+Software that manages hardware resources and provides services for computer programs.
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [JNode](https://github.com/jnode/jnode) | JNode is an open source project to create an operating system for the Java platform. |
+| [JOS](https://sourceforge.net/projects/jos/) | A free and open source Java-based operating system. |
+| [JX](https://github.com/mczero80/jx) | A Java operating system focusing on a flexible and robust architecture. |
+</div>
+
+## 🔍 Reverse Engineering
+The process of analyzing software or hardware to understand its design and functionality.
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Apktool](https://github.com/iBotPeaches/Apktool) | A tool for reverse engineering third-party, closed, binary Android applications. |
+| [BinAbsInspector](https://github.com/KeenSecurityLab/BinAbsInspector) | A static analyzer for automated reverse engineering and scanning of binary file vulnerabilities. |
+| [BinDiff](https://github.com/google/bindiff) | A binary file comparison tool for finding differences and similarities in disassembled code, open-sourced by Google. |
+| [BinNavi](https://github.com/google/binnavi) | A binary analysis IDE for inspecting, navigating, editing, and annotating control flow and call graphs, open-sourced by Google. (Archive) |
+| [Bytecode Viewer](https://github.com/Konloch/bytecode-viewer) | A lightweight, user-friendly Java/Android bytecode viewer, decompiler, etc. |
+| [Helios](https://github.com/helios-decompiler/standalone-app) | An all-in-one Java reverse engineering tool with integration capabilities with the latest decompilers. |
+| [JByteMod](https://github.com/GraxCode/JByteMod-Beta) | A full-featured bytecode editor with syntax highlighting, live decompilation, and method drawing capabilities. |
+| [Kaiju](https://github.com/cmu-sei/kaiju) | A binary analysis framework extension to the Ghidra software reverse engineering suite, open-sourced by Carnegie Mellon University. |
+| [SkidSuite](https://github.com/GenericException/SkidSuite) | A collection of tools related to reverse engineering of Java applications. |
+| [Super JADX](https://github.com/pkilller/super-jadx) | Adds new features for reverse engineering, such as renaming of classes, fields, methods, variables, and reference graphs. |
+</div>
+
+## 🌐 Network Libraries
+Libraries and tools for networking and communication protocols, managing network connections, and data transfer.
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [AdbLib](https://github.com/cgutman/AdbLib) | Java library implementation of the ADB network protocol. |
+| [Angry IP Scanner](https://github.com/angryip/ipscan) | Fast and user-friendly network scanner for Windows, Linux, and Mac. |
+| [Apache Commons Net](https://github.com/apache/commons-net) | Collection of network utilities and protocol implementations, including FTP, SMTP, Telnet, and more. |
+| [Barchart-UDT](https://github.com/barchart/barchart-udt) | Java wrapper for the native C++ UDT protocol. |
+| [Batfish](https://github.com/batfish/batfish) | Network validation tool for analyzing network configurations for correctness, security, and compliance. |
+| [Chronicle Network](https://github.com/OpenHFT/Chronicle-Network) | High-performance network (TCP/IP) library. |
+| [Commons IP Math](https://github.com/jgonian/commons-ip-math) | Rich, type-safe API for handling IP operations such as parsing and range checks. |
+| [Commons-Networking](https://github.com/CiscoSE/commons-networking) | Common network utility library, open sourced by Cisco. |
+| [DiSNI](https://github.com/zrlio/disni) | Java library for direct storage and network access with RDMA interface. |
+| [Dragonite](https://github.com/dragonite-network/dragonite-java) | Reliable application-level data transmission protocol based on UDP, optimized for unstable networks. |
+| [Envoy Mobile](https://github.com/envoyproxy/envoy-mobile) | Client-side HTTP and networking library for iOS, Android, etc., based on the Envoy project. |
+| [Fluency](https://github.com/komamitsu/fluency) | High-throughput data ingestion logger for Fluentd and Fluent Bit. |
+| [Infinileap](https://github.com/hhu-bsinfo/infinileap) | Modern ucx-based network framework for Java 19+, developed by Heinrich Heine University. |
+| [Ip2region](https://github.com/lionsoul2014/ip2region) | Offline IP address location library and management framework. |
+| [IPAddress](https://github.com/seancfoley/IPAddress) | Java library for working with IPv4 and IPv6 addresses and subnets. |
+| [Java IPv6](https://github.com/janvanbesien/java-ipv6) | Java library for IPv6 addresses, network masks, and address pools. |
+| [JNetMap](https://rakudave.ch/jnetmap/) | Graphical network monitoring and documentation tool with ping status updates. |
+| [Jpcap](https://github.com/jpcap/jpcap) | Java classes for network packet capture. |
+| [JUnixSocket](https://github.com/kohlschutter/junixsocket) | Java/JNI library for Unix domain sockets and other address/protocol families. |
+| [K3PO](https://github.com/k3po/k3po) | Creates and verifies arbitrary network traffic and behaviors. |
+| [KryoNet](https://github.com/EsotericSoftware/kryonet) | Provides a clean, simple API for efficient TCP and UDP client/server communications using NIO. |
+| [Makina](https://github.com/clnhlzmn/makina) | Hierarchical state machine source-to-source translator generating C implementations. |
+| [Network-Connection](https://github.com/facebookarchive/network-connection-class) | Android library for understanding Internet connection quality, open sourced by Facebook. |
+| [ONOS](https://github.com/opennetworkinglab/onos) | SDN controller platform for transitioning from traditional to SDN networks, open sourced by the Linux Foundation. |
+| [OkSocket](https://github.com/xuuhaoo/OkSocket) | Blocking socket client library for Android applications. |
+| [OpenSky API](https://github.com/openskynetwork/opensky-api) | Python and Java bindings for the OpenSky network REST API. |
+| [OpenVirteX](https://github.com/os-libera/OpenVirteX) | Network hypervisor for creating virtual and programmable networks on a physical infrastructure. |
+| [Pcap4J](https://github.com/kaitoy/pcap4j) | Java library for capturing, crafting, and sending packets. |
+| [PraxisCORE](https://github.com/praxis-live/praxiscore) | Modular JVM runtime for network-physical programming with real-time coding support. |
+| [SimpleNet](https://github.com/jhg023/SimpleNet) | Simple client/server framework written in Java. |
+| [SNF4J](https://github.com/snf4j/snf4j) | Asynchronous event-driven network application framework for quick development. |
+| [SNMP4J](https://www.snmp4j.org/) | Implements SNMP protocol in Java, supporting management and responses. |
+| [TLS Channel](https://github.com/marianobarrios/tls-channel) | Implements ByteChannel interface over a TLS connection. |
+| [UNTangle](https://sourceforge.net/projects/untangle/) | Linux-based network gateway with modules for various network applications. |
+| [UPnP PortMapper](https://github.com/kaklakariada/portmapper) | Easy-to-use program for managing UPnP port mappings (port forwarding). |
+| [Xnio](https://github.com/xnio/xnio) | Simplified low-level I/O layer for use with NIO, a JBoss community project. |
+| [ZugServ](https://github.com/JohnChernoff/ZugServ) | Simple Java networking library. |
+</div>
+
+## ⚡ Power System
+Infrastructure and technology for generating, transmitting, and distributing electrical power.
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [JoularJX](https://github.com/joular/joularjx) | A Java-based source-level power monitoring agent supporting modern Java versions and multiple operating systems. |
+| [OperatorFabric](https://github.com/opfab/operatorfabric-core) | A modular, scalable platform for power, water, and other utility operations. |
+| [PowSyBl](https://github.com/powsybl/powsybl-core) | An open source framework for complex power system simulation and analysis. |
+| [SIMONA](https://github.com/ie3-institute/simona) | A simulation toolbox for large-scale agent-based power grid simulations with a focus on distribution networks. |
+| [j60870](https://github.com/gythialy/j60870) | A library implementing the IEC 60870-5-104 communications standard. |
+</div>
+
+## ✅ QA System
+Quality assurance systems for ensuring the quality and reliability of software and products.
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [OpenQA](https://bitbucket.org/emarx/openqa/src/master/) | A framework and platform for question and answer development and publishing. |
+| [Qanary](https://github.com/WDAqua/Qanary) | A method for creating question-answering systems. |
+| [YodaQA](https://github.com/brmson/yodaqa) | A factoid question answering system that generates answers from databases and text corpora. |
+</div>
+
+
+## 📋 Portal Framework
+Frameworks for building and managing web portals that aggregate and present information from various sources.
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Apache Shiro](https://github.com/apache/shiro) | A Java security framework for authentication, authorization, cryptography, and session management. |
+| [Liferay Portal](https://github.com/liferay/liferay-portal) | An open-source enterprise portal solution with a wide range of features and extensibility options. |
+| [OFBiz](https://github.com/apache/ofbiz) | An open source suite of business applications that includes an ERP, CRM, and e-commerce solutions. (Archive) |
+</div>
+
+
+## 🔄 State Machine Tools
+A model of computation used to design algorithms that manage different states in a system.
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Dk.Brics.Automaton](https://github.com/cs-au-dk/dk.brics.automaton) | Finite state automata and regular expressions for Java, developed by Aarhus University. |
+| [Easy States](https://github.com/j-easy/easy-states) | An event-driven deterministic finite automaton implementation in Java. (Archive) |
+| [EasyFlow](https://github.com/Beh01der/EasyFlow) | A simple and lightweight Java finite state machine. |
+| [JState](https://github.com/UnquietCode/JState) | Advanced state machines in Java with extensive features. |
+| [Makina](https://github.com/clnhlzmn/makina) | A hierarchical state machine source-to-source translator that generates C implementations from state machine descriptions. |
+| [Morfologik Stemming](https://github.com/morfologik/morfologik-stemming) | Tools for constructing finite state automata and dictionary-based morphological dictionaries. |
+| [nFlow](https://github.com/NitorCreations/nflow) | Orchestration solution for business processes with a focus on durability and scalability. |
+| [Squirrel](https://github.com/hekailiang/squirrel) | Type-safe and highly extensible state machine implementation for Java. |
+| [Spring Statemachine](https://github.com/spring-projects/spring-statemachine) | Infrastructure for using state machine concepts in Spring applications. |
+| [State-Machine](https://github.com/davidmoten/state-machine) | Finite state machine class generator for Java. |
+| [StatefulJ](https://github.com/statefulj/statefulj) | Lightweight Java event-driven finite state machine with Spring Data integration. |
+| [Stateless4j](https://github.com/stateless4j/stateless4j) | A lightweight Java state machine library. |
+| [TSM4j](https://github.com/weilueluo/tsm4j) | Typed state machine for Java, providing strong typing for state machines. |
+</div>
+
+
+## 📋 CMS System(Additionals)
+Content Management Systems for creating, managing, and publishing digital content.
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Ametys](https://www.ametys.org/community/en/index.html) | A free and open source content management system written in Java. |
+| [Apache Jackrabbit Oak](https://github.com/apache/jackrabbit-oak) | A scalable, high-performance hierarchical content repository for modern websites and content applications. |
+| [Apache JSPWiki](https://github.com/apache/jspwiki) | A feature-rich Wiki engine built around standard JEE components (Java, Servlet, JSP). |
+| [Blossom](https://github.com/blossom-editor/blossom) | A cloud-based dual-chain note-taking software that supports private deployment. |
+| [Brix](https://github.com/brix-cms/brix-cms) | A Wicket-based CMS framework. |
+| [DotCMS](https://github.com/dotCMS/core) | A headless/hybrid content management system for enterprises. |
+| [ForestBlog](https://github.com/saysky/ForestBlog) | A simple and beautiful SSM blog system. |
+| [Gentics-Mesh](https://github.com/gentics/mesh) | An open source headless CMS for developers. |
+| [Halo](https://github.com/halo-dev/halo) | A powerful and easy-to-use open source website building tool. |
+| [Jease](https://jease.org/) | An open source CMS driven by Java. |
+| [Mushroom Blog](https://github.com/moxi624/mogu_blog_v2) | A front-end and back-end separated blog system based on microservice architecture. |
+| [My Blog](https://github.com/ZHENFENG13/My-Blog) | A Java blog system implemented using SpringBoot + Mybatis + Thymeleaf. |
+| [Nuxeo Platform](https://github.com/nuxeo/nuxeo) | A content management platform for modern business applications. |
+| [Orchid](https://github.com/orchidhq/Orchid) | A framework for generating project documentation websites. |
+| [Pineapple Blog](https://github.com/adlered/bolo-solo) | A sophisticated Java blog system designed for programmers. |
+| [PublicCMS](https://github.com/sanluan/PublicCMS) | An open source Java CCMS system developed in 2023. |
+| [Scoold](https://github.com/Erudika/scoold) | A Q&A and knowledge sharing platform for teams. |
+| [Solo](https://github.com/88250/solo) | Java blog end node system for managing content. |
+| [Tapd CMS](https://github.com/tapd/tapd_cms) | A CMS system used by Tapd platform. |
+| [TheLMS](https://github.com/tephra-lms/tephra) | An open source learning management system written in Java. |
+| [WitchCMS](https://github.com/witchcms/witchcms) | A CMS platform designed for developers and designers. |
+</div>
+
+## 📋 SCRM System(Additionals)
+Supplier Chain Risk Management systems for identifying and mitigating risks in supply chains.
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [SuiteCRM](https://github.com/suitecrm/suitecrm) | An open source CRM system with advanced features for managing customer relationships and sales. |
+</div>
+
+## 📚 Educational Software(Additionals)
+Software designed for educational purposes, including learning, teaching, and training tools.
+<div align="center">
+
+| Name | Description |
+| ---- | ----------- |
+| [Open edX](https://github.com/edx/edx-platform) | A widely-used open-source platform for delivering online courses and learning experiences. (Archive) |
+| [Sakai](https://github.com/sakaiproject/sakai) | A community-driven open-source learning management system used by educational institutions. |
+</div>
+
 
 ## 🌐 Emerging Technologies  
 Innovative and evolving technologies that represent the forefront of advancements and future potential.
