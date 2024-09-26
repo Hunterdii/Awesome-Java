@@ -13,11 +13,10 @@ Welcome to the **Java Ecosystem Library**, your comprehensive guide to the essen
   <img src="https://img.shields.io/badge/License-CCO_1.0-lightgrey.svg?longCache=true" alt="CCO_1.0 License"/>
   <img src="https://img.shields.io/badge/Awesome-Java-red.svg" alt="Awesome Java Badge"/>
   <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source Badge"/>
-  <img src="https://img.shields.io/badge/Project-Info-blue" alt="Project Info Badge"/>
-  <img src="https://img.shields.io/github/contributors/Huntedii/Awesome-Java" alt="GitHub Contributors"/>
-  <img src="https://badgen.net/github/last-commit/Huntedii/Awesome-Java" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/contributors/Hunterdii/Awesome-Java" alt="GitHub Contributors"/>
+  <img src="https://badgen.net/github/last-commit/Hunterdii/Awesome-Java" alt="Last Commit"/>
   <img src="https://img.shields.io/badge/Owner-%40Huntedii-<COLOR>.svg" alt="Owner Badge"/>
-  <img src="https://img.shields.io/github/stars/Huntedii/Awesome-Java?style=social&label=Star&maxAge=2592000" alt="GitHub Stars"/>
+  <img src="https://img.shields.io/github/stars/Hunterdii/Awesome-Java?style=social&maxAge=259200" alt="GitHub Stars"/>
 </p>
 
 # Github Stats:
@@ -39,12 +38,12 @@ Welcome to the **Java Ecosystem Library**, your comprehensive guide to the essen
      </thead>
     <tbody>
          <tr>
-            <td><img alt="Stars" src="https://img.shields.io/github/stars/Huntedii/Awesome-Java?style=flat&logo=github"/></td>
-             <td><img alt="Forks" src="https://img.shields.io/github/forks/Huntedii/Awesome-Java?style=flat&logo=github"/></td>
-            <td><img alt="Issues" src="https://img.shields.io/github/issues/Huntedii/Awesome-Java?style=flat&logo=github"/></td>
-            <td><img alt="Repo Size" src="https://img.shields.io/github/repo-size/Huntedii/Awesome-Java?style=flat&logo=github"/></td>
-            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/Huntedii/Awesome-Java?style=flat&logo=github"/></td>
-           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Huntedii/Awesome-Java?style=flat&color=critical&logo=github"/></td>
+            <td><img alt="Stars" src="https://img.shields.io/github/stars/Hunterdii/Awesome-Java?style=flat&logo=github"/></td>
+             <td><img alt="Forks" src="https://img.shields.io/github/forks/Hunterdii/Awesome-Java?style=flat&logo=github"/></td>
+            <td><img alt="Issues" src="https://img.shields.io/github/issues/Hunterdii/Awesome-Java?style=flat&logo=github"/></td>
+            <td><img alt="Repo Size" src="https://img.shields.io/github/repo-size/Hunterdii/Awesome-Java?style=flat&logo=github"/></td>
+            <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/Hunterdii/Awesome-Java?style=flat&logo=github"/></td>
+           <td><img alt="Close Pull Requests" src="https://img.shields.io/github/issues-pr-closed/Hunterdii/Awesome-Java?style=flat&color=critical&logo=github"/></td>
         </tr>
     </tbody>
 </table>
