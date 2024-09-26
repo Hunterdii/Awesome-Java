@@ -99,6 +99,15 @@ Feel free to open an issue if you have questions, need help, or have requests!
 - [🚀 Get Started](#-get-started)
 
 ## 📚 Tutorial Series
+  - [📚 Resources](#-resources)
+      - [🔗 Related Awesome Lists](#-related-awesome-lists)
+      - [🌐 Communities](#-communities)
+      - [🎨 Frontends](#-frontends)
+      - [📖 Influential Books](#-influential-books)
+      - [🎙 Podcasts](#-podcasts)
+      - [🌐 Redditors](#-redditors)
+      - [🖊️ Blogs](#-blogs)
+      - [🎥 Videos](#-videos)
   - [📚 Java Tutorial](#-java-tutorial)
   - [📚 Big Data Tutorial](#-big-data-tutorial)
   - [📚 Spring Boot Tutorial](#-spring-boot-tutorial)
@@ -106,6 +115,7 @@ Feel free to open an issue if you have questions, need help, or have requests!
   - [📚 Software Engineering Tutorial](#-software-engineering-tutorial)
   - [📚 Other Technical Tutorials](#-other-technical-tutorials)
   - [💼 Interview Tips](#-interview-tips)
+
 ## 🛠 Frameworks and Libraries
   - [📊 Web Frameworks](#-web-frameworks)
     - [🛠 JSF Framework](#-jsf-framework)
@@ -4745,7 +4755,7 @@ Here’s a revised and formatted version of the AI and LLM repositories table in
 
 </div>
 
-### 💬 Community and Support
+## 💬 Community and Support
 <div align="center">
 
 | **Category**           | **Description**                                                                                           | **Links**                                                                                             |
@@ -4755,6 +4765,123 @@ Here’s a revised and formatted version of the AI and LLM repositories table in
 | **💡 Feedback**         | Share suggestions or ideas to improve the repository.                                                      | - [Submit Feedback](https://github.com/Hunterdii/Awesome-Java/issues/new?template=feedback.md) <br> - [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScLDZ5Ucp06tX0LxTzeZVtwXTiuGzQ5xSxZfoxK0hXWle5QGw/viewform?usp=sf_link) |
 | **📧 Contact Us**       | Need direct support or inquiries? Reach out to the maintainers.                                            | - [Email](mailto:huntermojedra@gmail.com) <br> - [GitHub Profile](https://github.com/Hunterdii)        |
 </div>
+
+## 📚 Resources
+**Resources**: A collection of valuable materials, lists, and communities to deepen your knowledge of Java and connect with other enthusiasts.
+
+## 🔗 Related Awesome Lists
+**Awesome lists**: Curated collections of resources related to the Java & JVM ecosystem.
+
+| Name                                   | Description                                                    | Link                                                                 |
+|----------------------------------------|---------------------------------------------------------------|----------------------------------------------------------------------|
+| 🌟 Awesome Annotation Processing        | Curated list of annotation processing resources and tools.   | [Watch here](https://github.com/gunnarmorling/awesome-annotation-processing)                      |
+| ⚙️ Awesome Graal                       | Explore GraalVM, a high-performance runtime.                 | [Watch here](https://github.com/neomatrix369/awesome-graal)                                      |
+| 🔧 Awesome Gradle Plugins              | Collection of useful Gradle plugins.                         | [Watch here](https://github.com/ksoichiro/awesome-gradle)                                        |
+| 🎨 Awesome JavaFX                      | Resources for building desktop applications with JavaFX.     | [Watch here](https://github.com/mhrimaz/AwesomeJavaFX)                                           |
+| 🔍 Awesome JVM                         | Discover JVM languages, libraries, and tools.                | [Watch here](https://github.com/deephacks/awesome-jvm)                                           |
+| 🌐 Awesome Microservices               | Tools and frameworks for microservices architecture.         | [Watch here](https://github.com/mfornos/awesome-microservices)                                    |
+| 📡 Awesome REST                        | A list of RESTful web services tools and libraries.          | [Watch here](https://github.com/marmelab/awesome-rest)                                           |
+| 🚗 Awesome Selenium                    | Browser automation resources for testing.                    | [Watch here](https://github.com/christian-bromann/awesome-selenium)                              |
+| 💼 Awesome Hybris                      | Everything about SAP Hybris.                                 | [Watch here](https://github.com/eminyagiz42/awesome-hybris)                                      |
+| 🔄 ciandcd                             | Continuous integration and delivery tools.                   | [Watch here](https://github.com/ciandcd/awesome-ciandcd)                                         |
+| 📚 Useful Java Links                  | A comprehensive list of useful Java resources.               | [Watch here](https://github.com/Vedenin/useful-java-links)                                        |
+| 🚦 Java Concurrency Checklist          | Best practices for Java concurrency.                         | [Watch here](https://github.com/code-review-checklists/java-concurrency)                         |
+| 🗺️ Java Developer Roadmap              | A complete guide to becoming a Java developer.               | [Watch here](https://github.com/s4kibs4mi/java-developer-roadmap)                               |
+
+
+## 🌐 Communities
+**Communities**: Active discussions and communities where Java enthusiasts can connect and share knowledge.
+
+| Name                                  | Description                                 | Link                                                                 |
+|---------------------------------------|---------------------------------------------|----------------------------------------------------------------------|
+| 🗨️ r/java                             | Subreddit for the Java community.           | [Watch here](https://www.reddit.com/r/java/)                               |
+| ❓ Stack Overflow                      | Question/answer platform.                   | [Watch here](https://stackoverflow.com/questions/tagged/java)              |
+
+
+## 🎨 Frontends
+**Frontends**: Websites that provide a frontend for exploring Java resources.
+
+| Name                                  | Description                                 | Link                                                                 |
+|---------------------------------------|---------------------------------------------|----------------------------------------------------------------------|
+| 📦 java.libhunt.com                   | A curated collection of Java libraries and frameworks. | [Watch here](https://java.libhunt.com)                                     |
+
+## 📖 Influential Books
+**Influential Books**: Books that made a big impact and are still worth reading in the Java community.
+
+| Name                                   | Description                                                    | Link                                                                 |
+|----------------------------------------|---------------------------------------------------------------|----------------------------------------------------------------------|
+| 📘 Core Java Volume I--Fundamentals   | Essential for Java beginners and pros alike.                 | [Watch here](https://www.amazon.com/Core-Java-I-Fundamentals-10th/dp/0134177304) |
+| 📙 Core Java, Volume II--Advanced Features | Dive deeper into advanced Java features.                     | [Watch here](https://www.amazon.com/Core-Java-II-Advanced-Features-10th/dp/0134177290) |
+| 💡 Effective Java (3rd Edition)       | Best practices for writing robust Java code.                 | [Watch here](https://www.amazon.com/Effective-Java-3rd-Joshua-Bloch/dp/0134685997) |
+| 🧠 Head First Java (3rd Edition)      | A brain-friendly guide to learning Java.                     | [Watch here](https://www.oreilly.com/library/view/head-first-java/9781492091646/) |
+| ⚙️ Java Concurrency in Practice        | Mastering concurrency in Java.                                | [Watch here](https://www.amazon.com/Java-Concurrency-Practice-Brian-Goetz/dp/0321349601) |
+| 🚀 The Well-Grounded Java Developer (2nd Edition) | A comprehensive guide to modern Java development.            | [Watch here](https://www.manning.com/books/the-well-grounded-java-developer-second-edition) |
+| 🔍 Thinking in Java                    | A thorough exploration of Java programming concepts.         | [Watch here](https://www.amazon.com/Thinking-Java-Edition-Bruce-Eckel/dp/0131872486) |
+
+
+## 🎙 Podcasts
+**Podcasts and Screencasts**: Something to look at or listen to while programming.
+
+| Name                                   | Description                                                    | Link                                                                 |
+|----------------------------------------|---------------------------------------------------------------|----------------------------------------------------------------------|
+| 🐣 140 Second Ducklings                | Short videos on Twitter explaining Java debugging.           | [Watch here](https://twitter.com/debugagent/status/1491075324805001219)   |
+| 🎧 A Bootiful Podcast                  | Hosted by Josh Long, discussing Spring and more.             | [Watch here](https://bootifulpodcast.fm)                                  |
+| 🎙️ Foojay Podcast                      | Insights from the Foojay community.                           | [Watch here](https://foojay.io/today/category/podcast/)                   |
+| 📻 Inside Java                         | Official podcast on Java and the JVM.                        | [Watch here](https://inside.java/podcast)                                 |
+| 🎧 Java Off Heap                       | Unscripted discussions on Java and tech.                     | [Watch here](http://www.javaoffheap.com)                                   |
+| 💻 The Java Posse                      | Discontinued as of 02/2015.                                  | [Watch here](http://www.javaposse.com)                                    |
+
+## 🌐 Redditors
+**Redditors**: Engaging individuals and communities on Reddit sharing insights, tutorials, and discussions about Java, Java EE, frameworks, and programming tips.
+
+| Name                      | Description                           | Link                                                                                 |
+|---------------------------|---------------------------------------|--------------------------------------------------------------------------------------|
+| 👤 Adam Bien              | Java EE specialist.                   | [Watch here](https://www.reddit.com/user/AdamBien)                                       |
+| 👤 Baeldung              | Java tutorials and guides.           | [Watch here](https://www.reddit.com/user/baeldung)                                       |
+| 👤 Cay Horstmann         | Java author.                         | [Watch here](https://www.reddit.com/user/horstmann)                                      |
+| 👤 DZone                 | Java news and articles.              | [Watch here](https://www.reddit.com/user/dzone)                                          |
+| 👤 Heinz Kabutz          | Java concurrency expert.             | [Watch here](https://www.reddit.com/user/JavaSpecialist)                                 |
+| 👤 Java Advent           | Java articles during December.       | [Watch here](https://www.reddit.com/user/JavaAdvent)                                    |
+| 👤 Java Code Geeks       | Tutorials and news.                  | [Watch here](https://www.reddit.com/user/javacodegeeks)                                  |
+| 👤 Java Revisited        | Java programming tips.               | [Watch here](https://www.reddit.com/user/javinpaul)                                      |
+| 👤 Lukas Eder            | jOOQ developer.                      | [Watch here](https://www.reddit.com/user/lukaseder)                                      |
+| 👤 Mkyong                | Java and Spring tutorials.           | [Watch here](https://www.reddit.com/user/mkyong)                                         |
+| 👤 Spring                | Updates from the Spring team.       | [Watch here](https://www.reddit.com/user/springframework)                                |
+| 👤 Vlad Mihalcea         | Hibernate tips.                      | [Watch here](https://www.reddit.com/user/vladmihalcea)                                   |
+
+## 📚 Blogs
+**Blogs**: A collection of informative articles and tutorials on Java, covering various topics including frameworks, best practices, and advanced Java techniques.
+
+| Name                      | Description                           | Link                                                                                 |
+|---------------------------|---------------------------------------|--------------------------------------------------------------------------------------|
+| ✍️ Adam Bien              | Expert in Java and Java EE.          | [Watch here](https://adambien.blog/)                                                      |
+| ✍️ Baeldung              | Tutorials on Java, Spring, and web development. | [Watch here](https://www.baeldung.com)                                           |
+| ✍️ Cay Horstmann         | Author of Core Java, Scala for the Impatient. | [Watch here](https://horstmann.com)                                            |
+| ✍️ DZone                 | News and articles about Java.        | [Watch here](https://dzone.com/java-jdk-development-tutorials-tools-news)                 |
+| ✍️ Heinz Kabutz          | Advanced Java topics.                | [Watch here](https://www.javaspecialists.eu)                                            |
+| ✍️ Java Advent           | Daily articles during December.      | [Watch here](https://www.javaadvent.com)                                                |
+| ✍️ Java Code Geeks       | Java tutorials, news, and articles.  | [Watch here](https://www.javacodegeeks.com)                                             |
+| ✍️ Java Revisited        | Tips, tutorials, and best practices. | [Watch here](https://javarevisited.blogspot.com)                                         |
+| ✍️ jOOQ Blog             | SQL with Java, and jOOQ.            | [Watch here](https://blog.jooq.org)                                                     |
+| ✍️ Lukas Eder            | Database and SQL related topics.     | [Watch here](https://blog.jooq.org)                                                     |
+| ✍️ Mkyong                | Java and Spring framework tutorials.  | [Watch here](https://mkyong.com)                                                        |
+| ✍️ Reddit                | User-generated content on Java.      | [Watch here](https://www.reddit.com/r/java)                                             |
+| ✍️ Spring                | News and updates from the Spring team.| [Watch here](https://spring.io/blog)                                                    |
+| ✍️ Vlad Mihalcea         | Hibernate and JPA tips.              | [Watch here](https://vladmihalcea.com)                                                  |
+
+## 🎥 Videos
+**Videos**: Tutorials, conferences, and discussions on Java, covering a range of topics including performance optimization, framework tutorials, and functional programming insights.
+
+| Name                                  | Description                                   | Link                                                                                 |
+|---------------------------------------|-----------------------------------------------|--------------------------------------------------------------------------------------|
+| 🎓 Spring Framework Guru               | Hands-on tutorials for Spring Framework.     | [Watch here](https://www.youtube.com/user/SpringFrameworkGuru)                      |
+| 🧠 Venkat Subramaniam                 | Talks on Java and functional programming.     | [Watch here](https://www.youtube.com/user/venkats)                                  |
+| 🔍 Vlad Mihalcea                      | Insights on Hibernate and database performance. | [Watch here](https://www.youtube.com/@vladmihalcea)                                 |
+
+
+## 🌟 Special Thanks
+
+A heartfelt thank you to [**Awesome-Java(Andreas K.)**](https://github.com/akullpp/awesome-java/) for inspiring this repository! Your dedication to curating valuable resources for Java developers has laid the foundation for this collection. We stand on the shoulders of giants, and your contributions have made a significant impact in our community.
 
 
 ## 📈 Statistics
