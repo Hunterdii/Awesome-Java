@@ -16,8 +16,8 @@ Welcome to the **Java Ecosystem Library**, your comprehensive guide to the essen
   <img src="https://img.shields.io/github/contributors/Hunterdii/Awesome-Java" alt="GitHub Contributors"/>
   <img src="https://badgen.net/github/last-commit/Hunterdii/Awesome-Java" alt="Last Commit"/>
   <img src="https://img.shields.io/badge/Owner-%40Huntedii-<COLOR>.svg" alt="Owner Badge"/>
-  <img src="https://img.shields.io/github/stars/Hunterdii/Awesome-Java?style=social&maxAge=259200" alt="GitHub Stars"/>
-</p>
+<!--   <img src="https://img.shields.io/github/stars/Hunterdii/Awesome-Java?style=social" alt="GitHub Stars"/>-->
+</p> 
 
 # Github Stats:
 
@@ -75,7 +75,7 @@ Additionally, please adhere to the following rules:
 
 URLs marked with **\*** may be temporarily unavailable. Please avoid removing them without confirming their permanent expiration.
 
-Before submitting a pull request, please review the **[contributing guidelines](#)**. Keep in mind:
+Before submitting a pull request, please review the **[contributing guidelines](https://github.com/Hunterdii/Awesome-Java/blob/main/CONTRIBUTING.md)**. Keep in mind:
 
 ```diff
 + This repository values quality over quantity.
